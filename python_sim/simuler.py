@@ -33,14 +33,26 @@ def les_fil(filnavn):
                 tidspunkt = None
     # print(pulsarray)
     # print(pulsdict)
-    # print(starttidspunkt)
     return pulsdict, starttidspunkt, sluttidspunkt
+
+def info(array):
+    makspuls = 0
+    total = 0
+    for puls in array:
+        if puls > makspuls:
+            makspuls = puls
+        total += puls
+    snitt = total/len(array)
+    print(f"Makspuls siste 30 sek: {makspuls}, gjennomsnitt siste 30 sek: " + "%.2f" % snitt)
+
 
 def simuler(hastighet, fitdict, naa, slutt):
     antrunder = 0
     funnet = 0
     ikkefunnet = 0
     puls = None
+    avgarray = [0]*30
+    indeks = 0
     while naa != slutt:
         antrunder += 1
         if naa in fitdict:
@@ -50,9 +62,15 @@ def simuler(hastighet, fitdict, naa, slutt):
             ikkefunnet += 1
             # print("\tFant ikke dette tidspunktet, beholder samme puls")
         # print(f"Puls: {puls}, tidspunkt: {naa}\n")
+        avgarray[indeks] = puls
+        indeks += 1
+        if indeks == 30:
+            indeks = 0
+        info(avgarray)
         naa += datetime.timedelta(seconds=1)
         sleep(hastighet)
-    print(f"Antall runder: {antrunder}, funnet: {funnet}, ikke funnet: {ikkefunnet}, % funnet: {funnet/antrunder}")
+    andel = funnet/antrunder
+    print(f"Antall runder: {antrunder}, funnet: {funnet}, ikke funnet: {ikkefunnet}, andel funnet i prosent: " + "%.4f" % andel)
 
 if __name__ == "__main__":
     for file in os.listdir("fitfiles"):
@@ -63,4 +81,7 @@ if __name__ == "__main__":
         print(sluttidspunkt)
         kjor = simuler(hastighet, pulsdict, starttidspunkt, sluttidspunkt)
         # print(pulsdict)
+
+        # Ta vekk break for å lese alle filene
+        break
 
