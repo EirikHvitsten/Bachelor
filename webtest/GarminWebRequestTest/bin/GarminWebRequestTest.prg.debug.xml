@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\Eirik\eclipse-workspace\GarminWebRequestTest\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="3" lineNum="8" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="3" lineNum="9" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="3" lineNum="10" pc="268435478" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="3" lineNum="11" pc="268435488" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="4" lineNum="15" pc="268435507" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="4" lineNum="16" pc="268435511" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="4" lineNum="17" pc="268435548" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="5" lineNum="23" pc="268435589" symbol="onShow"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="6" lineNum="27" pc="268435594" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="6" lineNum="29" pc="268435598" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="7" lineNum="35" pc="268435619" symbol="onHide"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="9" lineNum="14" pc="268435624" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="9" lineNum="15" pc="268435628" symbol="initialize"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="10" lineNum="19" pc="268435647" symbol="onStart"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="10" lineNum="20" pc="268435651" symbol="onStart"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="11" lineNum="24" pc="268435664" symbol="onStop"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="12" lineNum="28" pc="268435669" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="12" lineNum="29" pc="268435673" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="32" pc="268435725" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="34" pc="268435729" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="37" pc="268435736" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="38" pc="268435770" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="40" pc="268435777" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="45" pc="268435859" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="48" pc="268435877" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="13" lineNum="49" pc="268435915" symbol="sendData"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="14" lineNum="52" pc="268435954" symbol="onResponse"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="14" lineNum="54" pc="268435958" symbol="onResponse"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="14" lineNum="55" pc="268435976" symbol="onResponse"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="15" lineNum="66" pc="268435995" symbol="onReceive"/>
+        <entry filename="C:\\Users\\Eirik\\eclipse-workspace\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="15" lineNum="67" pc="268435999" symbol="onReceive"/>
+        <entry filename="Rez" id="21" lineNum="15" pc="268436083" symbol="MainLayout"/>
+        <entry filename="Rez" id="21" lineNum="17" pc="268436095" symbol="MainLayout"/>
+        <entry filename="Rez" id="21" lineNum="19" pc="268436238" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="18" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389108" method="true" symbol="onResponse"/>
+        <entry field="true" id="19" symbol="AppName"/>
+        <entry field="true" id="10" symbol="URL"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="12" method="true" symbol="sendData"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="16" module="true" symbol="Menus"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="13" method="true" symbol="onReceive"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="17" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="9" object="true" symbol="GarminWebRequestTestView"/>
+        <entry field="true" id="14" symbol="_message"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="11" object="true" symbol="GarminWebRequestTestApp"/>
+        <entry id="15" module="true" symbol="Layouts"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435507" name="message" stackId="1" startPc="268435456"/>
+        <entry arg="true" endPc="268435589" name="dc" stackId="1" startPc="268435507"/>
+        <entry arg="true" endPc="268435619" name="dc" stackId="1" startPc="268435594"/>
+        <entry arg="true" endPc="268435664" name="state" stackId="1" startPc="268435647"/>
+        <entry arg="true" endPc="268435669" name="state" stackId="1" startPc="268435664"/>
+        <entry endPc="268435953" name="ekesm" stackId="3" startPc="268435729"/>
+        <entry endPc="268435953" name="options" stackId="4" startPc="268435729"/>
+        <entry endPc="268435953" name="url" stackId="1" startPc="268435729"/>
+        <entry endPc="268435953" name="params" stackId="2" startPc="268435729"/>
+        <entry arg="true" endPc="268435995" name="responseCode" stackId="1" startPc="268435954"/>
+        <entry arg="true" endPc="268435995" name="responseData" stackId="2" startPc="268435954"/>
+        <entry arg="true" endPc="268436083" name="responseCode" stackId="1" startPc="268435995"/>
+        <entry arg="true" endPc="268436083" name="data" stackId="2" startPc="268435995"/>
+        <entry endPc="268436255" name="rez_cmp_local_text_message" stackId="2" startPc="268436095"/>
+        <entry arg="true" endPc="268436256" name="dc" stackId="1" startPc="268436083"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="158" parentId="globals" symbolId="GarminWebRequestTestApp" type="class"/>
+        <dataEntry offset="253" parentId="globals" symbolId="GarminWebRequestTestView" type="class"/>
+        <dataEntry offset="340" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="458" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="489" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="520" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="559" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="590" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="GarminWebRequestTestView">
+            <param id="message"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="GarminWebRequestTestView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="GarminWebRequestTestView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="GarminWebRequestTestView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="GarminWebRequestTestView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="GarminWebRequestTestApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="GarminWebRequestTestApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="GarminWebRequestTestApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="GarminWebRequestTestApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="sendData" parent="GarminWebRequestTestApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onResponse" parent="GarminWebRequestTestApp">
+            <param id="responseCode"/>
+            <param id="responseData"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onReceive" parent="GarminWebRequestTestApp">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
