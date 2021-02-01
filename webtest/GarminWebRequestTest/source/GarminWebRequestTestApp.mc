@@ -6,6 +6,12 @@ using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
 using Toybox.Communications;
+using Toybox.Lang;
+using Toybox.Time.Gregorian;
+using Toybox.Sensor;
+using Toybox.Application;
+using Toybox.Position;
+
 
 const URL = "http://127.0.0.1:5000/data";
 
@@ -13,11 +19,14 @@ class GarminWebRequestTestApp extends App.AppBase {
 
     function initialize() {
         AppBase.initialize();
+        
     }
+
+    
 
     // onStart() is called on application start up
     function onStart(state) {
-        sendData();
+        sendData({"a"=> 1, "b" => 2});
     }
 
     // onStop() is called when your application is exiting
@@ -29,12 +38,12 @@ class GarminWebRequestTestApp extends App.AppBase {
         return [ new GarminWebRequestTestView("Starting " + URL) ];
     }
 	
-	function sendData() {
+	function sendData(dataen) {
 
 	var url = "http://127.0.0.1:5000/data"; //I am testing with a local IP 
 
     // this is the data that you want to send out
-    var params = {"a"=> 1, "b" => 2};
+    var params = dataen;
     var ekesm = "hei";
 	
   	var	options = {                                            
