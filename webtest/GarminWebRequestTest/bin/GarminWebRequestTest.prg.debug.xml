@@ -4,71 +4,62 @@
 <pcToLineNum>
 <entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="3" lineNum="20" pc="268435456" symbol="initialize"/>
 <entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="3" lineNum="21" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="4" lineNum="28" pc="268435479" symbol="onStart"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="4" lineNum="29" pc="268435483" symbol="onStart"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="5" lineNum="33" pc="268435528" symbol="onStop"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="6" lineNum="37" pc="268435533" symbol="getInitialView"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="6" lineNum="38" pc="268435537" symbol="getInitialView"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="41" pc="268435589" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="43" pc="268435593" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="46" pc="268435600" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="47" pc="268435604" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="49" pc="268435611" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="54" pc="268435693" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="57" pc="268435711" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="58" pc="268435749" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="61" pc="268435788" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="63" pc="268435792" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="64" pc="268435810" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="9" lineNum="75" pc="268435829" symbol="onReceive"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="9" lineNum="76" pc="268435833" symbol="onReceive"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="8" pc="268435917" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="9" pc="268435921" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="10" pc="268435939" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="11" pc="268435949" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="12" pc="268435967" symbol="initialize"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="14" pc="268436002" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="16" pc="268436006" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="17" pc="268436027" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="18" pc="268436037" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="19" pc="268436037" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="21" pc="268436050" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="22" pc="268436071" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="23" pc="268436095" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="25" pc="268436132" symbol="onSnsr"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="29" pc="268436151" symbol="onLayout"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="30" pc="268436155" symbol="onLayout"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="31" pc="268436192" symbol="onLayout"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="34" pc="268436233" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="36" pc="268436237" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="39" pc="268436244" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="40" pc="268436248" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="42" pc="268436255" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="47" pc="268436343" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="50" pc="268436361" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="51" pc="268436401" symbol="sendData"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="15" lineNum="54" pc="268436442" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="15" lineNum="56" pc="268436446" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="15" lineNum="57" pc="268436464" symbol="onResponse"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="16" lineNum="68" pc="268436483" symbol="onReceive"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="16" lineNum="69" pc="268436487" symbol="onReceive"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="17" lineNum="75" pc="268436571" symbol="onShow"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="18" lineNum="79" pc="268436576" symbol="onUpdate"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="18" lineNum="81" pc="268436580" symbol="onUpdate"/>
-<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="19" lineNum="87" pc="268436601" symbol="onHide"/>
-<entry filename="Rez" id="25" lineNum="15" pc="268436606" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="17" pc="268436618" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="19" pc="268436761" symbol="MainLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="4" lineNum="26" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="4" lineNum="27" pc="268435483" symbol="onStart"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="5" lineNum="31" pc="268435528" symbol="onStop"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="6" lineNum="35" pc="268435533" symbol="getInitialView"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="6" lineNum="36" pc="268435537" symbol="getInitialView"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="39" pc="268435589" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="41" pc="268435593" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="44" pc="268435600" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="45" pc="268435604" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="47" pc="268435611" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="52" pc="268435693" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="55" pc="268435711" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="7" lineNum="56" pc="268435749" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="60" pc="268435788" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="62" pc="268435792" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestApp.mc" id="8" lineNum="63" pc="268435810" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="10" lineNum="8" pc="268435829" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="10" lineNum="9" pc="268435833" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="10" lineNum="10" pc="268435851" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="10" lineNum="11" pc="268435861" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="10" lineNum="12" pc="268435879" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="14" pc="268435914" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="16" pc="268435918" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="18" pc="268435931" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="19" pc="268435952" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="20" pc="268435976" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="11" lineNum="22" pc="268436013" symbol="onSnsr"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="26" pc="268436032" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="27" pc="268436036" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="12" lineNum="28" pc="268436073" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="31" pc="268436114" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="34" pc="268436118" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="37" pc="268436125" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="39" pc="268436129" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="45" pc="268436217" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="13" lineNum="48" pc="268436235" symbol="sendData"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="51" pc="268436276" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="53" pc="268436280" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="14" lineNum="54" pc="268436298" symbol="onResponse"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="15" lineNum="67" pc="268436317" symbol="onShow"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="16" lineNum="71" pc="268436322" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="16" lineNum="73" pc="268436326" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\GarminWebRequestTest\\source\\GarminWebRequestTestView.mc" id="17" lineNum="79" pc="268436347" symbol="onHide"/>
+<entry filename="Rez" id="23" lineNum="15" pc="268436352" symbol="MainLayout"/>
+<entry filename="Rez" id="23" lineNum="17" pc="268436364" symbol="MainLayout"/>
+<entry filename="Rez" id="23" lineNum="19" pc="268436507" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry id="19" method="true" symbol="MainLayout"/>
+<entry id="18" method="true" symbol="MainLayout"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8389108" method="true" symbol="onResponse"/>
-<entry field="true" id="20" symbol="AppName"/>
+<entry field="true" id="19" symbol="AppName"/>
 <entry field="true" id="9" symbol="URL"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8389594" symbol="headers"/>
@@ -81,7 +72,7 @@
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="17" module="true" symbol="Menus"/>
+<entry id="16" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8389063" symbol="identifier"/>
@@ -93,24 +84,23 @@
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="13" method="true" symbol="onReceive"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry field="true" id="17" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="15" method="true" symbol="onSnsr"/>
+<entry id="14" method="true" symbol="onSnsr"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="11" object="true" symbol="GarminWebRequestTestView"/>
-<entry field="true" id="14" symbol="_message"/>
+<entry field="true" id="13" symbol="_message"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="10" object="true" symbol="GarminWebRequestTestApp"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="15" module="true" symbol="Layouts"/>
 <entry id="8388642" module="true" symbol="Position"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
@@ -126,38 +116,31 @@
 <entry arg="true" endPc="268435788" name="dataen" stackId="1" startPc="268435589"/>
 <entry arg="true" endPc="268435829" name="responseCode" stackId="1" startPc="268435788"/>
 <entry arg="true" endPc="268435829" name="responseData" stackId="2" startPc="268435788"/>
-<entry arg="true" endPc="268435917" name="responseCode" stackId="1" startPc="268435829"/>
-<entry arg="true" endPc="268435917" name="data" stackId="2" startPc="268435829"/>
-<entry arg="true" endPc="268436002" name="message" stackId="1" startPc="268435917"/>
-<entry endPc="268436150" name="HR" stackId="2" startPc="268436006"/>
-<entry endPc="268436150" name="bucket" stackId="3" startPc="268436006"/>
-<entry arg="true" endPc="268436151" name="sensor_info" stackId="1" startPc="268436002"/>
-<entry arg="true" endPc="268436233" name="dc" stackId="1" startPc="268436151"/>
-<entry endPc="268436441" name="ekesm" stackId="4" startPc="268436237"/>
-<entry endPc="268436441" name="options" stackId="5" startPc="268436237"/>
-<entry endPc="268436441" name="url" stackId="2" startPc="268436237"/>
-<entry endPc="268436441" name="params" stackId="3" startPc="268436237"/>
-<entry arg="true" endPc="268436442" name="dataen" stackId="1" startPc="268436233"/>
-<entry arg="true" endPc="268436483" name="responseCode" stackId="1" startPc="268436442"/>
-<entry arg="true" endPc="268436483" name="responseData" stackId="2" startPc="268436442"/>
-<entry arg="true" endPc="268436571" name="responseCode" stackId="1" startPc="268436483"/>
-<entry arg="true" endPc="268436571" name="data" stackId="2" startPc="268436483"/>
-<entry arg="true" endPc="268436601" name="dc" stackId="1" startPc="268436576"/>
-<entry endPc="268436778" name="rez_cmp_local_text_message" stackId="2" startPc="268436618"/>
-<entry arg="true" endPc="268436779" name="dc" stackId="1" startPc="268436606"/>
+<entry arg="true" endPc="268435914" name="message" stackId="1" startPc="268435829"/>
+<entry arg="true" endPc="268436032" name="sensor_info" stackId="1" startPc="268435914"/>
+<entry arg="true" endPc="268436114" name="dc" stackId="1" startPc="268436032"/>
+<entry endPc="268436275" name="options" stackId="4" startPc="268436118"/>
+<entry endPc="268436275" name="url" stackId="2" startPc="268436118"/>
+<entry endPc="268436275" name="params" stackId="3" startPc="268436118"/>
+<entry arg="true" endPc="268436276" name="dataen" stackId="1" startPc="268436114"/>
+<entry arg="true" endPc="268436317" name="responseCode" stackId="1" startPc="268436276"/>
+<entry arg="true" endPc="268436317" name="responseData" stackId="2" startPc="268436276"/>
+<entry arg="true" endPc="268436347" name="dc" stackId="1" startPc="268436322"/>
+<entry endPc="268436524" name="rez_cmp_local_text_message" stackId="2" startPc="268436364"/>
+<entry arg="true" endPc="268436525" name="dc" stackId="1" startPc="268436352"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="158" parentId="globals" symbolId="GarminWebRequestTestApp" type="class"/>
-<dataEntry offset="253" parentId="globals" symbolId="GarminWebRequestTestView" type="class"/>
-<dataEntry offset="372" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="451" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="490" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="521" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="552" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="591" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="622" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="245" parentId="globals" symbolId="GarminWebRequestTestView" type="class"/>
+<dataEntry offset="356" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="435" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="474" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="505" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="536" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="575" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="606" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="GarminWebRequestTestApp">
@@ -183,11 +166,6 @@
 <param id="responseData"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onReceive" parent="GarminWebRequestTestApp">
-<param id="responseCode"/>
-<param id="data"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="GarminWebRequestTestView">
 <param id="message"/>
 <documentation/>
@@ -207,11 +185,6 @@
 <functionEntry accessMode="public" name="onResponse" parent="GarminWebRequestTestView">
 <param id="responseCode"/>
 <param id="responseData"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onReceive" parent="GarminWebRequestTestView">
-<param id="responseCode"/>
-<param id="data"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onShow" parent="GarminWebRequestTestView">
