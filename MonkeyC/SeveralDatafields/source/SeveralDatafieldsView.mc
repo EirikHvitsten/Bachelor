@@ -1,3 +1,4 @@
+using Toybox.FitContributor;
 using Toybox.WatchUi;
 using Toybox.Graphics;
 
@@ -5,6 +6,9 @@ using Toybox.Graphics;
 var sim_variables = WatchUi.loadResource(Rez.JsonData.variables);
 
 class SeveralDatafieldsView extends WatchUi.DataField {
+
+	var testField = null;
+	const ID = 0;
 
 	// Current HR
     hidden var curHeartrate;
@@ -22,7 +26,11 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         DataField.initialize();
         
         HEARTRATES_SIZE = sim_variables.toNumber();
-        System.println(HEARTRATES_SIZE);
+        // System.println(HEARTRATES_SIZE);
+        
+        // Create the custom FIT data field we want to record.
+        //testField = createField("test", ID, FitContributor.DATA_TYPE_FLOAT, {:mesgType=>FitContributor.MESG_TYPE_RECORD});
+        //testField.setData(0.0);
         
         curHeartrate = 0.0f;
         averageHR = 0.0f;
@@ -83,6 +91,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         View.findDrawableById("curHRtext").setText("Current HR");
         View.findDrawableById("avgHRtext").setText("Average HR/30s");
         View.findDrawableById("maxHRtext").setText("Max HR/30s");
+        
         return true;
     }
 
@@ -95,9 +104,12 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
                 addHR(info.currentHeartRate);
-                System.println(heartrates);
+                // System.println(heartrates);
        			
                 curHeartrate = info.currentHeartRate;
+                
+                // Add values to the new field
+                //testField.setData(0.0);
             } else {
             	// Does this ever happen while simulating?
                 // curHeartrate = 0.0f;
@@ -163,6 +175,30 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         	}
         }
         maxHeartrate = highest.toFloat();
+    }
+    
+    function onTimerStart () {
+    	System.println("TIMER STARTED");
+    }
+    
+    function onTimerStop () {
+    	System.println("TIMER STOPPED");
+    }
+    
+    function onTimerPause () {
+    	System.println("TIMER PAUSED");
+    }
+    
+    function onTimerResume () {
+    	System.println("TIMER RESUMED");
+    }
+    
+    function onTimerReset () {
+    	System.println("TIMER RESET");
+    }
+    
+    function onTimerLap () {
+    	System.println("TIMER LAP");
     }
 
 }
