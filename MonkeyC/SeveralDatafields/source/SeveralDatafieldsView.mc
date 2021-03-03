@@ -1,6 +1,7 @@
 using Toybox.FitContributor;
 using Toybox.WatchUi;
 using Toybox.Graphics;
+using Toybox.UserProfile;
 
 // Currently just one value, which is the one we send from python
 var sim_variables = WatchUi.loadResource(Rez.JsonData.variables);
@@ -18,6 +19,10 @@ class SeveralDatafieldsView extends WatchUi.DataField {
     hidden var heartrates = new [0]; // An array to hold 30 measurements
     hidden var totalHR = 0; // Will add/subtract all 30 measurements 
     hidden var averageHR; // Will hold totalHR / heartrate.size()
+    hidden var hrTrend = new [30];
+    hidden var lastHR = null;
+    hidden var diffHR = 0;
+    hidden var trendIndex = 0;
 
 	// Max HR last 30
 	hidden var maxHeartrate;
@@ -104,10 +109,21 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
                 addHR(info.currentHeartRate);
-                // System.println(heartrates);
        			
                 curHeartrate = info.currentHeartRate;
-                
+                if (lastHR != null){
+                    diffHR = curHeartrate - lastHR;
+                    hrTrend[trendIndex] = diffHR;
+                    trendIndex++;
+                    if (hrTrend.size() == trendIndex){
+                        var temp = new [30];
+                        hrTrend.addAll(temp);
+                    }
+                    lastHR = curHeartrate;
+                    System.println(hrTrend);
+                } else {
+                    lastHR = curHeartrate;
+                }
                 // Add values to the new field
                 //testField.setData(0.0);
             } else {
@@ -119,6 +135,17 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         	averageHR = 0.0f;
         	maxHeartrate = 0.0f;
         }
+        // System.println("hei");
+        
+        
+        // if (info has :currentPower){
+        //     if(info.currentPower != null){
+        //         System.println("hola");
+        //         System.println(info.currentPower);
+        //         // System.println(info.currentPower/Profile.weight/1000);
+        //         System.println(UserProfile.Profile.birthYear);
+        //     }
+        // }
     }
 
     // Display the value you computed here. This will be called
@@ -139,13 +166,15 @@ class SeveralDatafieldsView extends WatchUi.DataField {
             maxHR.setColor(Graphics.COLOR_WHITE);
         } else {
             curHR.setColor(Graphics.COLOR_BLACK);
-            avgHR.setColor(Graphics.COLOR_BLACK);
+            avgHR.setColor(Graphics.COLOR_BLACK);   
             maxHR.setColor(Graphics.COLOR_BLACK);
         }
         
         // Set the text, similar to returning in compute(?)
         curHR.setText(curHeartrate.format("%.2f"));
         avgHR.setText(averageHR.format("%.2f"));
+        // var ting = UserProfile.Profile.birthYear;
+        var profile = UserProfile.getProfile();
         maxHR.setText(maxHeartrate.format("%.2f"));
 
         // Call parent's onUpdate(dc) to redraw the layout
