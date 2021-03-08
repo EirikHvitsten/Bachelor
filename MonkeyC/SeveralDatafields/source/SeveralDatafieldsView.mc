@@ -23,6 +23,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
     hidden var lastHR = null;
     hidden var diffHR = 0;
     hidden var trendIndex = 0;
+    hidden var speed = null;
 
 	// Max HR last 30
 	hidden var maxHeartrate;
@@ -40,6 +41,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         curHeartrate = 0.0f;
         averageHR = 0.0f;
         maxHeartrate = 0.0f;
+        speed = 0.0f;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -109,7 +111,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
                 addHR(info.currentHeartRate);
-       			
+       			speed = info.currentSpeed;
                 curHeartrate = info.currentHeartRate;
                 if (lastHR != null){
                     diffHR = curHeartrate - lastHR;
@@ -172,7 +174,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         
         // Set the text, similar to returning in compute(?)
         curHR.setText(curHeartrate.format("%.2f"));
-        avgHR.setText(averageHR.format("%.2f"));
+        avgHR.setText(speed.format("%.2f"));
         // var ting = UserProfile.Profile.birthYear;
         var profile = UserProfile.getProfile();
         maxHR.setText(maxHeartrate.format("%.2f"));
