@@ -1,5 +1,6 @@
 using Toybox.WatchUi;
 using Toybox.Graphics;
+using Toybox.Math;
 
 
 
@@ -8,6 +9,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var curHeartRate;
     hidden var curSpeed;
     hidden var curGroup;
+    hidden var groups;
     hidden var curTrend;
     hidden var laps;
 
@@ -18,6 +20,9 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         curHeartRate = 0.0f;
         curSpeed = 0.0f;
         curGroup = 0.0f;
+
+        groups = [130, 140];
+        
         curTrend = 0.0f;
         laps = 0;
     }
@@ -84,17 +89,16 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
+
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
-                
                 curHeartRate = info.currentHeartRate;
 
-                // Find group
-                curGroup = findGroup();
-
-                // Find trend
-                curTrend = findTrend();
-
+                if (laps == 2) {
+                    // Find trend
+                    curTrend = findTrend();
+                }
+        
             } else {
 
                 curHeartRate = 0.0f;
@@ -107,9 +111,16 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
     // Find group
     function findGroup() {
-
         // Finds group here
-        var group = 1.0f;
+        var group = 0;
+        var diff = (groups[0] - curHeartRate).abs();
+        for (var i = 1; i < groups.size(); i++) {
+
+            if ((groups[i] - curHeartRate).abs() < diff){
+                diff = (groups[i] - curHeartRate).abs();
+                group = i;
+            }
+        }
         return group;
     }
 
@@ -147,7 +158,6 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         curHR.setText(curHeartRate.format("%.2f"));
         curGrp.setText(curGroup.format("%.2f"));
         curTrd.setText(curTrend.format("%.2f"));
-
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
     }
@@ -158,6 +168,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         if (laps == 1) {
             System.println("Start å sykle.");
+            curGroup = findGroup();
         } else if (laps == 2) {
             System.println("Fortsett, regner ut...");
         }
