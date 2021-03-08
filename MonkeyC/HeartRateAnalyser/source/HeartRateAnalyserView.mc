@@ -10,6 +10,17 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var curGroup;
     hidden var curTrend;
     hidden var laps;
+    hidden var trend;
+    hidden var TREND_SIZE;
+    hidden var hrTrend;
+    hidden var lastHR;
+    hidden var diffHR;
+    hidden var trendIndex;
+    hidden var historyTrendArray;
+    hidden var starttid;
+    hidden var delta;
+    hidden var trendShow;
+    hidden var totalTrend;
 
     hidden var DEBUG = false;
 
@@ -20,6 +31,17 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         curGroup = 0.0f;
         curTrend = 0.0f;
         laps = 0;
+        trend = 0;
+        TREND_SIZE = 10;
+        hrTrend = new [TREND_SIZE];
+        lastHR = null;
+        diffHR = 0;
+        trendIndex = 0;
+        historyTrendArray = new [0];
+        starttid;
+        delta;
+        trendShow = 0;
+        totalTrend = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -93,7 +115,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 curGroup = findGroup();
 
                 // Find trend
-                curTrend = findTrend();
+                findTrend();
 
             } else {
 
@@ -115,10 +137,57 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
     // Find trend 
     function findTrend() {
+        if (lastHR != null){
+            diffHR = curHeartRate - lastHR;
+            // System.println("diff: " + diffHR);
+            lastHR = curHeartRate;
+            // System.println(hrTrend);
+            if (trendIndex == 10){
+                trendIndex = 0;
+            }
+            hrTrend[trendIndex] = diffHR;
+            trendIndex++;
+            // System.println("index: " + trendIndex);
+            var tid = System.getClockTime();
+            // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
+            delta = tid.sec - starttid.sec;
+            if (delta < 0){
+                delta += 60;
+            }
+            if (delta >= 10){
+                // System.println("ny starttid");
+                starttid = System.getClockTime();
+                calculateTrend(hrTrend);
+            }
+            // System.println("delta: " + delta);
+        } else {
+            lastHR = curHeartRate;
+            starttid = System.getClockTime();
+        }
+
 
         // Finds trend here
-        var trend = 2.0f;
-        return trend;
+        // var trend = 2.0f;
+        // return trend;
+    }
+
+    function calculateTrend(trendArray) {
+        // System.println("hei");
+        // System.println(trendArray);
+        var total = 0;
+        for (var i = 0; i < TREND_SIZE; i++){
+            if (trendArray[i] == null){
+                break;
+            }
+            total += trendArray[i];
+        }
+        curTrend = total;
+        trendIndex = 0;
+        // System.println("trend: " + curTrend);
+        historyTrendArray.add(curTrend);
+        // System.println(historyTrendArray);
+        totalTrend += curTrend;
+        // System.println("Total trend: " + totalTrend);
     }
 
     // Display the value you computed here. This will be called
@@ -146,7 +215,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         // Set the text, similar to returning in compute(?)
         curHR.setText(curHeartRate.format("%.2f"));
         curGrp.setText(curGroup.format("%.2f"));
-        curTrd.setText(curTrend.format("%.2f"));
+        curTrd.setText(curTrend.format("%d"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
