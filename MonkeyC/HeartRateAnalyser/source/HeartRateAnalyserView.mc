@@ -1,13 +1,14 @@
 using Toybox.WatchUi;
 using Toybox.Graphics;
 
-
+var json_file = WatchUi.loadResource(Rez.JsonData.jsonfile);
 
 class HeartRateAnalyserView extends WatchUi.DataField {
 
     hidden var curHeartRate;
     hidden var curSpeed;
     hidden var curGroup;
+    hidden var groups;
     hidden var curTrend;
     hidden var laps;
     hidden var trend;
@@ -29,6 +30,8 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         curHeartRate = 0.0f;
         curSpeed = 0.0f;
         curGroup = 0.0f;
+        groups = [130, 140];
+        
         curTrend = 0.0f;
         laps = 0;
         trend = 0;
@@ -111,11 +114,10 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 
                 curHeartRate = info.currentHeartRate;
 
-                // Find group
-                curGroup = findGroup();
-
-                // Find trend
-                findTrend();
+                if (laps == 2) {
+                    // Find trend
+                    findTrend();
+                }
 
             } else {
 
@@ -129,9 +131,16 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
     // Find group
     function findGroup() {
+    // Finds group here
+        var group = 0;
+        var diff = (groups[0] - curHeartRate).abs();
+        for (var i = 1; i < groups.size(); i++) {
 
-        // Finds group here
-        var group = 1.0f;
+            if ((groups[i] - curHeartRate).abs() < diff){
+                diff = (groups[i] - curHeartRate).abs();
+                group = i;
+            }
+        }
         return group;
     }
 
@@ -142,7 +151,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             // System.println("diff: " + diffHR);
             lastHR = curHeartRate;
             // System.println(hrTrend);
-            if (trendIndex == 10){
+            if (trendIndex == TREND_SIZE){
                 trendIndex = 0;
             }
             hrTrend[trendIndex] = diffHR;
@@ -154,7 +163,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             if (delta < 0){
                 delta += 60;
             }
-            if (delta >= 10){
+            if (delta >= TREND_SIZE){
                 // System.println("ny starttid");
                 starttid = System.getClockTime();
                 calculateTrend(hrTrend);
@@ -185,9 +194,9 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         trendIndex = 0;
         // System.println("trend: " + curTrend);
         historyTrendArray.add(curTrend);
-        // System.println(historyTrendArray);
+        System.println(historyTrendArray);
         totalTrend += curTrend;
-        // System.println("Total trend: " + totalTrend);
+        System.println("Total trend: " + totalTrend);
     }
 
     // Display the value you computed here. This will be called
@@ -227,6 +236,8 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         if (laps == 1) {
             System.println("Start å sykle.");
+            curGroup = findGroup();
+
         } else if (laps == 2) {
             System.println("Fortsett, regner ut...");
         }

@@ -1,180 +1,190 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-<manifest filename="C:\Users\sigur\Dropbox\Bachelor\Bachelor\MonkeyC\HeartRateAnalyser\manifest.xml"/>
+<manifest filename="C:\Bachelor\bach\Bachelor\MonkeyC\HeartRateAnalyser\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="3" lineNum="9" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="3" lineNum="10" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="3" lineNum="14" pc="268435481" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="4" lineNum="17" pc="268435502" symbol="setColor"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="4" lineNum="18" pc="268435506" symbol="setColor"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="5" lineNum="21" pc="268435517" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="5" lineNum="22" pc="268435521" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="5" lineNum="23" pc="268435553" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="27" pc="268435566" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="28" pc="268435570" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="29" pc="268435588" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="30" pc="268435601" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="31" pc="268435614" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="32" pc="268435627" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="33" pc="268435640" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="34" pc="268435653" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="35" pc="268435666" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="36" pc="268435679" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="37" pc="268435696" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="38" pc="268435705" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="39" pc="268435718" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="40" pc="268435731" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="41" pc="268435745" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="42" pc="268435754" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="43" pc="268435763" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="44" pc="268435776" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="49" pc="268435790" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="50" pc="268435794" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="53" pc="268435813" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="54" pc="268435836" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="57" pc="268435882" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="58" pc="268435905" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="61" pc="268435951" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="62" pc="268435974" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="65" pc="268436020" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="66" pc="268436043" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="70" pc="268436089" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="72" pc="268436132" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="73" pc="268436156" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="74" pc="268436178" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="75" pc="268436200" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="76" pc="268436224" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="77" pc="268436246" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="80" pc="268436268" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="81" pc="268436292" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="82" pc="268436314" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="83" pc="268436336" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="84" pc="268436360" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="85" pc="268436382" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="88" pc="268436404" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="89" pc="268436428" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="90" pc="268436450" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="91" pc="268436472" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="92" pc="268436496" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="93" pc="268436518" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="97" pc="268436540" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="98" pc="268436577" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="99" pc="268436614" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="100" pc="268436651" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="107" pc="268436655" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="109" pc="268436659" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="110" pc="268436670" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="112" pc="268436683" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="115" pc="268436699" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="118" pc="268436718" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="122" pc="268436733" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="123" pc="268436746" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="124" pc="268436759" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="131" pc="268436776" symbol="findGroup"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="134" pc="268436780" symbol="findGroup"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="135" pc="268436787" symbol="findGroup"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="139" pc="268436791" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="140" pc="268436795" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="141" pc="268436808" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="143" pc="268436833" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="145" pc="268436849" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="146" pc="268436866" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="148" pc="268436882" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="149" pc="268436907" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="151" pc="268436926" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="153" pc="268436945" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="154" pc="268436976" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="155" pc="268436993" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="157" pc="268437015" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="159" pc="268437032" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="160" pc="268437057" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="164" pc="268437083" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="11" lineNum="165" pc="268437099" symbol="findTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="174" pc="268437125" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="177" pc="268437129" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="178" pc="268437136" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="179" pc="268437157" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="180" pc="268437167" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="182" pc="268437173" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="184" pc="268437196" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="185" pc="268437206" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="187" pc="268437219" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="188" pc="268437245" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="189" pc="268437271" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="12" lineNum="190" pc="268437293" symbol="calculateTrend"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="195" pc="268437326" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="197" pc="268437330" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="200" pc="268437373" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="201" pc="268437397" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="202" pc="268437421" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="205" pc="268437445" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="206" pc="268437472" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="207" pc="268437496" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="208" pc="268437520" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="210" pc="268437547" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="211" pc="268437571" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="212" pc="268437595" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="216" pc="268437619" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="217" pc="268437653" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="218" pc="268437687" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="13" lineNum="221" pc="268437721" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="224" pc="268437742" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="225" pc="268437746" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="226" pc="268437769" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="228" pc="268437788" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="229" pc="268437805" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="230" pc="268437831" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="14" lineNum="231" pc="268437848" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="16" lineNum="5" pc="268437875" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="16" lineNum="6" pc="268437879" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="17" lineNum="10" pc="268437898" symbol="onStart"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="18" lineNum="14" pc="268437903" symbol="onStop"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="19" lineNum="18" pc="268437908" symbol="getInitialView"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="19" lineNum="19" pc="268437912" symbol="getInitialView"/>
-<entry filename="Rez" id="25" lineNum="15" pc="268437950" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="17" pc="268437962" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="18" pc="268437975" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="20" pc="268437988" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="21" pc="268438012" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="22" pc="268438175" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="23" pc="268438338" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="24" pc="268438501" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="25" pc="268438664" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="26" pc="268438827" symbol="MainLayout"/>
-<entry filename="Rez" id="25" lineNum="28" pc="268438990" symbol="MainLayout"/>
-<entry filename="Rez" id="26" lineNum="37" pc="268439068" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="26" lineNum="40" pc="268439080" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="26" lineNum="41" pc="268439104" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="26" lineNum="42" pc="268439237" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="26" lineNum="44" pc="268439370" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="27" lineNum="53" pc="268439408" symbol="TopRightLayout"/>
-<entry filename="Rez" id="27" lineNum="56" pc="268439420" symbol="TopRightLayout"/>
-<entry filename="Rez" id="27" lineNum="57" pc="268439444" symbol="TopRightLayout"/>
-<entry filename="Rez" id="27" lineNum="58" pc="268439577" symbol="TopRightLayout"/>
-<entry filename="Rez" id="27" lineNum="60" pc="268439710" symbol="TopRightLayout"/>
-<entry filename="Rez" id="28" lineNum="69" pc="268439748" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="28" lineNum="72" pc="268439760" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="28" lineNum="73" pc="268439784" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="28" lineNum="74" pc="268439917" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="28" lineNum="76" pc="268440050" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="29" lineNum="85" pc="268440088" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="29" lineNum="88" pc="268440100" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="29" lineNum="89" pc="268440124" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="29" lineNum="90" pc="268440257" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="29" lineNum="92" pc="268440390" symbol="BottomRightLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="28" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="29" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="30" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="31" pc="268435491" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="32" pc="268435504" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="33" pc="268435517" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="35" pc="268435557" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="36" pc="268435570" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="37" pc="268435583" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="38" pc="268435596" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="39" pc="268435609" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="40" pc="268435626" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="41" pc="268435635" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="42" pc="268435648" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="43" pc="268435661" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="44" pc="268435675" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="45" pc="268435684" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="46" pc="268435693" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="3" lineNum="47" pc="268435706" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="52" pc="268435720" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="53" pc="268435724" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="56" pc="268435743" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="57" pc="268435766" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="60" pc="268435812" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="61" pc="268435835" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="64" pc="268435881" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="65" pc="268435904" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="68" pc="268435950" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="69" pc="268435973" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="73" pc="268436019" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="75" pc="268436062" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="76" pc="268436086" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="77" pc="268436108" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="78" pc="268436130" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="79" pc="268436154" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="80" pc="268436176" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="83" pc="268436198" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="84" pc="268436222" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="85" pc="268436244" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="86" pc="268436266" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="87" pc="268436290" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="88" pc="268436312" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="91" pc="268436334" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="92" pc="268436358" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="93" pc="268436380" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="94" pc="268436402" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="95" pc="268436426" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="96" pc="268436448" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="100" pc="268436470" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="101" pc="268436507" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="102" pc="268436544" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="4" lineNum="103" pc="268436581" symbol="onLayout"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="110" pc="268436585" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="112" pc="268436589" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="113" pc="268436600" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="115" pc="268436613" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="117" pc="268436629" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="119" pc="268436646" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="124" pc="268436664" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="125" pc="268436677" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="5" lineNum="126" pc="268436690" symbol="compute"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="133" pc="268436707" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="135" pc="268436711" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="136" pc="268436718" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="137" pc="268436752" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="139" pc="268436782" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="140" pc="268436817" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="141" pc="268436848" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="6" lineNum="144" pc="268436868" symbol="findGroup"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="148" pc="268436872" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="149" pc="268436876" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="150" pc="268436889" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="152" pc="268436914" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="154" pc="268436930" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="155" pc="268436947" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="157" pc="268436963" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="158" pc="268436988" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="160" pc="268437007" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="162" pc="268437026" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="163" pc="268437057" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="164" pc="268437074" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="166" pc="268437096" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="168" pc="268437113" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="169" pc="268437138" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="173" pc="268437164" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="7" lineNum="174" pc="268437180" symbol="findTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="183" pc="268437206" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="186" pc="268437210" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="187" pc="268437217" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="188" pc="268437238" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="189" pc="268437248" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="191" pc="268437254" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="193" pc="268437277" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="194" pc="268437287" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="196" pc="268437300" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="197" pc="268437326" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="198" pc="268437352" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="8" lineNum="199" pc="268437374" symbol="calculateTrend"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="204" pc="268437407" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="206" pc="268437411" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="209" pc="268437454" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="210" pc="268437478" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="211" pc="268437502" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="214" pc="268437526" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="215" pc="268437553" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="216" pc="268437577" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="217" pc="268437601" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="219" pc="268437628" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="220" pc="268437652" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="221" pc="268437676" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="225" pc="268437700" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="226" pc="268437734" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="227" pc="268437768" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="9" lineNum="230" pc="268437802" symbol="onUpdate"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="233" pc="268437823" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="234" pc="268437827" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="235" pc="268437850" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="237" pc="268437869" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="238" pc="268437886" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="239" pc="268437909" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="241" pc="268437931" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="242" pc="268437948" symbol="onTimerLap"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserView.mc" id="10" lineNum="4" pc="268440681" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="12" lineNum="9" pc="268437975" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="12" lineNum="10" pc="268437979" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="12" lineNum="14" pc="268438000" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="13" lineNum="17" pc="268438021" symbol="setColor"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="13" lineNum="18" pc="268438025" symbol="setColor"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="14" lineNum="21" pc="268438036" symbol="draw"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="14" lineNum="22" pc="268438040" symbol="draw"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserBackground.mc" id="14" lineNum="23" pc="268438072" symbol="draw"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="16" lineNum="5" pc="268438085" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="16" lineNum="6" pc="268438089" symbol="initialize"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="17" lineNum="10" pc="268438108" symbol="onStart"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="18" lineNum="14" pc="268438113" symbol="onStop"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="19" lineNum="18" pc="268438118" symbol="getInitialView"/>
+<entry filename="C:\\Bachelor\\bach\\Bachelor\\MonkeyC\\HeartRateAnalyser\\source\\HeartRateAnalyserApp.mc" id="19" lineNum="19" pc="268438122" symbol="getInitialView"/>
+<entry filename="Rez" id="25" lineNum="16" pc="268438160" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="18" pc="268438172" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="19" pc="268438185" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="21" pc="268438198" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="22" pc="268438222" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="23" pc="268438385" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="24" pc="268438548" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="25" pc="268438711" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="26" pc="268438874" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="27" pc="268439037" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="29" pc="268439200" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="38" pc="268439278" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="26" lineNum="41" pc="268439290" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="26" lineNum="42" pc="268439314" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="26" lineNum="43" pc="268439447" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="26" lineNum="45" pc="268439580" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="27" lineNum="54" pc="268439618" symbol="TopRightLayout"/>
+<entry filename="Rez" id="27" lineNum="57" pc="268439630" symbol="TopRightLayout"/>
+<entry filename="Rez" id="27" lineNum="58" pc="268439654" symbol="TopRightLayout"/>
+<entry filename="Rez" id="27" lineNum="59" pc="268439787" symbol="TopRightLayout"/>
+<entry filename="Rez" id="27" lineNum="61" pc="268439920" symbol="TopRightLayout"/>
+<entry filename="Rez" id="28" lineNum="70" pc="268439958" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="28" lineNum="73" pc="268439970" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="28" lineNum="74" pc="268439994" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="28" lineNum="75" pc="268440127" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="28" lineNum="77" pc="268440260" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="29" lineNum="86" pc="268440298" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="29" lineNum="89" pc="268440310" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="29" lineNum="90" pc="268440334" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="29" lineNum="91" pc="268440467" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="29" lineNum="93" pc="268440600" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="26" symbol="totalTrend"/>
+<entry field="true" id="9" symbol="json_file"/>
+<entry field="true" id="28" symbol="totalTrend"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry id="34" method="true" symbol="MainLayout"/>
-<entry id="30" method="true" symbol="calculateTrend"/>
+<entry id="36" method="true" symbol="MainLayout"/>
+<entry field="true" id="15" symbol="groups"/>
+<entry id="32" method="true" symbol="calculateTrend"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="39" symbol="AppName"/>
+<entry field="true" id="42" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="13" symbol="curGroup"/>
+<entry field="true" id="14" symbol="curGroup"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry field="true" id="8389138" symbol="label"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
@@ -183,135 +193,127 @@
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="23" symbol="starttid"/>
-<entry id="32" module="true" symbol="Menus"/>
+<entry field="true" id="25" symbol="starttid"/>
+<entry id="34" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="25" symbol="trendShow"/>
+<entry field="true" id="27" symbol="trendShow"/>
 <entry id="8389137" method="true" symbol="compute"/>
-<entry field="true" id="15" symbol="laps"/>
-<entry field="true" id="14" symbol="curTrend"/>
+<entry field="true" id="17" symbol="laps"/>
+<entry field="true" id="16" symbol="curTrend"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="17" symbol="TREND_SIZE"/>
+<entry field="true" id="19" symbol="TREND_SIZE"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="21" symbol="trendIndex"/>
-<entry field="true" id="19" symbol="lastHR"/>
-<entry field="true" id="12" symbol="curSpeed"/>
-<entry id="35" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="23" symbol="trendIndex"/>
+<entry field="true" id="21" symbol="lastHR"/>
+<entry field="true" id="13" symbol="curSpeed"/>
+<entry id="37" method="true" symbol="TopLeftLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="16" symbol="trend"/>
-<entry id="37" method="true" symbol="BottomLeftLayout"/>
-<entry id="38" method="true" symbol="BottomRightLayout"/>
-<entry id="28" method="true" symbol="findGroup"/>
-<entry field="true" id="27" symbol="DEBUG"/>
+<entry field="true" id="18" symbol="trend"/>
+<entry id="39" method="true" symbol="BottomLeftLayout"/>
+<entry id="40" method="true" symbol="BottomRightLayout"/>
+<entry id="30" method="true" symbol="findGroup"/>
+<entry field="true" id="29" symbol="DEBUG"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="33" symbol="LauncherIcon"/>
+<entry field="true" id="35" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
-<entry field="true" id="20" symbol="diffHR"/>
+<entry field="true" id="22" symbol="diffHR"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="10" object="true" symbol="HeartRateAnalyserApp"/>
+<entry field="true" id="41" symbol="jsonfile"/>
+<entry id="11" object="true" symbol="HeartRateAnalyserApp"/>
 <entry field="true" id="8388747" symbol="currentHeartRate"/>
-<entry id="9" object="true" symbol="HeartRateAnalyserView"/>
+<entry id="10" object="true" symbol="HeartRateAnalyserView"/>
 <entry id="8389751" method="true" symbol="onTimerLap"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
-<entry id="31" module="true" symbol="Layouts"/>
-<entry id="29" method="true" symbol="findTrend"/>
-<entry field="true" id="11" symbol="curHeartRate"/>
-<entry field="true" id="22" symbol="historyTrendArray"/>
-<entry field="true" id="18" symbol="hrTrend"/>
+<entry id="33" module="true" symbol="Layouts"/>
+<entry id="31" method="true" symbol="findTrend"/>
+<entry field="true" id="12" symbol="curHeartRate"/>
+<entry field="true" id="24" symbol="historyTrendArray"/>
+<entry field="true" id="20" symbol="hrTrend"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry field="true" id="24" symbol="delta"/>
-<entry id="36" method="true" symbol="TopRightLayout"/>
+<entry field="true" id="26" symbol="delta"/>
+<entry id="38" method="true" symbol="TopRightLayout"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435501" name="dictionary" stackId="1" startPc="268435460"/>
-<entry arg="true" endPc="268435517" name="color" stackId="1" startPc="268435502"/>
-<entry arg="true" endPc="268435566" name="dc" stackId="1" startPc="268435517"/>
-<entry endPc="268436540" name="curHRView" stackId="4" startPc="268436089"/>
-<entry endPc="268436540" name="curTrendView" stackId="8" startPc="268436089"/>
-<entry endPc="268436540" name="curGrouptextView" stackId="5" startPc="268436089"/>
-<entry endPc="268436540" name="curTrendtextView" stackId="7" startPc="268436089"/>
-<entry endPc="268436540" name="curGroupView" stackId="6" startPc="268436089"/>
-<entry endPc="268436540" name="curHRtextView" stackId="3" startPc="268436089"/>
-<entry endPc="268436654" name="obscurityFlags" stackId="2" startPc="268435794"/>
-<entry arg="true" endPc="268436655" name="dc" stackId="1" startPc="268435790"/>
-<entry arg="true" endPc="268436776" name="info" stackId="1" startPc="268436655"/>
-<entry endPc="268436790" name="group" stackId="1" startPc="268436780"/>
-<entry endPc="268437080" name="tid" stackId="1" startPc="268436808"/>
-<entry endPc="268437196" name="i" stackId="3" startPc="268437157"/>
-<entry endPc="268437325" name="total" stackId="2" startPc="268437129"/>
-<entry arg="true" endPc="268437326" name="trendArray" stackId="1" startPc="268437125"/>
-<entry endPc="268437741" name="curHR" stackId="2" startPc="268437330"/>
-<entry endPc="268437741" name="curGrp" stackId="3" startPc="268437330"/>
-<entry endPc="268437741" name="curTrd" stackId="4" startPc="268437330"/>
-<entry arg="true" endPc="268437742" name="dc" stackId="1" startPc="268437326"/>
-<entry arg="true" endPc="268437903" name="state" stackId="1" startPc="268437898"/>
-<entry arg="true" endPc="268437908" name="state" stackId="1" startPc="268437903"/>
-<entry endPc="268439067" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curHR" stackId="8" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_custom_drawable_98977658615774083981" stackId="4" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curGrp" stackId="9" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curGrouptext" stackId="6" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curTrendtext" stackId="7" startPc="268437962"/>
-<entry endPc="268439067" name="rez_cmp_local_text_curTrd" stackId="10" startPc="268437962"/>
-<entry arg="true" endPc="268439068" name="dc" stackId="1" startPc="268437950"/>
-<entry endPc="268439407" name="rez_cmp_local_text_value" stackId="4" startPc="268439080"/>
-<entry endPc="268439407" name="rez_cmp_local_custom_drawable_96148318916055012941" stackId="2" startPc="268439080"/>
-<entry endPc="268439407" name="rez_cmp_local_text_label" stackId="3" startPc="268439080"/>
-<entry arg="true" endPc="268439408" name="dc" stackId="1" startPc="268439068"/>
-<entry endPc="268439747" name="rez_cmp_local_text_value" stackId="4" startPc="268439420"/>
-<entry endPc="268439747" name="rez_cmp_local_custom_drawable_32068543125469669097" stackId="2" startPc="268439420"/>
-<entry endPc="268439747" name="rez_cmp_local_text_label" stackId="3" startPc="268439420"/>
-<entry arg="true" endPc="268439748" name="dc" stackId="1" startPc="268439408"/>
-<entry endPc="268440087" name="rez_cmp_local_text_value" stackId="4" startPc="268439760"/>
-<entry endPc="268440087" name="rez_cmp_local_custom_drawable_26939698013855414911" stackId="2" startPc="268439760"/>
-<entry endPc="268440087" name="rez_cmp_local_text_label" stackId="3" startPc="268439760"/>
-<entry arg="true" endPc="268440088" name="dc" stackId="1" startPc="268439748"/>
-<entry endPc="268440427" name="rez_cmp_local_text_value" stackId="4" startPc="268440100"/>
-<entry endPc="268440427" name="rez_cmp_local_custom_drawable_14306921693990871871" stackId="2" startPc="268440100"/>
-<entry endPc="268440427" name="rez_cmp_local_text_label" stackId="3" startPc="268440100"/>
-<entry arg="true" endPc="268440428" name="dc" stackId="1" startPc="268440088"/>
+<entry endPc="268436470" name="curHRView" stackId="4" startPc="268436019"/>
+<entry endPc="268436470" name="curTrendView" stackId="8" startPc="268436019"/>
+<entry endPc="268436470" name="curGrouptextView" stackId="5" startPc="268436019"/>
+<entry endPc="268436470" name="curTrendtextView" stackId="7" startPc="268436019"/>
+<entry endPc="268436470" name="curGroupView" stackId="6" startPc="268436019"/>
+<entry endPc="268436470" name="curHRtextView" stackId="3" startPc="268436019"/>
+<entry endPc="268436584" name="obscurityFlags" stackId="2" startPc="268435724"/>
+<entry arg="true" endPc="268436585" name="dc" stackId="1" startPc="268435720"/>
+<entry arg="true" endPc="268436707" name="info" stackId="1" startPc="268436585"/>
+<entry endPc="268436868" name="i" stackId="3" startPc="268436782"/>
+<entry endPc="268436871" name="diff" stackId="2" startPc="268436711"/>
+<entry endPc="268436871" name="group" stackId="1" startPc="268436711"/>
+<entry endPc="268437161" name="tid" stackId="1" startPc="268436889"/>
+<entry endPc="268437277" name="i" stackId="3" startPc="268437238"/>
+<entry endPc="268437406" name="total" stackId="2" startPc="268437210"/>
+<entry arg="true" endPc="268437407" name="trendArray" stackId="1" startPc="268437206"/>
+<entry endPc="268437822" name="curHR" stackId="2" startPc="268437411"/>
+<entry endPc="268437822" name="curGrp" stackId="3" startPc="268437411"/>
+<entry endPc="268437822" name="curTrd" stackId="4" startPc="268437411"/>
+<entry arg="true" endPc="268437823" name="dc" stackId="1" startPc="268437407"/>
+<entry endPc="268438020" name="dictionary" stackId="1" startPc="268437979"/>
+<entry arg="true" endPc="268438036" name="color" stackId="1" startPc="268438021"/>
+<entry arg="true" endPc="268438085" name="dc" stackId="1" startPc="268438036"/>
+<entry arg="true" endPc="268438113" name="state" stackId="1" startPc="268438108"/>
+<entry arg="true" endPc="268438118" name="state" stackId="1" startPc="268438113"/>
+<entry endPc="268439277" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curHR" stackId="8" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_custom_drawable_78460908011530069482" stackId="4" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curGrp" stackId="9" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curGrouptext" stackId="6" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curTrendtext" stackId="7" startPc="268438172"/>
+<entry endPc="268439277" name="rez_cmp_local_text_curTrd" stackId="10" startPc="268438172"/>
+<entry arg="true" endPc="268439278" name="dc" stackId="1" startPc="268438160"/>
+<entry endPc="268439617" name="rez_cmp_local_text_value" stackId="4" startPc="268439290"/>
+<entry endPc="268439617" name="rez_cmp_local_custom_drawable_37493829320281846512" stackId="2" startPc="268439290"/>
+<entry endPc="268439617" name="rez_cmp_local_text_label" stackId="3" startPc="268439290"/>
+<entry arg="true" endPc="268439618" name="dc" stackId="1" startPc="268439278"/>
+<entry endPc="268439957" name="rez_cmp_local_text_value" stackId="4" startPc="268439630"/>
+<entry endPc="268439957" name="rez_cmp_local_custom_drawable_11872070232915646502" stackId="2" startPc="268439630"/>
+<entry endPc="268439957" name="rez_cmp_local_text_label" stackId="3" startPc="268439630"/>
+<entry arg="true" endPc="268439958" name="dc" stackId="1" startPc="268439618"/>
+<entry endPc="268440297" name="rez_cmp_local_text_value" stackId="4" startPc="268439970"/>
+<entry endPc="268440297" name="rez_cmp_local_custom_drawable_70824215910472518589" stackId="2" startPc="268439970"/>
+<entry endPc="268440297" name="rez_cmp_local_text_label" stackId="3" startPc="268439970"/>
+<entry arg="true" endPc="268440298" name="dc" stackId="1" startPc="268439958"/>
+<entry endPc="268440637" name="rez_cmp_local_text_value" stackId="4" startPc="268440310"/>
+<entry endPc="268440637" name="rez_cmp_local_custom_drawable_12110616155707852638" stackId="2" startPc="268440310"/>
+<entry endPc="268440637" name="rez_cmp_local_text_label" stackId="3" startPc="268440310"/>
+<entry arg="true" endPc="268440638" name="dc" stackId="1" startPc="268440298"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="158" parentId="globals" symbolId="Background" type="class"/>
-<dataEntry offset="229" parentId="globals" symbolId="HeartRateAnalyserView" type="class"/>
-<dataEntry offset="468" parentId="globals" symbolId="HeartRateAnalyserApp" type="class"/>
-<dataEntry offset="539" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="618" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="657" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="688" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="719" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="790" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="821" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="237" parentId="globals" symbolId="HeartRateAnalyserView" type="class"/>
+<dataEntry offset="484" parentId="globals" symbolId="HeartRateAnalyserApp" type="class"/>
+<dataEntry offset="555" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="634" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="673" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="704" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="735" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="806" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="845" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="Background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="setColor" parent="Background">
-<param id="color"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="draw" parent="Background">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="HeartRateAnalyserView">
 <documentation/>
 </functionEntry>
@@ -338,6 +340,17 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onTimerLap" parent="HeartRateAnalyserView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="Background">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="HeartRateAnalyserApp">
