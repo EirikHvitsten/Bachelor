@@ -2,7 +2,7 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.Math;
 
-
+var json_file = WatchUi.loadResource(Rez.JsonData.jsonfile);
 
 class HeartRateAnalyserView extends WatchUi.DataField {
 
@@ -25,6 +25,8 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         
         curTrend = 0.0f;
         laps = 0;
+
+        System.println(json_file[0]);
     }
 
     // Set your layout here. Anytime the size of obscurity of
