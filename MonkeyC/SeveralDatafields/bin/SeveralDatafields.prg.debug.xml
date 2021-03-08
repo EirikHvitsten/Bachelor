@@ -2,177 +2,202 @@
 <debugInfo>
 <manifest filename="C:\Users\sigur\Dropbox\Bachelor\Bachelor\MonkeyC\SeveralDatafields\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="31" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="32" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="34" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="41" pc="268435503" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="42" pc="268435516" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="43" pc="268435529" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="44" pc="268435542" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="49" pc="268435556" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="50" pc="268435560" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="53" pc="268435579" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="54" pc="268435602" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="57" pc="268435648" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="58" pc="268435671" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="61" pc="268435717" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="62" pc="268435740" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="65" pc="268435786" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="66" pc="268435809" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="70" pc="268435855" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="73" pc="268435898" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="74" pc="268435922" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="75" pc="268435944" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="76" pc="268435966" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="77" pc="268435990" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="78" pc="268436012" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="81" pc="268436034" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="82" pc="268436058" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="83" pc="268436080" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="84" pc="268436102" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="85" pc="268436126" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="86" pc="268436148" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="89" pc="268436170" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="90" pc="268436194" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="91" pc="268436216" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="92" pc="268436238" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="93" pc="268436262" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="94" pc="268436284" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="98" pc="268436306" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="99" pc="268436343" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="100" pc="268436380" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="102" pc="268436417" symbol="onLayout"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="109" pc="268436421" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="111" pc="268436425" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="112" pc="268436436" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="113" pc="268436449" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="114" pc="268436469" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="115" pc="268436485" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="116" pc="268436501" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="117" pc="268436514" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="118" pc="268436539" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="119" pc="268436564" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="120" pc="268436583" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="121" pc="268436612" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="122" pc="268436620" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="124" pc="268436643" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="125" pc="268436659" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="127" pc="268436688" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="136" pc="268436710" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="137" pc="268436723" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="138" pc="268436736" symbol="compute"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="155" pc="268436750" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="157" pc="268436754" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="160" pc="268436797" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="161" pc="268436821" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="162" pc="268436845" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="165" pc="268436869" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="166" pc="268436896" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="167" pc="268436920" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="168" pc="268436944" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="170" pc="268436971" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="171" pc="268436995" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="172" pc="268437019" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="176" pc="268437043" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="177" pc="268437077" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="179" pc="268437111" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="180" pc="268437128" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="183" pc="268437162" symbol="onUpdate"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="186" pc="268437183" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="187" pc="268437187" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="188" pc="268437216" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="190" pc="268437236" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="191" pc="268437252" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="193" pc="268437324" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="194" pc="268437352" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="195" pc="268437368" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="197" pc="268437437" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="198" pc="268437475" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="202" pc="268437495" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="203" pc="268437502" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="204" pc="268437532" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="205" pc="268437549" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="208" pc="268437578" symbol="addHR"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="211" pc="268437598" symbol="onTimerStart"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="212" pc="268437602" symbol="onTimerStart"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="9" lineNum="215" pc="268437626" symbol="onTimerStop"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="9" lineNum="216" pc="268437630" symbol="onTimerStop"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="10" lineNum="219" pc="268437654" symbol="onTimerPause"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="10" lineNum="220" pc="268437658" symbol="onTimerPause"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="11" lineNum="223" pc="268437682" symbol="onTimerResume"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="11" lineNum="224" pc="268437686" symbol="onTimerResume"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="12" lineNum="227" pc="268437710" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="12" lineNum="228" pc="268437714" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="231" pc="268437738" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="232" pc="268437742" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="19" pc="268440543" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="22" pc="268440557" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="7" pc="268440472" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="15" lineNum="9" pc="268437766" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="15" lineNum="10" pc="268437770" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="15" lineNum="14" pc="268437791" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="16" lineNum="17" pc="268437812" symbol="setColor"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="16" lineNum="18" pc="268437816" symbol="setColor"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="17" lineNum="21" pc="268437827" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="17" lineNum="22" pc="268437831" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="17" lineNum="23" pc="268437863" symbol="draw"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="19" lineNum="7" pc="268437876" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="19" lineNum="8" pc="268437880" symbol="initialize"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="20" lineNum="12" pc="268437899" symbol="onStart"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="21" lineNum="16" pc="268437904" symbol="onStop"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="22" lineNum="20" pc="268437909" symbol="getInitialView"/>
-<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="22" lineNum="21" pc="268437913" symbol="getInitialView"/>
-<entry filename="Rez" id="28" lineNum="16" pc="268437951" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="18" pc="268437963" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="19" pc="268437976" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="21" pc="268437989" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="22" pc="268438013" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="23" pc="268438176" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="24" pc="268438339" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="25" pc="268438502" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="26" pc="268438665" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="27" pc="268438828" symbol="MainLayout"/>
-<entry filename="Rez" id="28" lineNum="29" pc="268438991" symbol="MainLayout"/>
-<entry filename="Rez" id="29" lineNum="38" pc="268439069" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="29" lineNum="41" pc="268439081" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="29" lineNum="42" pc="268439105" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="29" lineNum="43" pc="268439238" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="29" lineNum="45" pc="268439371" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="30" lineNum="54" pc="268439409" symbol="TopRightLayout"/>
-<entry filename="Rez" id="30" lineNum="57" pc="268439421" symbol="TopRightLayout"/>
-<entry filename="Rez" id="30" lineNum="58" pc="268439445" symbol="TopRightLayout"/>
-<entry filename="Rez" id="30" lineNum="59" pc="268439578" symbol="TopRightLayout"/>
-<entry filename="Rez" id="30" lineNum="61" pc="268439711" symbol="TopRightLayout"/>
-<entry filename="Rez" id="31" lineNum="70" pc="268439749" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="31" lineNum="73" pc="268439761" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="31" lineNum="74" pc="268439785" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="31" lineNum="75" pc="268439918" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="31" lineNum="77" pc="268440051" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="32" lineNum="86" pc="268440089" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="32" lineNum="89" pc="268440101" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="32" lineNum="90" pc="268440125" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="32" lineNum="91" pc="268440258" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="32" lineNum="93" pc="268440391" symbol="BottomRightLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="36" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="37" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="39" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="46" pc="268435503" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="47" pc="268435516" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="48" pc="268435529" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="49" pc="268435542" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="3" lineNum="50" pc="268435555" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="57" pc="268435573" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="58" pc="268435577" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="61" pc="268435596" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="62" pc="268435619" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="65" pc="268435665" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="66" pc="268435688" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="69" pc="268435734" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="70" pc="268435757" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="73" pc="268435803" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="74" pc="268435826" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="78" pc="268435872" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="81" pc="268435915" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="82" pc="268435939" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="83" pc="268435961" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="84" pc="268435983" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="85" pc="268436007" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="86" pc="268436029" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="89" pc="268436051" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="90" pc="268436075" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="91" pc="268436097" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="92" pc="268436119" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="93" pc="268436143" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="94" pc="268436165" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="97" pc="268436187" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="98" pc="268436211" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="99" pc="268436233" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="100" pc="268436255" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="101" pc="268436279" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="102" pc="268436301" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="106" pc="268436323" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="107" pc="268436360" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="108" pc="268436397" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="4" lineNum="110" pc="268436434" symbol="onLayout"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="117" pc="268436438" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="119" pc="268436442" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="120" pc="268436453" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="122" pc="268436466" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="123" pc="268436482" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="124" pc="268436498" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="125" pc="268436511" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="131" pc="268436536" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="134" pc="268436552" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="135" pc="268436578" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="136" pc="268436595" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="138" pc="268436611" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="139" pc="268436636" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="140" pc="268436655" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="141" pc="268436687" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="142" pc="268436706" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="143" pc="268436804" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="144" pc="268436835" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="145" pc="268436852" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="147" pc="268436874" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="148" pc="268436891" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="149" pc="268436914" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="150" pc="268436939" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="152" pc="268436962" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="154" pc="268436997" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="155" pc="268437013" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="164" pc="268437044" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="165" pc="268437057" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="5" lineNum="166" pc="268437070" symbol="compute"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="183" pc="268437084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="185" pc="268437088" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="188" pc="268437131" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="189" pc="268437155" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="190" pc="268437179" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="193" pc="268437203" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="194" pc="268437230" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="195" pc="268437254" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="196" pc="268437278" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="198" pc="268437305" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="199" pc="268437329" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="200" pc="268437353" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="204" pc="268437377" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="205" pc="268437411" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="207" pc="268437445" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="208" pc="268437462" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="6" lineNum="211" pc="268437496" symbol="onUpdate"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="214" pc="268437517" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="215" pc="268437521" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="216" pc="268437550" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="218" pc="268437570" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="219" pc="268437586" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="221" pc="268437658" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="222" pc="268437686" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="223" pc="268437702" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="225" pc="268437771" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="226" pc="268437809" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="230" pc="268437829" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="231" pc="268437836" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="232" pc="268437866" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="233" pc="268437883" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="7" lineNum="236" pc="268437912" symbol="addHR"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="239" pc="268437932" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="240" pc="268437936" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="241" pc="268437959" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="242" pc="268437979" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="243" pc="268437986" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="244" pc="268438007" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="245" pc="268438017" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="247" pc="268438023" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="249" pc="268438046" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="251" pc="268438056" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="252" pc="268438069" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="253" pc="268438095" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="8" lineNum="254" pc="268438115" symbol="calculateTrend"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="9" lineNum="257" pc="268438142" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="9" lineNum="258" pc="268438146" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="10" lineNum="261" pc="268438170" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="10" lineNum="262" pc="268438174" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="11" lineNum="265" pc="268438198" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="11" lineNum="266" pc="268438202" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="12" lineNum="269" pc="268438226" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="12" lineNum="270" pc="268438230" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="273" pc="268438254" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="13" lineNum="274" pc="268438258" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="14" lineNum="277" pc="268438282" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="14" lineNum="278" pc="268438286" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="14" lineNum="19" pc="268441087" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="14" lineNum="28" pc="268441101" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsView.mc" id="14" lineNum="7" pc="268441016" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="16" lineNum="9" pc="268438310" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="16" lineNum="10" pc="268438314" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="16" lineNum="14" pc="268438335" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="17" lineNum="17" pc="268438356" symbol="setColor"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="17" lineNum="18" pc="268438360" symbol="setColor"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="18" lineNum="21" pc="268438371" symbol="draw"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="18" lineNum="22" pc="268438375" symbol="draw"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsBackground.mc" id="18" lineNum="23" pc="268438407" symbol="draw"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="20" lineNum="7" pc="268438420" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="20" lineNum="8" pc="268438424" symbol="initialize"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="21" lineNum="12" pc="268438443" symbol="onStart"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="22" lineNum="16" pc="268438448" symbol="onStop"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="23" lineNum="20" pc="268438453" symbol="getInitialView"/>
+<entry filename="C:\\Users\\sigur\\Dropbox\\Bachelor\\Bachelor\\MonkeyC\\SeveralDatafields\\source\\SeveralDatafieldsApp.mc" id="23" lineNum="21" pc="268438457" symbol="getInitialView"/>
+<entry filename="Rez" id="29" lineNum="16" pc="268438495" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="18" pc="268438507" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="19" pc="268438520" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="21" pc="268438533" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="22" pc="268438557" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="23" pc="268438720" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="24" pc="268438883" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="25" pc="268439046" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="26" pc="268439209" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="27" pc="268439372" symbol="MainLayout"/>
+<entry filename="Rez" id="29" lineNum="29" pc="268439535" symbol="MainLayout"/>
+<entry filename="Rez" id="30" lineNum="38" pc="268439613" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="30" lineNum="41" pc="268439625" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="30" lineNum="42" pc="268439649" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="30" lineNum="43" pc="268439782" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="30" lineNum="45" pc="268439915" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="31" lineNum="54" pc="268439953" symbol="TopRightLayout"/>
+<entry filename="Rez" id="31" lineNum="57" pc="268439965" symbol="TopRightLayout"/>
+<entry filename="Rez" id="31" lineNum="58" pc="268439989" symbol="TopRightLayout"/>
+<entry filename="Rez" id="31" lineNum="59" pc="268440122" symbol="TopRightLayout"/>
+<entry filename="Rez" id="31" lineNum="61" pc="268440255" symbol="TopRightLayout"/>
+<entry filename="Rez" id="32" lineNum="70" pc="268440293" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="73" pc="268440305" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="74" pc="268440329" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="75" pc="268440462" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="77" pc="268440595" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="33" lineNum="86" pc="268440633" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="33" lineNum="89" pc="268440645" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="33" lineNum="90" pc="268440669" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="33" lineNum="91" pc="268440802" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="33" lineNum="93" pc="268440935" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="12" symbol="testField"/>
-<entry field="true" id="33" symbol="variables"/>
+<entry field="true" id="39" symbol="variables"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry id="28" method="true" symbol="MainLayout"/>
+<entry id="34" method="true" symbol="MainLayout"/>
 <entry id="8389748" method="true" symbol="onTimerStop"/>
+<entry id="30" method="true" symbol="calculateTrend"/>
 <entry id="8388647" module="true" symbol="UserProfile"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="18" symbol="averageHR"/>
 <entry id="8389747" method="true" symbol="onTimerStart"/>
-<entry field="true" id="34" symbol="AppName"/>
+<entry field="true" id="40" symbol="AppName"/>
 <entry field="true" id="16" symbol="heartrates"/>
 <entry id="8389749" method="true" symbol="onTimerPause"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="24" method="true" symbol="addHR"/>
+<entry id="29" method="true" symbol="addHR"/>
 <entry field="true" id="8389138" symbol="label"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
@@ -181,34 +206,37 @@
 <entry field="true" id="17" symbol="totalHR"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="26" module="true" symbol="Menus"/>
+<entry field="true" id="25" symbol="starttid"/>
+<entry id="32" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
+<entry field="true" id="27" symbol="trendShow"/>
 <entry id="11" object="true" symbol="SeveralDatafieldsApp"/>
 <entry id="8389137" method="true" symbol="compute"/>
 <entry id="8389131" method="true" symbol="setColor"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="19" symbol="TREND_SIZE"/>
 <entry id="8388637" module="true" symbol="Communications"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="22" symbol="trendIndex"/>
+<entry field="true" id="23" symbol="trendIndex"/>
 <entry id="10" object="true" symbol="SeveralDatafieldsView"/>
 <entry id="8389752" method="true" symbol="onTimerReset"/>
-<entry field="true" id="20" symbol="lastHR"/>
-<entry field="true" id="23" symbol="maxHeartrate"/>
-<entry id="29" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="21" symbol="lastHR"/>
+<entry field="true" id="28" symbol="maxHeartrate"/>
+<entry id="35" method="true" symbol="TopLeftLayout"/>
 <entry field="true" id="13" symbol="ID"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="31" method="true" symbol="BottomLeftLayout"/>
-<entry id="32" method="true" symbol="BottomRightLayout"/>
+<entry id="37" method="true" symbol="BottomLeftLayout"/>
+<entry id="38" method="true" symbol="BottomRightLayout"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="27" symbol="LauncherIcon"/>
+<entry field="true" id="33" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry field="true" id="14" symbol="curHeartrate"/>
-<entry field="true" id="21" symbol="diffHR"/>
+<entry field="true" id="22" symbol="diffHR"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry field="true" id="8388958" symbol="speed"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
@@ -221,65 +249,70 @@
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
-<entry id="25" module="true" symbol="Layouts"/>
+<entry id="31" module="true" symbol="Layouts"/>
 <entry id="8389750" method="true" symbol="onTimerResume"/>
-<entry field="true" id="19" symbol="hrTrend"/>
+<entry field="true" id="24" symbol="historyTrendArray"/>
+<entry field="true" id="20" symbol="hrTrend"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry field="true" id="9" symbol="sim_variables"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry id="30" method="true" symbol="TopRightLayout"/>
+<entry field="true" id="26" symbol="delta"/>
+<entry id="36" method="true" symbol="TopRightLayout"/>
 <entry field="true" id="15" symbol="HEARTRATES_SIZE"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436306" name="curHRView" stackId="4" startPc="268435855"/>
-<entry endPc="268436306" name="avgHRtextView" stackId="5" startPc="268435855"/>
-<entry endPc="268436306" name="avgHRView" stackId="6" startPc="268435855"/>
-<entry endPc="268436306" name="curHRtextView" stackId="3" startPc="268435855"/>
-<entry endPc="268436306" name="maxHRView" stackId="8" startPc="268435855"/>
-<entry endPc="268436306" name="maxHRtextView" stackId="7" startPc="268435855"/>
-<entry endPc="268436420" name="obscurityFlags" stackId="2" startPc="268435560"/>
-<entry arg="true" endPc="268436421" name="dc" stackId="1" startPc="268435556"/>
-<entry endPc="268436640" name="temp" stackId="2" startPc="268436612"/>
-<entry arg="true" endPc="268436750" name="info" stackId="1" startPc="268436421"/>
-<entry endPc="268437182" name="curHR" stackId="2" startPc="268436754"/>
-<entry endPc="268437182" name="profile" stackId="5" startPc="268436754"/>
-<entry endPc="268437182" name="avgHR" stackId="3" startPc="268436754"/>
-<entry endPc="268437182" name="maxHR" stackId="4" startPc="268436754"/>
-<entry arg="true" endPc="268437183" name="dc" stackId="1" startPc="268436750"/>
-<entry endPc="268437578" name="i" stackId="3" startPc="268437532"/>
-<entry endPc="268437597" name="highest" stackId="2" startPc="268437187"/>
-<entry arg="true" endPc="268437598" name="heartrate" stackId="1" startPc="268437183"/>
-<entry endPc="268437811" name="dictionary" stackId="1" startPc="268437770"/>
-<entry arg="true" endPc="268437827" name="color" stackId="1" startPc="268437812"/>
-<entry arg="true" endPc="268437876" name="dc" stackId="1" startPc="268437827"/>
-<entry arg="true" endPc="268437904" name="state" stackId="1" startPc="268437899"/>
-<entry arg="true" endPc="268437909" name="state" stackId="1" startPc="268437904"/>
-<entry endPc="268439068" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_curHR" stackId="8" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_avgHRtext" stackId="7" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_custom_drawable_17844397531408532191" stackId="4" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_avgHR" stackId="10" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_maxHRtext" stackId="6" startPc="268437963"/>
-<entry endPc="268439068" name="rez_cmp_local_text_maxHR" stackId="9" startPc="268437963"/>
-<entry arg="true" endPc="268439069" name="dc" stackId="1" startPc="268437951"/>
-<entry endPc="268439408" name="rez_cmp_local_text_value" stackId="4" startPc="268439081"/>
-<entry endPc="268439408" name="rez_cmp_local_text_label" stackId="3" startPc="268439081"/>
-<entry endPc="268439408" name="rez_cmp_local_custom_drawable_20125870556593132191" stackId="2" startPc="268439081"/>
-<entry arg="true" endPc="268439409" name="dc" stackId="1" startPc="268439069"/>
-<entry endPc="268439748" name="rez_cmp_local_text_value" stackId="4" startPc="268439421"/>
-<entry endPc="268439748" name="rez_cmp_local_text_label" stackId="3" startPc="268439421"/>
-<entry endPc="268439748" name="rez_cmp_local_custom_drawable_42871730413886504831" stackId="2" startPc="268439421"/>
-<entry arg="true" endPc="268439749" name="dc" stackId="1" startPc="268439409"/>
-<entry endPc="268440088" name="rez_cmp_local_text_value" stackId="4" startPc="268439761"/>
-<entry endPc="268440088" name="rez_cmp_local_custom_drawable_11487769871261332620" stackId="2" startPc="268439761"/>
-<entry endPc="268440088" name="rez_cmp_local_text_label" stackId="3" startPc="268439761"/>
-<entry arg="true" endPc="268440089" name="dc" stackId="1" startPc="268439749"/>
-<entry endPc="268440428" name="rez_cmp_local_text_value" stackId="4" startPc="268440101"/>
-<entry endPc="268440428" name="rez_cmp_local_text_label" stackId="3" startPc="268440101"/>
-<entry endPc="268440428" name="rez_cmp_local_custom_drawable_56213805910517651882" stackId="2" startPc="268440101"/>
-<entry arg="true" endPc="268440429" name="dc" stackId="1" startPc="268440089"/>
+<entry endPc="268436323" name="curHRView" stackId="4" startPc="268435872"/>
+<entry endPc="268436323" name="avgHRtextView" stackId="5" startPc="268435872"/>
+<entry endPc="268436323" name="avgHRView" stackId="6" startPc="268435872"/>
+<entry endPc="268436323" name="curHRtextView" stackId="3" startPc="268435872"/>
+<entry endPc="268436323" name="maxHRView" stackId="8" startPc="268435872"/>
+<entry endPc="268436323" name="maxHRtextView" stackId="7" startPc="268435872"/>
+<entry endPc="268436437" name="obscurityFlags" stackId="2" startPc="268435577"/>
+<entry arg="true" endPc="268436438" name="dc" stackId="1" startPc="268435573"/>
+<entry endPc="268436994" name="tid" stackId="2" startPc="268436511"/>
+<entry arg="true" endPc="268437084" name="info" stackId="1" startPc="268436438"/>
+<entry endPc="268437516" name="curHR" stackId="2" startPc="268437088"/>
+<entry endPc="268437516" name="profile" stackId="5" startPc="268437088"/>
+<entry endPc="268437516" name="avgHR" stackId="3" startPc="268437088"/>
+<entry endPc="268437516" name="maxHR" stackId="4" startPc="268437088"/>
+<entry arg="true" endPc="268437517" name="dc" stackId="1" startPc="268437084"/>
+<entry endPc="268437912" name="i" stackId="3" startPc="268437866"/>
+<entry endPc="268437931" name="highest" stackId="2" startPc="268437521"/>
+<entry arg="true" endPc="268437932" name="heartrate" stackId="1" startPc="268437517"/>
+<entry endPc="268438046" name="i" stackId="3" startPc="268438007"/>
+<entry endPc="268438141" name="trend" stackId="2" startPc="268437936"/>
+<entry arg="true" endPc="268438142" name="trendArray" stackId="1" startPc="268437932"/>
+<entry endPc="268438355" name="dictionary" stackId="1" startPc="268438314"/>
+<entry arg="true" endPc="268438371" name="color" stackId="1" startPc="268438356"/>
+<entry arg="true" endPc="268438420" name="dc" stackId="1" startPc="268438371"/>
+<entry arg="true" endPc="268438448" name="state" stackId="1" startPc="268438443"/>
+<entry arg="true" endPc="268438453" name="state" stackId="1" startPc="268438448"/>
+<entry endPc="268439612" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_curHR" stackId="8" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_avgHRtext" stackId="7" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_custom_drawable_15891917898224831717" stackId="4" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_avgHR" stackId="10" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_maxHRtext" stackId="6" startPc="268438507"/>
+<entry endPc="268439612" name="rez_cmp_local_text_maxHR" stackId="9" startPc="268438507"/>
+<entry arg="true" endPc="268439613" name="dc" stackId="1" startPc="268438495"/>
+<entry endPc="268439952" name="rez_cmp_local_text_value" stackId="4" startPc="268439625"/>
+<entry endPc="268439952" name="rez_cmp_local_text_label" stackId="3" startPc="268439625"/>
+<entry endPc="268439952" name="rez_cmp_local_custom_drawable_12221070342102688970" stackId="2" startPc="268439625"/>
+<entry arg="true" endPc="268439953" name="dc" stackId="1" startPc="268439613"/>
+<entry endPc="268440292" name="rez_cmp_local_text_value" stackId="4" startPc="268439965"/>
+<entry endPc="268440292" name="rez_cmp_local_custom_drawable_20385115119731218922" stackId="2" startPc="268439965"/>
+<entry endPc="268440292" name="rez_cmp_local_text_label" stackId="3" startPc="268439965"/>
+<entry arg="true" endPc="268440293" name="dc" stackId="1" startPc="268439953"/>
+<entry endPc="268440632" name="rez_cmp_local_text_value" stackId="4" startPc="268440305"/>
+<entry endPc="268440632" name="rez_cmp_local_text_label" stackId="3" startPc="268440305"/>
+<entry endPc="268440632" name="rez_cmp_local_custom_drawable_16460002699750976148" stackId="2" startPc="268440305"/>
+<entry arg="true" endPc="268440633" name="dc" stackId="1" startPc="268440293"/>
+<entry endPc="268440972" name="rez_cmp_local_custom_drawable_98348374285821639521" stackId="2" startPc="268440645"/>
+<entry endPc="268440972" name="rez_cmp_local_text_value" stackId="4" startPc="268440645"/>
+<entry endPc="268440972" name="rez_cmp_local_text_label" stackId="3" startPc="268440645"/>
+<entry arg="true" endPc="268440973" name="dc" stackId="1" startPc="268440633"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
@@ -287,13 +320,13 @@
 <dataEntry offset="166" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry offset="237" parentId="globals" symbolId="SeveralDatafieldsApp" type="class"/>
 <dataEntry offset="308" parentId="globals" symbolId="SeveralDatafieldsView" type="class"/>
-<dataEntry offset="539" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="618" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="657" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="688" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="719" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="790" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="829" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="587" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="666" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="705" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="736" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="767" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="838" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="877" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="SeveralDatafieldsView">
@@ -313,6 +346,10 @@
 </functionEntry>
 <functionEntry accessMode="public" name="addHR" parent="SeveralDatafieldsView">
 <param id="heartrate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calculateTrend" parent="SeveralDatafieldsView">
+<param id="trendArray"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onTimerStart" parent="SeveralDatafieldsView">

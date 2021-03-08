@@ -19,11 +19,16 @@ class SeveralDatafieldsView extends WatchUi.DataField {
     hidden var heartrates = new [0]; // An array to hold 30 measurements
     hidden var totalHR = 0; // Will add/subtract all 30 measurements 
     hidden var averageHR; // Will hold totalHR / heartrate.size()
-    hidden var hrTrend = new [30];
+    hidden var TREND_SIZE = 10; // 10 for now, testing
+    hidden var hrTrend;
     hidden var lastHR = null;
     hidden var diffHR = 0;
     hidden var trendIndex = 0;
     hidden var speed = null;
+    hidden var historyTrendArray = new [0];
+    hidden var starttid;
+    hidden var delta;
+    hidden var trendShow = 0;
 
 	// Max HR last 30
 	hidden var maxHeartrate;
@@ -42,6 +47,9 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         averageHR = 0.0f;
         maxHeartrate = 0.0f;
         speed = 0.0f;
+        hrTrend = new [TREND_SIZE];
+        // starttid = System.getClockTime();
+        // System.println(starttid.hour.format("%d")+":"+starttid.min.format("%d")+":"+starttid.sec.format("%d"));
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -96,8 +104,8 @@ class SeveralDatafieldsView extends WatchUi.DataField {
 
 		// Set text
         View.findDrawableById("curHRtext").setText("Current HR");
-        View.findDrawableById("avgHRtext").setText("Average HR/30s");
-        View.findDrawableById("maxHRtext").setText("Max HR/30s");
+        View.findDrawableById("avgHRtext").setText("Group/Speed");
+        View.findDrawableById("maxHRtext").setText("Trend");
         
         return true;
     }
@@ -110,21 +118,41 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
-                addHR(info.currentHeartRate);
+                // addHR(info.currentHeartRate);
        			speed = info.currentSpeed;
                 curHeartrate = info.currentHeartRate;
                 if (lastHR != null){
                     diffHR = curHeartrate - lastHR;
+                    
+                    // if (hrTrend.size() == trendIndex){
+                    //     var temp = new [30];
+                    //     hrTrend.addAll(temp);
+                    // }
+                    lastHR = curHeartrate;
+                    // System.println(hrTrend);
+
+                    System.println(hrTrend);
+                    if (trendIndex == 10){
+                        trendIndex = 0;
+                    }
                     hrTrend[trendIndex] = diffHR;
                     trendIndex++;
-                    if (hrTrend.size() == trendIndex){
-                        var temp = new [30];
-                        hrTrend.addAll(temp);
+                    System.println("index: " + trendIndex);
+                    var tid = System.getClockTime();
+                    System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
+                    delta = tid.sec - starttid.sec;
+                    if (delta < 0){
+                        delta += 60;
                     }
-                    lastHR = curHeartrate;
-                    System.println(hrTrend);
+                    if (delta >= 10){
+                        System.println("ny starttid");
+                        starttid = System.getClockTime();
+                        calculateTrend(hrTrend);
+                    }
+                    System.println("delta: " + delta);
                 } else {
                     lastHR = curHeartrate;
+                    starttid = System.getClockTime();
                 }
                 // Add values to the new field
                 //testField.setData(0.0);
@@ -177,7 +205,7 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         avgHR.setText(speed.format("%.2f"));
         // var ting = UserProfile.Profile.birthYear;
         var profile = UserProfile.getProfile();
-        maxHR.setText(maxHeartrate.format("%.2f"));
+        maxHR.setText(trendShow.format("%d"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
@@ -206,6 +234,24 @@ class SeveralDatafieldsView extends WatchUi.DataField {
         	}
         }
         maxHeartrate = highest.toFloat();
+    }
+
+    function calculateTrend(trendArray) {
+        System.println("hei");
+        System.println(trendArray);
+        var trend = 0;
+        for (var i = 0; i < TREND_SIZE; i++){
+            if (trendArray[i] == null){
+                break;
+            }
+            trend += trendArray[i];
+        }
+        trendShow = trend;
+        // Legg til i historyTrend
+        trendIndex = 0;
+        System.println("trend: " + trend);
+        historyTrendArray.add(trend);
+        System.println(historyTrendArray);
     }
     
     function onTimerStart () {
