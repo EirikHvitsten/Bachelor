@@ -22,16 +22,30 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var delta;
     hidden var trendShow;
     hidden var totalTrend;
+    hidden var totalTrendArr;
+    hidden var startGroup;
+    hidden enum {
+            skille, // 0
+            distance, // 1
+            black, // 2
+            darkgrey, // 3
+            lightgrey // 4
+        }
+    hidden var blackArr;
+    hidden var darkgreyArr;
+    hidden var lightgreyArr;
+    hidden var group;
+
 
     hidden var DEBUG = false;
 
     function initialize() {
         DataField.initialize();
+        
         curHeartRate = 0.0f;
         curSpeed = 0.0f;
         curGroup = 0.0f;
-        groups = [130, 140];
-        
+        groups = json_file[skille];
         curTrend = 0.0f;
         laps = 0;
         trend = 0;
@@ -45,6 +59,11 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         delta;
         trendShow = 0;
         totalTrend = 0;
+        totalTrendArr = [];
+        startGroup = 0;
+        blackArr = json_file[black];
+        darkgreyArr = json_file[darkgrey];
+        lightgreyArr = json_file[lightgrey];
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -113,10 +132,17 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             if(info.currentHeartRate != null){
                 
                 curHeartRate = info.currentHeartRate;
-
                 if (laps == 2) {
                     // Find trend
                     findTrend();
+                } else if (laps == 1){
+                    if (curHeartRate > 134){
+                        startGroup = black;
+                    } else {
+                        startGroup = darkgrey;
+                    }
+                    System.println("Din startgruppe: " + startGroup);
+                    curGroup = startGroup;
                 }
 
             } else {
@@ -131,17 +157,29 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
     // Find group
     function findGroup() {
-    // Finds group here
-        var group = 0;
-        var diff = (groups[0] - curHeartRate).abs();
-        for (var i = 1; i < groups.size(); i++) {
-
-            if ((groups[i] - curHeartRate).abs() < diff){
-                diff = (groups[i] - curHeartRate).abs();
-                group = i;
+        var diff = 150;
+        var check = 0;
+        var trendIndex = totalTrendArr.size();
+        System.println("totalTrend: " + totalTrend);
+        if (trendIndex < json_file[1].size()){
+            for (var k = 2; k < 5; k++){
+                check = (totalTrend - json_file[k][trendIndex]).abs();
+                System.println("k: " + k + " check: " + check + " diff: " + diff);
+                if (check == diff){
+                    System.println("\tBeholder forrige gruppe");
+                    continue;
+                } else if (check < diff){
+                    diff = check;
+                    if (k == black or k == darkgrey){
+                        curGroup = startGroup;
+                    } else {
+                        curGroup = lightgrey;
+                    }
+                    System.println("\tFår ny gruppe");
+                }
             }
         }
-        return group;
+        System.println("Din gruppe: " + curGroup);
     }
 
     // Find trend 
@@ -150,13 +188,13 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             diffHR = curHeartRate - lastHR;
             // System.println("diff: " + diffHR);
             lastHR = curHeartRate;
-            // System.println(hrTrend);
+            System.println(hrTrend);
             if (trendIndex == TREND_SIZE){
                 trendIndex = 0;
             }
             hrTrend[trendIndex] = diffHR;
             trendIndex++;
-            // System.println("index: " + trendIndex);
+            // System.println("index: " + trendIndex);s
             var tid = System.getClockTime();
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
             delta = tid.sec - starttid.sec;
@@ -173,15 +211,9 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             lastHR = curHeartRate;
             starttid = System.getClockTime();
         }
-
-
-        // Finds trend here
-        // var trend = 2.0f;
-        // return trend;
     }
 
     function calculateTrend(trendArray) {
-        // System.println("hei");
         // System.println(trendArray);
         var total = 0;
         for (var i = 0; i < TREND_SIZE; i++){
@@ -194,9 +226,11 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         trendIndex = 0;
         // System.println("trend: " + curTrend);
         historyTrendArray.add(curTrend);
-        System.println(historyTrendArray);
+        System.println("Trend siste 10 sek: " + historyTrendArray);
         totalTrend += curTrend;
-        System.println("Total trend: " + totalTrend);
+        totalTrendArr.add(totalTrend);
+        System.println("Total trend: " + totalTrendArr);
+        findGroup();
     }
 
     // Display the value you computed here. This will be called
@@ -223,7 +257,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         // Set the text, similar to returning in compute(?)
         curHR.setText(curHeartRate.format("%.2f"));
-        curGrp.setText(curGroup.format("%.2f"));
+        curGrp.setText(curGroup.format("%d"));
         curTrd.setText(curTrend.format("%d"));
 
         // Call parent's onUpdate(dc) to redraw the layout
@@ -236,7 +270,6 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         if (laps == 1) {
             System.println("Start å sykle.");
-            curGroup = findGroup();
 
         } else if (laps == 2) {
             System.println("Fortsett, regner ut...");
