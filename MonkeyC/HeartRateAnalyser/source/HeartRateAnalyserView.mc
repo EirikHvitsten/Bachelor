@@ -35,7 +35,11 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var darkgreyArr;
     hidden var lightgreyArr;
     hidden var group;
-
+    hidden var linRegFuncs;
+    // hidden var blackFunc;
+    // hidden var dGreyFuncFunc;
+    // hidden var lGreyFunc;
+    hidden var totalTid;
 
     hidden var DEBUG = false;
 
@@ -64,6 +68,11 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         blackArr = json_file[black];
         darkgreyArr = json_file[darkgrey];
         lightgreyArr = json_file[lightgrey];
+        linRegFuncs= json_file[5];
+        // blackFunc = json_file[5];
+        // dGreyFuncFunc = json_file[6];
+        // lGreyFunc = json_file[7]
+        totalTid = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -188,7 +197,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             diffHR = curHeartRate - lastHR;
             // System.println("diff: " + diffHR);
             lastHR = curHeartRate;
-            System.println(hrTrend);
+            
             if (trendIndex == TREND_SIZE){
                 trendIndex = 0;
             }
@@ -198,6 +207,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             var tid = System.getClockTime();
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
             delta = tid.sec - starttid.sec;
+            // System.println("delta: " + delta);
             if (delta < 0){
                 delta += 60;
             }
@@ -206,7 +216,11 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 starttid = System.getClockTime();
                 calculateTrend(hrTrend);
             }
-            // System.println("delta: " + delta);
+            System.println(hrTrend);
+            if (delta % TREND_SIZE == 0) {
+                totalTid += 10;
+                linRegression();
+            }
         } else {
             lastHR = curHeartRate;
             starttid = System.getClockTime();
@@ -230,7 +244,20 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         totalTrend += curTrend;
         totalTrendArr.add(totalTrend);
         System.println("Total trend: " + totalTrendArr);
-        findGroup();
+        // findGroup();
+    }
+
+    function linRegression() {
+        var values = [0, 0, 0];
+        var diff = 150;
+        for (var k = 0; k < linRegFuncs.size(); k++) {
+            values[k] = linRegFuncs[k][0] * totalTid + linRegFuncs[k][1];
+            if (diff > (totalTrend - values[k]).abs()) {
+                diff = (totalTrend - values[k]).abs();
+                curGroup = k + black;
+            }
+        }
+        System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup);
     }
 
     // Display the value you computed here. This will be called
