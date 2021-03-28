@@ -137,23 +137,24 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
+        
         if(info has :currentHeartRate){
             if(info.currentHeartRate != null){
-                
                 curHeartRate = info.currentHeartRate;
-                if (laps == 2) {
-                    // Find trend
-                    findTrend();
-                } else if (laps == 1){
-                    if (curHeartRate > 134){
-                        startGroup = black;
-                    } else {
-                        startGroup = darkgrey;
-                    }
-                    System.println("Din startgruppe: " + startGroup);
-                    curGroup = startGroup;
-                }
-
+                findTrend();
+                // if (laps == 2) {
+                //     // Find trend
+                //     findTrend();
+                //     System.println("hei");
+                // } else if (laps == 1){
+                //     if (curHeartRate > 134){
+                //         startGroup = black;
+                //     } else {
+                //         startGroup = darkgrey;
+                //         }
+                //     System.println("Din startgruppe: " + startGroup);
+                //     curGroup = startGroup;
+                // }
             } else {
 
                 curHeartRate = 0.0f;
@@ -165,31 +166,31 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     }
 
     // Find group
-    function findGroup() {
-        var diff = 150;
-        var check = 0;
-        var trendIndex = totalTrendArr.size();
-        System.println("totalTrend: " + totalTrend);
-        if (trendIndex < json_file[1].size()){
-            for (var k = 2; k < 5; k++){
-                check = (totalTrend - json_file[k][trendIndex]).abs();
-                System.println("k: " + k + " check: " + check + " diff: " + diff);
-                if (check == diff){
-                    System.println("\tBeholder forrige gruppe");
-                    continue;
-                } else if (check < diff){
-                    diff = check;
-                    if (k == black or k == darkgrey){
-                        curGroup = startGroup;
-                    } else {
-                        curGroup = lightgrey;
-                    }
-                    System.println("\tFår ny gruppe");
-                }
-            }
-        }
-        System.println("Din gruppe: " + curGroup);
-    }
+    // function findGroup() {
+    //     var diff = 150;
+    //     var check = 0;
+    //     var trendIndex = totalTrendArr.size();
+    //     System.println("totalTrend: " + totalTrend);
+    //     if (trendIndex < json_file[1].size()){
+    //         for (var k = 2; k < 5; k++){
+    //             check = (totalTrend - json_file[k][trendIndex]).abs();
+    //             System.println("k: " + k + " check: " + check + " diff: " + diff);
+    //             if (check == diff){
+    //                 System.println("\tBeholder forrige gruppe");
+    //                 continue;
+    //             } else if (check < diff){
+    //                 diff = check;
+    //                 if (k == black or k == darkgrey){
+    //                     curGroup = startGroup;
+    //                 } else {
+    //                     curGroup = lightgrey;
+    //                 }
+    //                 System.println("\tFår ny gruppe");
+    //             }
+    //         }
+    //     }
+    //     System.println("Din gruppe: " + curGroup);
+    // }
 
     // Find trend 
     function findTrend() {
