@@ -40,6 +40,9 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     // hidden var dGreyFuncFunc;
     // hidden var lGreyFunc;
     hidden var totalTid;
+    hidden var posCount;
+    hidden var negCount;
+    hidden var BUFFERSIZE;
 
     hidden var DEBUG = false;
 
@@ -73,6 +76,9 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         // dGreyFuncFunc = json_file[6];
         // lGreyFunc = json_file[7]
         totalTid = 0;
+        posCount = 0;
+        negCount = 0;
+        BUFFERSIZE = 0.5;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -209,6 +215,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
             delta = tid.sec - starttid.sec;
             // System.println("delta: " + delta);
+            System.println(hrTrend);
             if (delta < 0){
                 delta += 60;
             }
@@ -217,11 +224,12 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 starttid = System.getClockTime();
                 calculateTrend(hrTrend);
             }
-            System.println(hrTrend);
+            
             if (delta % TREND_SIZE == 0) {
                 totalTid += 10;
                 linRegression();
             }
+            
         } else {
             lastHR = curHeartRate;
             starttid = System.getClockTime();
@@ -241,7 +249,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         trendIndex = 0;
         // System.println("trend: " + curTrend);
         historyTrendArray.add(curTrend);
-        System.println("Trend siste 10 sek: " + historyTrendArray);
+        System.println("Trend per 10 sek: " + historyTrendArray);
         totalTrend += curTrend;
         totalTrendArr.add(totalTrend);
         System.println("Total trend: " + totalTrendArr);
@@ -249,8 +257,16 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     }
 
     function linRegression() {
-        var values = [0, 0, 0];
+        var values = [0, 0, 0]; // [svart, mørkegrå, lysegrå]
+        var middlepoints = [0, 0]; // [svart-mørkegrå, svart-lysegrå]
+        var buffer = [0, 0]; // [svart-mørkegrå, svart-lysegrå]
         var diff = 150;
+        var lastTrend = totalTrendArr[totalTrendArr.size() - 1];
+        if (lastTrend > 0){
+            posCount++;
+        } else if (lastTrend < 0){
+            negCount++;
+        }
         for (var k = 0; k < linRegFuncs.size(); k++) {
             values[k] = linRegFuncs[k][0] * totalTid + linRegFuncs[k][1];
             if (diff > (totalTrend - values[k]).abs()) {
@@ -258,6 +274,32 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 curGroup = k + black;
             }
         }
+        middlepoints[0] = (values[0] + values[1]) / 2;
+        middlepoints[1] = (values[0] + values[2]) / 2;
+        buffer[0] = ((middlepoints[0] + values[0]) / 2).abs() * BUFFERSIZE; 
+        buffer[1] = ((middlepoints[1] + values[2]) / 2).abs() * BUFFERSIZE;
+        
+        System.println("øvre buffer: " + (middlepoints[1] + buffer[1]));
+        System.println("nedre buffer: " + (middlepoints[1] - buffer[1]));
+
+        if (middlepoints[1] + buffer[1] > totalTrend and totalTrend > middlepoints[1] - buffer[1]){
+            System.println("Du er i buffersonen mellom svart og lysegrå");
+            if (posCount < negCount){
+                System.println("Du er i lysegrå gruppe");
+                curGroup = 4;
+            } else {
+                System.println("Du er i svart gruppe");
+                curGroup = 2;
+            }
+        } 
+        // else if (middlepoints[0] + buffer[0] > totalTrend > middlepoints[0] - buffer[0]){
+        //     System.println("Du er i buffersonen mellom mørkegrå og svart");
+        // }
+        8
+        // System.println("middleppoints: " + middlepoints);
+        // System.println("buffer: " + buffer);
+
+        System.println("Antall positive trender: " + posCount + ", antall negative trender: " + negCount);
         System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup);
     }
 
