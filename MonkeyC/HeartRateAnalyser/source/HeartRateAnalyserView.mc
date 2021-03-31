@@ -43,6 +43,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var posCount;
     hidden var negCount;
     hidden var BUFFERSIZE;
+    hidden var hrArr;
 
     hidden var DEBUG = false;
 
@@ -78,7 +79,8 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         totalTid = 0;
         posCount = 0;
         negCount = 0;
-        BUFFERSIZE = 0.5;
+        BUFFERSIZE = 0.6;
+        hrArr = [];
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -215,7 +217,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
             delta = tid.sec - starttid.sec;
             // System.println("delta: " + delta);
-            System.println(hrTrend);
+            // System.println(hrTrend);
             if (delta < 0){
                 delta += 60;
             }
@@ -223,12 +225,14 @@ class HeartRateAnalyserView extends WatchUi.DataField {
                 // System.println("ny starttid");
                 starttid = System.getClockTime();
                 calculateTrend(hrTrend);
-            }
-            
-            if (delta % TREND_SIZE == 0) {
                 totalTid += 10;
+                
                 linRegression();
             }
+            
+            // if (delta % TREND_SIZE == 0) {
+                
+            // }
             
         } else {
             lastHR = curHeartRate;
@@ -253,6 +257,8 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         totalTrend += curTrend;
         totalTrendArr.add(totalTrend);
         System.println("Total trend: " + totalTrendArr);
+        hrArr.add(curHeartRate);
+        System.println("Dine hjerterytmehistorie: " + hrArr);
         // findGroup();
     }
 
@@ -284,23 +290,23 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         if (middlepoints[1] + buffer[1] > totalTrend and totalTrend > middlepoints[1] - buffer[1]){
             System.println("Du er i buffersonen mellom svart og lysegrå");
-            if (posCount < negCount){
+            if (posCount > negCount){
                 System.println("Du er i lysegrå gruppe");
                 curGroup = 4;
-            } else {
+            } else if (posCount < negCount) {
                 System.println("Du er i svart gruppe");
                 curGroup = 2;
             }
-        } 
+        }
         // else if (middlepoints[0] + buffer[0] > totalTrend > middlepoints[0] - buffer[0]){
         //     System.println("Du er i buffersonen mellom mørkegrå og svart");
         // }
-        8
+        
         // System.println("middleppoints: " + middlepoints);
         // System.println("buffer: " + buffer);
 
         System.println("Antall positive trender: " + posCount + ", antall negative trender: " + negCount);
-        System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup);
+        System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup + "\n");
     }
 
     // Display the value you computed here. This will be called
