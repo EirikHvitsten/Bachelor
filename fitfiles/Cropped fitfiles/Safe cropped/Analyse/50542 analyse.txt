@@ -1,0 +1,83 @@
+50542 - safe
+
+Over 100 sek
+
+Trend per 10 sek: [-1]
+Total trend: [-1]
+Dine hjerterytmehistorie: [133]
+øvre buffer: 1.398500
+nedre buffer: -0.368500
+Antall positive trender: 0, antall negative trender: 1
+Linear regression, totalTrend: -1, values: [-1.400000, -3.290000, 2.430000], din gruppe : 2
+
+Trend per 10 sek: [-1, 0]
+Total trend: [-1, -1]
+Dine hjerterytmehistorie: [133, 133]
+øvre buffer: 1.579500
+nedre buffer: -0.529500
+Antall positive trender: 0, antall negative trender: 2
+Linear regression, totalTrend: -1, values: [-1.940000, -3.930000, 2.990000], din gruppe : 2
+
+Trend per 10 sek: [-1, 0, -2]
+Total trend: [-1, -1, -3]
+Dine hjerterytmehistorie: [133, 133, 131]
+øvre buffer: 1.760500
+nedre buffer: -0.690500
+Antall positive trender: 0, antall negative trender: 3
+Linear regression, totalTrend: -3, values: [-2.480000, -4.570000, 3.550000], din gruppe : 2
+
+Trend per 10 sek: [-1, 0, -2, -2]
+Total trend: [-1, -1, -3, -5]
+Dine hjerterytmehistorie: [133, 133, 131, 129]
+øvre buffer: 1.941500
+nedre buffer: -0.851500
+Antall positive trender: 0, antall negative trender: 4
+Linear regression, totalTrend: -5, values: [-3.020000, -5.210000, 4.110000], din gruppe : 3
+
+Trend per 10 sek: [-1, 0, -2, -2, -1]
+Total trend: [-1, -1, -3, -5, -6]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128]
+øvre buffer: 2.122500
+nedre buffer: -1.012500
+Antall positive trender: 0, antall negative trender: 5
+Linear regression, totalTrend: -6, values: [-3.560000, -5.850000, 4.670000], din gruppe : 3
+
+Trend per 10 sek: [-1, 0, -2, -2, -1, -2]
+Total trend: [-1, -1, -3, -5, -6, -8]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128, 126]
+øvre buffer: 2.303500
+nedre buffer: -1.173500
+Antall positive trender: 0, antall negative trender: 6
+Linear regression, totalTrend: -8, values: [-4.100000, -6.490000, 5.230000], din gruppe : 3
+
+Trend per 10 sek: [-1, 0, -2, -2, -1, -2, 1]
+Total trend: [-1, -1, -3, -5, -6, -8, -7]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128, 126, 127]
+øvre buffer: 2.484500
+nedre buffer: -1.334500
+Antall positive trender: 0, antall negative trender: 7
+Linear regression, totalTrend: -7, values: [-4.640000, -7.130000, 5.790000], din gruppe : 3
+
+Trend per 10 sek: [-1, 0, -2, -2, -1, -2, 1, 1]
+Total trend: [-1, -1, -3, -5, -6, -8, -7, -6]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128, 126, 127, 128]
+øvre buffer: 2.665500
+nedre buffer: -1.495500
+Antall positive trender: 0, antall negative trender: 8
+Linear regression, totalTrend: -6, values: [-5.180000, -7.770000, 6.350000], din gruppe : 2
+
+Trend per 10 sek: [-1, 0, -2, -2, -1, -2, 1, 1, 0]
+Total trend: [-1, -1, -3, -5, -6, -8, -7, -6, -6]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128, 126, 127, 128, 128]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 0, antall negative trender: 9
+Linear regression, totalTrend: -6, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+Trend per 10 sek: [-1, 0, -2, -2, -1, -2, 1, 1, 0, 2]
+Total trend: [-1, -1, -3, -5, -6, -8, -7, -6, -6, -4]
+Dine hjerterytmehistorie: [133, 133, 131, 129, 128, 126, 127, 128, 128, 130]
+øvre buffer: 3.027500
+nedre buffer: -1.817500
+Antall positive trender: 0, antall negative trender: 10
+Linear regression, totalTrend: -4, values: [-6.260000, -9.050000, 7.470000], din gruppe : 2

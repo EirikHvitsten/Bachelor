@@ -1,0 +1,84 @@
+Alle her er NORMAL (svart)
+
+50805 etter 90 sek:
+Trend per 10 sek: [0, -2, -5, -6, 2, 2, 2, 3, -2]
+Total trend: [0, -2, -7, -13, -11, -9, -7, -4, -6]
+Dine hjerterytmehistorie: [150, 148, 143, 137, 139, 141, 143, 146, 144]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 0, antall negative trender: 8
+Linear regression, totalTrend: -6, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+50808 etter 90 sek:
+Trend per 10 sek: [-2, 0, 0, 2, 1, 0, -2, 0, -2]
+Total trend: [-2, -2, -2, 0, 1, 1, -1, -1, -3]
+Dine hjerterytmehistorie: [168, 168, 168, 170, 171, 171, 169, 169, 167]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 2, antall negative trender: 6
+Linear regression, totalTrend: -3, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+50817 etter 90 sek:
+Trend per 10 sek: [2, 0, -1, 0, 0, -1, 0, 0, 0]
+Total trend: [2, 2, 1, 1, 1, 0, 0, 0, 0]
+Dine hjerterytmehistorie: [157, 157, 156, 156, 156, 155, 155, 155, 155]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Du er i buffersonen mellom svart og lysegrå
+Du er i lysegrå gruppe
+Antall positive trender: 5, antall negative trender: 0
+Linear regression, totalTrend: 0, values: [-5.720000, -8.410000, 6.910000], din gruppe : 4
+
+50821 etter 90 sek:
+Trend per 10 sek: [-4, -6, 1, 1, -4, -4, 4, 5, 4]
+Total trend: [-4, -10, -9, -8, -12, -16, -12, -7, -3]
+Dine hjerterytmehistorie: [135, 129, 130, 131, 127, 123, 127, 132, 136]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 0, antall negative trender: 9
+Linear regression, totalTrend: -3, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+50835 etter 90 sek:
+Trend per 10 sek: [-1, -5, -2, 3, -1, -1, 0, 1, 0]
+Total trend: [-1, -6, -8, -5, -6, -7, -7, -6, -6]
+Dine hjerterytmehistorie: [177, 172, 170, 173, 172, 171, 171, 172, 172]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 0, antall negative trender: 9
+Linear regression, totalTrend: -6, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+50846 etter 90 sek:
+Trend per 10 sek: [2, -3, -1, -1, 0, -1, -1, -2, 1]
+Total trend: [2, -1, -2, -3, -3, -4, -5, -7, -6]
+Dine hjerterytmehistorie: [164, 161, 160, 159, 159, 158, 157, 155, 156]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 1, antall negative trender: 8
+Linear regression, totalTrend: -6, values: [-5.720000, -8.410000, 6.910000], din gruppe : 2
+
+50899 etter 90 sek:
+Trend per 10 sek: [4, 1, 1, -1, 1, -1, -1, 1, 2]
+Total trend: [4, 5, 6, 5, 6, 5, 4, 5, 7]
+Dine hjerterytmehistorie: [146, 147, 148, 147, 148, 147, 146, 147, 149]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Antall positive trender: 9, antall negative trender: 0
+Linear regression, totalTrend: 7, values: [-5.720000, -8.410000, 6.910000], din gruppe : 4
+
+50965 etter 90 sek
+Trend per 10 sek: [3, 3, 0, 0, 1, -2, -2, -2, 1]
+Total trend: [3, 6, 6, 6, 7, 5, 3, 1, 2]
+Dine hjerterytmehistorie: [151, 154, 154, 154, 155, 153, 151, 149, 150]
+øvre buffer: 2.846500
+nedre buffer: -1.656500
+Du er i buffersonen mellom svart og lysegrå
+Du er i lysegrå gruppe
+Antall positive trender: 9, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-5.720000, -8.410000, 6.910000], din gruppe : 4
+
+
+
+
+
+
+
