@@ -3,7 +3,7 @@ using Toybox.Graphics;
 
 var json_file = WatchUi.loadResource(Rez.JsonData.jsonfile);
 
-class HeartRateAnalyserView extends WatchUi.DataField {
+class HeartRateAnalyserDistanceView extends WatchUi.DataField {
 
     hidden var curHeartRate;
     hidden var curSpeed;
