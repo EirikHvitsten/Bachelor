@@ -155,28 +155,30 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         
         if(info has :currentHeartRate){
-            if(info.currentHeartRate != null){
-                curHeartRate = info.currentHeartRate;
-                findTrend(info);
-                // if (laps == 2) {
-                //     // Find trend
-                //     findTrend();
-                //     System.println("hei");
-                // } else if (laps == 1){
-                //     if (curHeartRate > 134){
-                //         startGroup = black;
-                //     } else {
-                //         startGroup = darkgrey;
-                //         }
-                //     System.println("Din startgruppe: " + startGroup);
-                //     curGroup = startGroup;
-                // }
-            } else {
+            if (info.elapsedDistance != null){
+                if(info.currentHeartRate != null){
+                    curHeartRate = info.currentHeartRate;
+                    findTrend(info);
+                    // if (laps == 2) {
+                    //     // Find trend
+                    //     findTrend();
+                    //     System.println("hei");
+                    // } else if (laps == 1){
+                    //     if (curHeartRate > 134){
+                    //         startGroup = black;
+                    //     } else {
+                    //         startGroup = darkgrey;
+                    //         }
+                    //     System.println("Din startgruppe: " + startGroup);
+                    //     curGroup = startGroup;
+                    // }
+                } else {
 
-                curHeartRate = 0.0f;
-                curGroup = 0.0f;
-                curTrend = 0.0f;
-                
+                    curHeartRate = 0.0f;
+                    curGroup = 0.0f;
+                    curTrend = 0.0f;
+                    
+                }
             }
         }
     }
