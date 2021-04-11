@@ -19,7 +19,6 @@ class HeartRateAnalyserView extends WatchUi.DataField {
     hidden var trendIndex;
     hidden var historyTrendArray;
     hidden var starttid;
-    hidden var delta;
     hidden var trendShow;
     hidden var totalTrend;
     hidden var totalTrendArr;
@@ -64,7 +63,6 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         trendIndex = 0;
         historyTrendArray = new [0];
         starttid;
-        delta;
         trendShow = 0;
         totalTrend = 0;
         totalTrendArr = [];
@@ -212,27 +210,24 @@ class HeartRateAnalyserView extends WatchUi.DataField {
             }
             hrTrend[trendIndex] = diffHR;
             trendIndex++;
-            // System.println("index: " + trendIndex);s
-            var tid = System.getClockTime();
+
+            // var tid = System.getClockTime();
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
-            delta = tid.sec - starttid.sec;
-            // System.println("delta: " + delta);
+
             // System.println(hrTrend);
-            if (delta < 0){
-                delta += 60;
-            }
-            if (delta >= TREND_SIZE){
-                // System.println("ny starttid");
+
+            // Usikker på om denne vil bli kjørt en gang i sekundet eller oftere/sjeldnere
+            totalTid += 1;
+            if (totalTid % TREND_SIZE == 0){
+                System.println("Brukt totalt " + totalTid + " sek.");
                 starttid = System.getClockTime();
                 calculateTrend(hrTrend);
-                totalTid += 10;
-                
                 linRegression();
-            }
-            
-            // if (delta % TREND_SIZE == 0) {
                 
-            // }
+            }
+            if (totalTid == 90){
+                decTree(totalTrendArr);
+            }
             
         } else {
             lastHR = curHeartRate;
@@ -253,7 +248,7 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         trendIndex = 0;
         // System.println("trend: " + curTrend);
         historyTrendArray.add(curTrend);
-        System.println("Trend per 10 sek: " + historyTrendArray);
+        System.println("Trend per " + TREND_SIZE + " sek: " + historyTrendArray);
         totalTrend += curTrend;
         totalTrendArr.add(totalTrend);
         System.println("Total trend: " + totalTrendArr);
@@ -285,16 +280,16 @@ class HeartRateAnalyserView extends WatchUi.DataField {
         buffer[0] = ((middlepoints[0] + values[0]) / 2).abs() * BUFFERSIZE; 
         buffer[1] = ((middlepoints[1] + values[2]) / 2).abs() * BUFFERSIZE;
         
-        System.println("øvre buffer: " + (middlepoints[1] + buffer[1]));
-        System.println("nedre buffer: " + (middlepoints[1] - buffer[1]));
+        System.println("Øvre buffer: " + (middlepoints[1] + buffer[1]));
+        System.println("Nedre buffer: " + (middlepoints[1] - buffer[1]));
 
         if (middlepoints[1] + buffer[1] > totalTrend and totalTrend > middlepoints[1] - buffer[1]){
-            System.println("Du er i buffersonen mellom svart og lysegrå");
+            System.println("\tDu er i buffersonen mellom svart og lysegrå");
             if (posCount > negCount){
-                System.println("Du er i lysegrå gruppe");
+                System.println("\tDu er i lysegrå gruppe");
                 curGroup = 4;
             } else if (posCount < negCount) {
-                System.println("Du er i svart gruppe");
+                System.println("\tDu er i svart gruppe");
                 curGroup = 2;
             }
         }
@@ -307,6 +302,34 @@ class HeartRateAnalyserView extends WatchUi.DataField {
 
         System.println("Antall positive trender: " + posCount + ", antall negative trender: " + negCount);
         System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup + "\n");
+    }
+
+    function decTree(list){
+        if (list[3] <= -1.5){
+            if (list[3] <= -3.5){
+                if (list[8] <= -0.5){
+                    System.println("weights: [0.00, 0.00, 1.00] class: svart");
+                }else {
+                    System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
+                }
+            }else {
+                System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
+            }
+        }else {
+            if (list[5] <= -0.5){
+                System.println("weights: [0.00, 0.00, 3.00] class: svart");
+            }else {
+                if (list[6] <= -1.0){
+                    if (list[0] <= -1.5){
+                        System.println("weights: [0.00, 0.00, 1.00] class: svart");
+                    }else {
+                        System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
+                    }
+                }else {
+                    System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
+                }
+            }
+        }
     }
 
     // Display the value you computed here. This will be called
