@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="JPMML-SkLearn" version="1.6.16"/>
+		<Timestamp>2021-04-07T18:30:10Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension>PMMLPipeline(steps=[('classifier', DecisionTreeClassifier())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="gruppe" optype="categorical" dataType="string">
+			<Value value="lysegraa"/>
+			<Value value="moerkegraa"/>
+			<Value value="svart"/>
+		</DataField>
+		<DataField name="0" optype="continuous" dataType="float"/>
+		<DataField name="3" optype="continuous" dataType="float"/>
+		<DataField name="5" optype="continuous" dataType="float"/>
+		<DataField name="6" optype="continuous" dataType="float"/>
+		<DataField name="8" optype="continuous" dataType="float"/>
+	</DataDictionary>
+	<TransformationDictionary/>
+	<TreeModel functionName="classification" algorithmName="sklearn.tree._classes.DecisionTreeClassifier" missingValueStrategy="nullPrediction">
+		<MiningSchema>
+			<MiningField name="gruppe" usageType="target"/>
+			<MiningField name="3"/>
+			<MiningField name="8"/>
+			<MiningField name="5"/>
+			<MiningField name="6"/>
+			<MiningField name="0"/>
+		</MiningSchema>
+		<Output>
+			<OutputField name="probability(lysegraa)" optype="continuous" dataType="double" feature="probability" value="lysegraa"/>
+			<OutputField name="probability(moerkegraa)" optype="continuous" dataType="double" feature="probability" value="moerkegraa"/>
+			<OutputField name="probability(svart)" optype="continuous" dataType="double" feature="probability" value="svart"/>
+		</Output>
+		<LocalTransformations>
+			<DerivedField name="double(3)" optype="continuous" dataType="double">
+				<FieldRef field="3"/>
+			</DerivedField>
+			<DerivedField name="double(8)" optype="continuous" dataType="double">
+				<FieldRef field="8"/>
+			</DerivedField>
+			<DerivedField name="double(5)" optype="continuous" dataType="double">
+				<FieldRef field="5"/>
+			</DerivedField>
+			<DerivedField name="double(6)" optype="continuous" dataType="double">
+				<FieldRef field="6"/>
+			</DerivedField>
+			<DerivedField name="double(0)" optype="continuous" dataType="double">
+				<FieldRef field="0"/>
+			</DerivedField>
+		</LocalTransformations>
+		<Node>
+			<True/>
+			<Node>
+				<SimplePredicate field="double(3)" operator="lessOrEqual" value="-1.5"/>
+				<Node>
+					<SimplePredicate field="double(3)" operator="lessOrEqual" value="-3.5"/>
+					<Node score="svart" recordCount="1">
+						<SimplePredicate field="double(8)" operator="lessOrEqual" value="-0.5"/>
+						<ScoreDistribution value="lysegraa" recordCount="0"/>
+						<ScoreDistribution value="moerkegraa" recordCount="0"/>
+						<ScoreDistribution value="svart" recordCount="1"/>
+					</Node>
+					<Node score="lysegraa" recordCount="1">
+						<True/>
+						<ScoreDistribution value="lysegraa" recordCount="1"/>
+						<ScoreDistribution value="moerkegraa" recordCount="0"/>
+						<ScoreDistribution value="svart" recordCount="0"/>
+					</Node>
+				</Node>
+				<Node score="moerkegraa" recordCount="4">
+					<True/>
+					<ScoreDistribution value="lysegraa" recordCount="0"/>
+					<ScoreDistribution value="moerkegraa" recordCount="4"/>
+					<ScoreDistribution value="svart" recordCount="0"/>
+				</Node>
+			</Node>
+			<Node score="svart" recordCount="3">
+				<SimplePredicate field="double(5)" operator="lessOrEqual" value="-0.5"/>
+				<ScoreDistribution value="lysegraa" recordCount="0"/>
+				<ScoreDistribution value="moerkegraa" recordCount="0"/>
+				<ScoreDistribution value="svart" recordCount="3"/>
+			</Node>
+			<Node>
+				<SimplePredicate field="double(6)" operator="lessOrEqual" value="-1.0"/>
+				<Node score="svart" recordCount="1">
+					<SimplePredicate field="double(0)" operator="lessOrEqual" value="-1.5"/>
+					<ScoreDistribution value="lysegraa" recordCount="0"/>
+					<ScoreDistribution value="moerkegraa" recordCount="0"/>
+					<ScoreDistribution value="svart" recordCount="1"/>
+				</Node>
+				<Node score="moerkegraa" recordCount="1">
+					<True/>
+					<ScoreDistribution value="lysegraa" recordCount="0"/>
+					<ScoreDistribution value="moerkegraa" recordCount="1"/>
+					<ScoreDistribution value="svart" recordCount="0"/>
+				</Node>
+			</Node>
+			<Node score="lysegraa" recordCount="4">
+				<True/>
+				<ScoreDistribution value="lysegraa" recordCount="4"/>
+				<ScoreDistribution value="moerkegraa" recordCount="0"/>
+				<ScoreDistribution value="svart" recordCount="0"/>
+			</Node>
+		</Node>
+	</TreeModel>
+</PMML>
