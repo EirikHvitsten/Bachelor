@@ -26,7 +26,6 @@ graph = pydotplus.graph_from_dot_data(data)
 # graph.write_png('pulsTre.png')
 # img=pltimg.imread('pulsTre.png')
 # imgplot = plt.imshow(img)
-
 # plt.show()
 
 print("Alle her skal være svart")
