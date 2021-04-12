@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="JPMML-SkLearn" version="1.6.16"/>
+		<Timestamp>2021-04-12T16:55:04Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension>PMMLPipeline(steps=[('classifier', DecisionTreeClassifier())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="gruppe" optype="categorical" dataType="string">
+			<Value value="lysegraa"/>
+			<Value value="moerkegraa"/>
+			<Value value="svart"/>
+		</DataField>
+		<DataField name="1" optype="continuous" dataType="float"/>
+		<DataField name="8" optype="continuous" dataType="float"/>
+		<DataField name="11" optype="continuous" dataType="float"/>
+		<DataField name="12" optype="continuous" dataType="float"/>
+	</DataDictionary>
+	<TransformationDictionary/>
+	<TreeModel functionName="classification" algorithmName="sklearn.tree._classes.DecisionTreeClassifier" missingValueStrategy="nullPrediction">
+		<MiningSchema>
+			<MiningField name="gruppe" usageType="target"/>
+			<MiningField name="12"/>
+			<MiningField name="11"/>
+			<MiningField name="8"/>
+			<MiningField name="1"/>
+		</MiningSchema>
+		<Output>
+			<OutputField name="probability(lysegraa)" optype="continuous" dataType="double" feature="probability" value="lysegraa"/>
+			<OutputField name="probability(moerkegraa)" optype="continuous" dataType="double" feature="probability" value="moerkegraa"/>
+			<OutputField name="probability(svart)" optype="continuous" dataType="double" feature="probability" value="svart"/>
+		</Output>
+		<LocalTransformations>
+			<DerivedField name="double(12)" optype="continuous" dataType="double">
+				<FieldRef field="12"/>
+			</DerivedField>
+			<DerivedField name="double(11)" optype="continuous" dataType="double">
+				<FieldRef field="11"/>
+			</DerivedField>
+			<DerivedField name="double(8)" optype="continuous" dataType="double">
+				<FieldRef field="8"/>
+			</DerivedField>
+			<DerivedField name="double(1)" optype="continuous" dataType="double">
+				<FieldRef field="1"/>
+			</DerivedField>
+		</LocalTransformations>
+		<Node>
+			<True/>
+			<Node score="moerkegraa" recordCount="4">
+				<SimplePredicate field="double(12)" operator="lessOrEqual" value="-1.5"/>
+				<ScoreDistribution value="lysegraa" recordCount="0"/>
+				<ScoreDistribution value="moerkegraa" recordCount="4"/>
+				<ScoreDistribution value="svart" recordCount="0"/>
+			</Node>
+			<Node>
+				<SimplePredicate field="double(11)" operator="lessOrEqual" value="-0.5"/>
+				<Node score="moerkegraa" recordCount="1">
+					<SimplePredicate field="double(8)" operator="lessOrEqual" value="-1.5"/>
+					<ScoreDistribution value="lysegraa" recordCount="0"/>
+					<ScoreDistribution value="moerkegraa" recordCount="1"/>
+					<ScoreDistribution value="svart" recordCount="0"/>
+				</Node>
+				<Node score="svart" recordCount="4">
+					<True/>
+					<ScoreDistribution value="lysegraa" recordCount="0"/>
+					<ScoreDistribution value="moerkegraa" recordCount="0"/>
+					<ScoreDistribution value="svart" recordCount="4"/>
+				</Node>
+			</Node>
+			<Node score="svart" recordCount="1">
+				<SimplePredicate field="double(1)" operator="lessOrEqual" value="-1.5"/>
+				<ScoreDistribution value="lysegraa" recordCount="0"/>
+				<ScoreDistribution value="moerkegraa" recordCount="0"/>
+				<ScoreDistribution value="svart" recordCount="1"/>
+			</Node>
+			<Node score="lysegraa" recordCount="5">
+				<True/>
+				<ScoreDistribution value="lysegraa" recordCount="5"/>
+				<ScoreDistribution value="moerkegraa" recordCount="0"/>
+				<ScoreDistribution value="svart" recordCount="0"/>
+			</Node>
+		</Node>
+	</TreeModel>
+</PMML>
