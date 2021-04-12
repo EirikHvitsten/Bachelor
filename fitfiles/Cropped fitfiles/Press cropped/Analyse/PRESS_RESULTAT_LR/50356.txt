@@ -1,0 +1,169 @@
+	Total avstand: 51.221451
+Trend per 50 meter: [0]
+Total trend: [0]
+Dine hjerterytmehistorie: [145]
+Ã˜vre buffer: 1.415074
+Nedre buffer: 0.327573
+Antall positive trender: 0, antall negative trender: 0
+Linear regression, totalTrend: 0, values: [0.801470, -4.095587, 0.941177], din gruppe : 2
+
+	Total avstand: 103.379059
+Trend per 50 meter: [0, 1]
+Total trend: [0, 1]
+Dine hjerterytmehistorie: [145, 146]
+Ã˜vre buffer: 1.621397
+Nedre buffer: 0.188897
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 1, antall negative trender: 0
+Linear regression, totalTrend: 1, values: [0.327941, -4.716175, 1.482353], din gruppe : 4
+
+	Total avstand: 158.146988
+Trend per 50 meter: [0, 1, 0]
+Total trend: [0, 1, 1]
+Dine hjerterytmehistorie: [145, 146, 145]
+Ã˜vre buffer: 1.827721
+Nedre buffer: 0.050220
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 2, antall negative trender: 0
+Linear regression, totalTrend: 1, values: [-0.145589, -5.336762, 2.023530], din gruppe : 4
+
+	Total avstand: 204.958511
+Trend per 50 meter: [0, 1, 0, 1]
+Total trend: [0, 1, 1, 2]
+Dine hjerterytmehistorie: [145, 146, 145, 145]
+Ã˜vre buffer: 2.034044
+Nedre buffer: -0.088456
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 3, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-0.619118, -5.957350, 2.564706], din gruppe : 4
+
+	Total avstand: 253.007965
+Trend per 50 meter: [0, 1, 0, 1, 0]
+Total trend: [0, 1, 1, 2, 2]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144]
+Ã˜vre buffer: 2.240368
+Nedre buffer: -0.227133
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 4, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-1.092648, -6.577937, 3.105883], din gruppe : 4
+
+	Total avstand: 311.258240
+Trend per 50 meter: [0, 1, 0, 1, 0, 0]
+Total trend: [0, 1, 1, 2, 2, 2]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143]
+Ã˜vre buffer: 2.446691
+Nedre buffer: -0.365809
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 5, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-1.566177, -7.198525, 3.647059], din gruppe : 4
+
+	Total avstand: 355.317627
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1]
+Total trend: [0, 1, 1, 2, 2, 2, 3]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143]
+Ã˜vre buffer: 2.653015
+Nedre buffer: -0.504486
+Antall positive trender: 6, antall negative trender: 0
+Linear regression, totalTrend: 3, values: [-2.039707, -7.819112, 4.188236], din gruppe : 4
+
+	Total avstand: 410.716339
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141]
+Ã˜vre buffer: 2.859338
+Nedre buffer: -0.643162
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 7, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-2.513236, -8.439699, 4.729412], din gruppe : 4
+
+	Total avstand: 458.057404
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140]
+Ã˜vre buffer: 3.065662
+Nedre buffer: -0.781838
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 8, antall negative trender: 0
+Linear regression, totalTrend: 1, values: [-2.986765, -9.060287, 5.270589], din gruppe : 4
+
+	Total avstand: 508.171356
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140]
+Ã˜vre buffer: 3.271985
+Nedre buffer: -0.920515
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 9, antall negative trender: 0
+Linear regression, totalTrend: 1, values: [-3.460295, -9.680875, 5.811765], din gruppe : 4
+
+	Total avstand: 561.314758
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141]
+Ã˜vre buffer: 3.478309
+Nedre buffer: -1.059192
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 10, antall negative trender: 0
+Linear regression, totalTrend: 2, values: [-3.933825, -10.301462, 6.352942], din gruppe : 4
+
+	Total avstand: 603.929565
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2, 3]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141, 142]
+Ã˜vre buffer: 3.684632
+Nedre buffer: -1.197868
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 11, antall negative trender: 0
+Linear regression, totalTrend: 3, values: [-4.407354, -10.922050, 6.894118], din gruppe : 4
+
+	Total avstand: 662.065735
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 1, 1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2, 3, 4]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141, 142, 143]
+Ã˜vre buffer: 3.890955
+Nedre buffer: -1.336545
+Antall positive trender: 12, antall negative trender: 0
+Linear regression, totalTrend: 4, values: [-4.880884, -11.542637, 7.435295], din gruppe : 4
+
+	Total avstand: 702.951965
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 1, 1, 0]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2, 3, 4, 4]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141, 142, 143, 143]
+Ã˜vre buffer: 4.097280
+Nedre buffer: -1.475221
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 13, antall negative trender: 0
+Linear regression, totalTrend: 4, values: [-5.354413, -12.163225, 7.976471], din gruppe : 4
+
+	Total avstand: 754.061096
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 1, 1, 0, 0]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2, 3, 4, 4, 4]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141, 142, 143, 143, 143]
+Ã˜vre buffer: 4.303602
+Nedre buffer: -1.613898
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 14, antall negative trender: 0
+Linear regression, totalTrend: 4, values: [-5.827943, -12.783812, 8.517647], din gruppe : 4
+
+	Total avstand: 802.461853
+Trend per 50 meter: [0, 1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 1, 1, 0, 0, -1]
+Total trend: [0, 1, 1, 2, 2, 2, 3, 2, 1, 1, 2, 3, 4, 4, 4, 3]
+Dine hjerterytmehistorie: [145, 146, 145, 145, 144, 143, 143, 141, 140, 140, 141, 142, 143, 143, 143, 142]
+Ã˜vre buffer: 4.509926
+Nedre buffer: -1.752574
+	Du er i buffersonen mellom svart og lysegrÃ¥
+	Du er i lysegrÃ¥ gruppe
+Antall positive trender: 15, antall negative trender: 0
+Linear regression, totalTrend: 3, values: [-6.301472, -13.404400, 9.058824], din gruppe : 4
