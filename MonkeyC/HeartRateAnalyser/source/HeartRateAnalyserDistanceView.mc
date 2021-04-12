@@ -63,7 +63,8 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
         // hrTrend = new [TREND_SIZE];
         // For avstand
         AVSTANDDELTA = 50;
-        hrTrend = new [AVSTANDDELTA];
+        // hrTrend = new [AVSTANDDELTA];
+        hrTrend = [];
         lastHR = null;
         diffHR = 0;
         trendIndex = 0;
@@ -221,12 +222,13 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
             //     trendIndex = 0;
             // }
 
-            if (trendIndex == AVSTANDDELTA){
-                trendIndex = 0;
-            }
+            // if (trendIndex == AVSTANDDELTA){
+            //     trendIndex = 0;
+            // }
 
-            hrTrend[trendIndex] = diffHR;
-            trendIndex++;
+            // hrTrend[trendIndex] = diffHR;
+            // trendIndex++;
+            hrTrend.add(diffHR);
 
             // var tid = System.getClockTime();
             // System.println(tid.hour.format("%d")+":"+tid.min.format("%d")+":"+tid.sec.format("%d"));
@@ -242,7 +244,7 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
             //     // linRegression();
                 
             // }
-            // if (totalTid == 90){
+            // if (passertAvstand == 800){
             //     decTree(totalTrendArr);
             // }
             // System.println("Avstand: " + info.elapsedDistance);
@@ -252,6 +254,7 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
                 System.println("\tTotal avstand: " + info.elapsedDistance);
                 calculateTrendAvstand(hrTrend);
                 linRegression();
+                hrTrend = [];
             }
             
         } else {
@@ -261,7 +264,7 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
     }
 
     function calculateTrendTid(trendArray) {
-        // System.println(trendArray);
+        System.println(trendArray);
         var total = 0;
         for (var i = 0; i < TREND_SIZE; i++){
             if (trendArray[i] == null){
@@ -285,10 +288,10 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
     function calculateTrendAvstand(trendArray) {
         // System.println(trendArray);
         var total = 0;
-        for (var i = 0; i < AVSTANDDELTA; i++){
-            if (trendArray[i] == null){
-                break;
-            }
+        for (var i = 0; i < trendArray.size(); i++){
+            // if (trendArray[i] == null){
+            //     break;
+            // }
             total += trendArray[i];
         }
         curTrend = total;
@@ -315,7 +318,7 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
             negCount++;
         }
         for (var k = 0; k < linRegFuncs.size(); k++) {
-            values[k] = linRegFuncs[k][0] * totalTid + linRegFuncs[k][1];
+            values[k] = linRegFuncs[k][0] * avstandPassert + linRegFuncs[k][1];
             if (diff > (totalTrend - values[k]).abs()) {
                 diff = (totalTrend - values[k]).abs();
                 curGroup = k + black;
