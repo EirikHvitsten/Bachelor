@@ -154,7 +154,7 @@ class HeartRateAnalyserDistanceView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
-        
+        System.println("jnvidsbnvpdf");
         if(info has :currentHeartRate){
             if (info.elapsedDistance != null){
                 if(info.currentHeartRate != null){

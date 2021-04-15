@@ -37,6 +37,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var avstandPassert;
     hidden var analyser;
     hidden var analysertFerdig;
+    hidden var startDistanse;
 
     hidden var DEBUG = false;
 
@@ -63,6 +64,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         avstandPassert = 0;
         analyser = false;
         analysertFerdig = false;
+        startDistanse = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -127,22 +129,26 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
-
         if (analyser){
-            System.println("analysegdvd " + analyser);
             if(info has :currentHeartRate){
                 if (info.elapsedDistance != null){
                     if(info.currentHeartRate != null){
                         curHeartRate = info.currentHeartRate;
-                        System.println("isbghvuoisdfbvgiouysdvbhgidfbvi");
+                        if (startDistanse == 0){
+                            startDistanse = info.elapsedDistance;
+                        }
                         findTrend(info);
+                    } 
+                    else {
+                        curHeartRate = 0.0f;
+                        curGroup = 0.0f;
+                        curTrend = 0.0f;
                     }
                 }
             }
         } else {
-            curHeartRate = 0.0f;
-            curGroup = 0.0f;
-            curTrend = 0.0f;
+            System.println("analyserer ikke");
+            
         }
     }
 
@@ -153,27 +159,49 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             // System.println("diff: " + diffHR);
             lastHR = curHeartRate;
             hrTrend.add(diffHR);
-                
+
+            if (info.elapsedDistance - startDistanse - avstandPassert >= AVSTANDDELTA){
+                avstandPassert += AVSTANDDELTA;
+                System.println("\tTotal avstand: " + info.elapsedDistance);
+                System.println("\tDistanse ved start på analyse: " + startDistanse);
+                System.println("\tAvstand analysert: " + (info.elapsedDistance - startDistanse));
+                System.println("\tAvstand passert: " + avstandPassert);
+                calculateTrendAvstand(hrTrend);
+                linRegression();
+                hrTrend = [];
+            }
+
+            // Bruk denne hvis decision tree skal kjøres etter 800 meter
             // if (passertAvstand == 800){
             //     decTree(totalTrendArr);
             // }
 
             if (analysertFerdig){
-                decTree(totalTrendArr);
-            }
+                if (totalTrendArr.size() > 15) {
+                    decTree(totalTrendArr);
 
-            // System.println("Avstand: " + info.elapsedDistance);
-            // System.println("Passert: " + avstandPassert);
-            if (info.elapsedDistance - avstandPassert >= AVSTANDDELTA){
-                avstandPassert += AVSTANDDELTA;
-                // System.println("\tTotal avstand: " + info.elapsedDistance);
-                calculateTrendAvstand(hrTrend);
-                linRegression();
-                hrTrend = [];
+                } else {
+                    System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
+                }
+                nullstill();
             }
         } else {
             lastHR = curHeartRate;
         }
+    }
+
+    // Fjerner lagret data fra forrige analyse
+    function nullstill() {
+        analyser = false;
+        startDistanse = 0;
+        avstandPassert = 0;
+        hrTrend = [];
+        historyTrendArray = [];
+        posCount = 0;
+        negCount = 0;
+        totalTrendArr = [];
+        hrArr = [];
+
     }
 
     function calculateTrendAvstand(trendArray) {
@@ -270,9 +298,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
                 }
             }
         }
-
-        // Stopper analysen
-        analyser = false;
     }
 
     // Display the value you computed here. This will be called
@@ -311,6 +336,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         
         if (analyser == false){
              analyser = true;
+             analysertFerdig = false;
              System.println("analyser true: " + analyser);
         } else {
             analysertFerdig = true;
