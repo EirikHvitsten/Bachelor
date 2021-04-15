@@ -1,0 +1,3 @@
+<resources>
+    <jsonData id="jsonfile" filename="analyse.json"></jsonData>
+</resources>
