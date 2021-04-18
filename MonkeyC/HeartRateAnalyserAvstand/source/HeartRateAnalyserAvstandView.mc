@@ -5,10 +5,15 @@ var json_file = WatchUi.loadResource(Rez.JsonData.jsonfile);
 
 class HeartRateAnalyserAvstandView extends WatchUi.DataField {
 
+    hidden var curHR;
+    hidden var curGrp;
+    hidden var curTrd;
+    hidden var curTrGr;
     hidden var curHeartRate;
     hidden var curSpeed;
     hidden var curGroup;
     hidden var curTrend;
+    hidden var curTreeGroup;
     hidden var laps;
     hidden var hrTrend;
     hidden var lastHR;
@@ -38,6 +43,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var analyser;
     hidden var analysertFerdig;
     hidden var startDistanse;
+    hidden var distanseAnalysert;
 
     hidden var DEBUG = false;
 
@@ -48,6 +54,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         curSpeed = 0.0f;
         curGroup = 0.0f;
         curTrend = 0.0f;
+        curTreeGroup = 0.0f;
         laps = 0;
         AVSTANDDELTA = 50;
         hrTrend = [];
@@ -65,6 +72,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         analyser = false;
         analysertFerdig = false;
         startDistanse = 0;
+        distanseAnalysert = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -94,32 +102,44 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             // Current HR
             var curHRtextView = View.findDrawableById("curHRtext");
             curHRtextView.locX = curHRtextView.locX - 50;
-            curHRtextView.locY = curHRtextView.locY - 10;
+            curHRtextView.locY = curHRtextView.locY - 43;
             var curHRView = View.findDrawableById("curHR");
             curHRView.locX = curHRView.locX - 50;
-            curHRView.locY = curHRView.locY + 10;
-            
-            // currentGroup
-            var curGrouptextView = View.findDrawableById("curGrouptext");
-            curGrouptextView.locX = curGrouptextView.locX + 50;
-            curGrouptextView.locY = curGrouptextView.locY - 40;
-            var curGroupView = View.findDrawableById("curGrp");
-            curGroupView.locX = curGroupView.locX + 50;
-            curGroupView.locY = curGroupView.locY - 20;
+            curHRView.locY = curHRView.locY - 20;
             
             // currentTrend
             var curTrendtextView = View.findDrawableById("curTrendtext");
-            curTrendtextView.locX = curTrendtextView.locX + 50;
-            curTrendtextView.locY = curTrendtextView.locY + 20;
+            curTrendtextView.locX = curTrendtextView.locX - 50;
+            curTrendtextView.locY = curTrendtextView.locY + 17;
             var curTrendView = View.findDrawableById("curTrd");
-            curTrendView.locX = curTrendView.locX + 50;
+            curTrendView.locX = curTrendView.locX - 50;
             curTrendView.locY = curTrendView.locY + 40;
+
+            // currentGroup
+            var curGrouptextView = View.findDrawableById("curGrouptext");
+            curGrouptextView.locX = curGrouptextView.locX + 50;
+            curGrouptextView.locY = curGrouptextView.locY - 43;
+            var curGroupView = View.findDrawableById("curGrp");
+            curGroupView.locX = curGroupView.locX + 50;
+            curGroupView.locY = curGroupView.locY - 20;
+
+            // currentTreeGroup
+            var curTreeGrouptextView = View.findDrawableById("curTreeGrouptext");
+            curTreeGrouptextView.locX = curTreeGrouptextView.locX + 50;
+            curTreeGrouptextView.locY = curTreeGrouptextView.locY + 17;
+            var curTreeGroupView = View.findDrawableById("curTrGr");
+            curTreeGroupView.locX = curTreeGroupView.locX + 50;
+            curTreeGroupView.locY = curTreeGroupView.locY + 40;
         }
 
         // Set text
-        View.findDrawableById("curHRtext").setText("Current HR");
-        View.findDrawableById("curGrouptext").setText("Current Group");
-        View.findDrawableById("curTrendtext").setText("Current Trend");
+        View.findDrawableById("curHRtext").setText("HR");
+        View.findDrawableById("curGrouptext").setText("Lin Group");
+        // Viser trend
+        // View.findDrawableById("curTrendtext").setText("Trend");
+        // Viser distanse
+        View.findDrawableById("curTrendtext").setText("Distance");
+        View.findDrawableById("curTreeGrouptext").setText("Tree Group");
         return true;
     }
 
@@ -129,26 +149,14 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
         // See Activity.Info in the documentation for available information.
-        if (analyser){
-            if(info has :currentHeartRate){
-                if (info.elapsedDistance != null){
-                    if(info.currentHeartRate != null){
-                        curHeartRate = info.currentHeartRate;
-                        if (startDistanse == 0){
-                            startDistanse = info.elapsedDistance;
-                        }
-                        findTrend(info);
-                    } 
-                    else {
-                        curHeartRate = 0.0f;
-                        curGroup = 0.0f;
-                        curTrend = 0.0f;
-                    }
+        if(info has :currentHeartRate and info.currentHeartRate != null){
+            curHeartRate = info.currentHeartRate;
+            if (analyser and info.elapsedDistance != null){                 
+                if (startDistanse == 0){
+                    startDistanse = info.elapsedDistance;
                 }
+                findTrend(info);
             }
-        } else {
-            System.println("analyserer ikke");
-            
         }
     }
 
@@ -162,26 +170,28 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
 
             if (info.elapsedDistance - startDistanse - avstandPassert >= AVSTANDDELTA){
                 avstandPassert += AVSTANDDELTA;
-                System.println("\tTotal avstand: " + info.elapsedDistance);
-                System.println("\tDistanse ved start på analyse: " + startDistanse);
-                System.println("\tAvstand analysert: " + (info.elapsedDistance - startDistanse));
+                distanseAnalysert = info.elapsedDistance - startDistanse;
+                System.println("\tAvstand analysert: " + distanseAnalysert);
                 System.println("\tAvstand passert: " + avstandPassert);
+                System.println("\t\tTotal avstand: " + info.elapsedDistance);
+                System.println("\t\tDistanse ved start på analyse: " + startDistanse);
                 calculateTrendAvstand(hrTrend);
                 linRegression();
                 hrTrend = [];
             }
 
             // Bruk denne hvis decision tree skal kjøres etter 800 meter
-            // if (passertAvstand == 800){
-            //     decTree(totalTrendArr);
-            // }
+            if (avstandPassert == 800 and curTreeGroup <= 0){
+                System.println("hei");
+                decTree(totalTrendArr);
+                // curTrGr.setColor(Graphics.COLOR_GREEN);
+            }
 
             if (analysertFerdig){
-                if (totalTrendArr.size() > 15) {
-                    decTree(totalTrendArr);
-
-                } else {
+                if (avstandPassert < 800) {
                     System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
+                    curTreeGroup = -1;
+                    // curTrGr.setColor(Graphics.COLOR_RED);
                 }
                 nullstill();
             }
@@ -201,7 +211,8 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         negCount = 0;
         totalTrendArr = [];
         hrArr = [];
-
+        curTrend = 0;
+        distanseAnalysert = 0;
     }
 
     function calculateTrendAvstand(trendArray) {
@@ -271,30 +282,37 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup + "\n");
     }
 
-    // Skal hente tre fra resources
+    // Skal hente decision tree fra resources
     function decTree(list){
         if (list[3] <= -1.5){
             if (list[3] <= -3.5){
                 if (list[8] <= -0.5){
                     System.println("weights: [0.00, 0.00, 1.00] class: svart");
+                    curTreeGroup = black;
                 }else {
                     System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
+                    curTreeGroup = lightgrey;
                 }
             }else {
                 System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
+                curTreeGroup = darkgrey;
             }
         }else {
             if (list[5] <= -0.5){
                 System.println("weights: [0.00, 0.00, 3.00] class: svart");
+                curTreeGroup = black;
             }else {
                 if (list[6] <= -1.0){
                     if (list[0] <= -1.5){
                         System.println("weights: [0.00, 0.00, 1.00] class: svart");
+                        curTreeGroup = black;
                     }else {
                         System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
+                        curTreeGroup = darkgrey;
                     }
                 }else {
                     System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
+                    curTreeGroup = lightgrey;
                 }
             }
         }
@@ -307,25 +325,40 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         View.findDrawableById("Background").setColor(getBackgroundColor());
 
         // Set the foreground color and value
-        var curHR = View.findDrawableById("curHR");
-       	var curGrp = View.findDrawableById("curGrp");
-       	var curTrd = View.findDrawableById("curTrd");
+        curHR = View.findDrawableById("curHR");
+       	curGrp = View.findDrawableById("curGrp");
+       	curTrd = View.findDrawableById("curTrd");
+        curTrGr = View.findDrawableById("curTrGr");
 
         // Change text color if the background color changes
         if (getBackgroundColor() == Graphics.COLOR_BLACK) {
             curHR.setColor(Graphics.COLOR_WHITE);
-            curGrp.setColor(Graphics.COLOR_WHITE);
+            // curGrp.setColor(Graphics.COLOR_WHITE);
             curTrd.setColor(Graphics.COLOR_WHITE);
+            // curTrGr.setColor(Graphics.COLOR_WHITE);
         } else {
             curHR.setColor(Graphics.COLOR_BLACK);
-            curGrp.setColor(Graphics.COLOR_BLACK);   
+            // curGrp.setColor(Graphics.COLOR_BLACK);   
             curTrd.setColor(Graphics.COLOR_BLACK);
+            // curTrGr.setColor(Graphics.COLOR_BLACK);
+        }
+
+        if (analysertFerdig) {
+            curGrp.setColor(Graphics.COLOR_GREEN);
+            curTrGr.setColor(Graphics.COLOR_GREEN);
+        } else {
+            curGrp.setColor(Graphics.COLOR_LT_GRAY);
+            curTrGr.setColor(Graphics.COLOR_LT_GRAY);
         }
 
         // Set the text, similar to returning in compute(?)
-        curHR.setText(curHeartRate.format("%.2f"));
+        curHR.setText(curHeartRate.format("%d"));
         curGrp.setText(curGroup.format("%d"));
-        curTrd.setText(curTrend.format("%d"));
+        // Viser trend
+        // curTrd.setText(curTrend.format("%d"));
+        // Viser distanse
+        curTrd.setText((distanseAnalysert).format("%d"));
+        curTrGr.setText(curTreeGroup.format("%d"));
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
@@ -337,7 +370,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         if (analyser == false){
              analyser = true;
              analysertFerdig = false;
-             System.println("analyser true: " + analyser);
+             System.println("analyser: " + analyser);
         } else {
             analysertFerdig = true;
             System.println("analysertFerdig: " + analysertFerdig);
