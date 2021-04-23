@@ -181,17 +181,15 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             }
 
             // Bruk denne hvis decision tree skal kjøres etter 800 meter
-            if (avstandPassert == 800 and curTreeGroup <= 0){
-                System.println("hei");
+            if (avstandPassert == 800){
                 decTree(totalTrendArr);
-                // curTrGr.setColor(Graphics.COLOR_GREEN);
+                analysertFerdig = true;
             }
 
             if (analysertFerdig){
                 if (avstandPassert < 800) {
                     System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
                     curTreeGroup = -1;
-                    // curTrGr.setColor(Graphics.COLOR_RED);
                 }
                 nullstill();
             }
@@ -202,6 +200,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
 
     // Fjerner lagret data fra forrige analyse
     function nullstill() {
+        System.println("Nullstiller");
         analyser = false;
         startDistanse = 0;
         avstandPassert = 0;
@@ -212,7 +211,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         totalTrendArr = [];
         hrArr = [];
         curTrend = 0;
-        distanseAnalysert = 0;
+        // distanseAnalysert = 0;
     }
 
     function calculateTrendAvstand(trendArray) {
@@ -346,6 +345,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         if (analysertFerdig) {
             curGrp.setColor(Graphics.COLOR_GREEN);
             curTrGr.setColor(Graphics.COLOR_GREEN);
+            curTrd.setColor(Graphics.COLOR_GREEN);
         } else {
             curGrp.setColor(Graphics.COLOR_LT_GRAY);
             curTrGr.setColor(Graphics.COLOR_LT_GRAY);
@@ -367,11 +367,12 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     function onTimerLap () {
     	System.println("TIMER LAP");
         
-        if (analyser == false){
+        if (analyser == false){ // Når analysen blir kjørt
              analyser = true;
              analysertFerdig = false;
              System.println("analyser: " + analyser);
-        } else {
+             distanseAnalysert = 0;
+        } else { // Når analysen ikke blir kjørt
             analysertFerdig = true;
             System.println("analysertFerdig: " + analysertFerdig);
         }
