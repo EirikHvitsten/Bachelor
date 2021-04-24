@@ -211,6 +211,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         totalTrendArr = [];
         hrArr = [];
         curTrend = 0;
+        totalTrend = 0;
         // distanseAnalysert = 0;
     }
 
