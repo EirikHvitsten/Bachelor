@@ -141,3 +141,13 @@ Dine hjerterytmehistorie: [150, 151, 151, 154, 154, 155, 156, 157, 158, 159, 159
 Nedre buffer: -1.752574
 Antall positive trender: 16, antall negative trender: 0
 Linear regression, totalTrend: 18, values: [-6.301472, -13.404400, 9.058824], din gruppe : 4
+
+BYTTET UT SISTE MED DENNE:
+Total avstand: 803.350525
+Trend per 50 meter: [3, 1, 1, 2, 0, 1, 1, 1, 1, 1, 0, 1, -1, 0, 1, 0]
+Total trend: [3, 4, 5, 7, 7, 8, 9, 10, 11, 12, 12, 13, 12, 12, 13, 13]
+Dine hjerterytmehistorie: [150, 151, 152, 154, 154, 155, 156, 157, 158, 159, 159, 160, 159, 159, 160, 160]
+Ã˜vre buffer: 4.509926
+Nedre buffer: -1.752574
+Antall positive trender: 16, antall negative trender: 0
+Linear regression, totalTrend: 13, values: [-6.301472, -13.404400, 9.058824], din gruppe : 4

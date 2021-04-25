@@ -33,9 +33,9 @@ decisiontree = decisiontree.fit(X, y)
 # Bilde
 innhold = tree.export_graphviz(decisiontree, feature_names=features)
 graf = pydotplus.graph_from_dot_data(innhold)
-graf.write_png('avstand/DTPulsBildeAvstand.png')
-picture = image.imread('avstand/DTPulsBildeAvstand.png')
-pictureplot = pyplot.imshow(picture)
+graf.write_png("avstand/DTPulsBildeAvstand.png")
+picture = image.imread("avstand/DTPulsBildeAvstand.png")
+# pyplot.imshow(picture)
 # pyplot.show()
 
 # PMML - skal ikke brukes
