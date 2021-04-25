@@ -47,6 +47,10 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var gruppeTekst;
     hidden var treeGroup;
     hidden var linGroup;
+    hidden var decisionTree;
+    hidden var dtLen;
+    hidden var dtArr;
+    hidden var lastAvstandPassert;
 
     hidden var DEBUG = false;
 
@@ -79,6 +83,10 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         gruppeTekst = "N/A";
         treeGroup = "N/A";
         linGroup = "N/A";
+        decisionTree = new DecisionTree();
+        dtLen = 800;
+        dtArr = [];
+        lastAvstandPassert = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -187,15 +195,30 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             }
 
             // Bruk denne hvis decision tree skal kjøres etter 800 meter
-            if (avstandPassert == 800){
-                decTree(totalTrendArr);
-                analysertFerdig = true;
+            if (avstandPassert != lastAvstandPassert){
+                lastAvstandPassert = avstandPassert;
+                if (avstandPassert == 6 * AVSTANDDELTA){
+                    DecisionTree.firstDecTree(totalTrendArr);
+                    dtArr.add(treeGroup);
+                    System.println("dt arr gruppeestimat: " + dtArr);
+                }else if (avstandPassert == 11 * AVSTANDDELTA) {
+                    DecisionTree.secondDecTree(totalTrendArr);
+                    dtArr.add(treeGroup);
+                    System.println("dt arr gruppeestimat: " + dtArr);
+                }else if (avstandPassert == dtLen){
+                    // decTree(totalTrendArr);
+                    DecisionTree.thirdDecTree(totalTrendArr);
+                    dtArr.add(treeGroup);
+                    System.println("dt arr gruppeestimat: " + dtArr);
+                    analysertFerdig = true;
+                }
             }
 
             if (analysertFerdig){
-                if (avstandPassert < 800) {
+                
+                if (avstandPassert < dtLen) {
                     System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
-                    curTreeGroup = -1;
+                    treeGroup = skrivGruppe(-1);
                 }
                 nullstill();
             }
@@ -290,41 +313,40 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + linGroup + "\n");
     }
 
-    // Skal hente decision tree fra resources
-    function decTree(list){
-        if (list[3] <= -1.5){
-            if (list[3] <= -3.5){
-                if (list[8] <= -0.5){
-                    System.println("weights: [0.00, 0.00, 1.00] class: svart");
-                    treeGroup = skrivGruppe(black);
-                }else {
-                    System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
-                    treeGroup = skrivGruppe(lightgrey);
-                }
-            }else {
-                System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
-                treeGroup = skrivGruppe(darkgrey);
-            }
-        }else {
-            if (list[5] <= -0.5){
-                System.println("weights: [0.00, 0.00, 3.00] class: svart");
-                treeGroup = skrivGruppe(black);
-            }else {
-                if (list[6] <= -1.0){
-                    if (list[0] <= -1.5){
-                        System.println("weights: [0.00, 0.00, 1.00] class: svart");
-                        treeGroup = skrivGruppe(black);
-                    }else {
-                        System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
-                        treeGroup = skrivGruppe(darkgrey);
-                    }
-                }else {
-                    System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
-                    treeGroup = skrivGruppe(lightgrey);
-                }
-            }
-        }
-    }
+    // function decTree(list){
+    //     if (list[3] <= -1.5){
+    //         if (list[3] <= -3.5){
+    //             if (list[8] <= -0.5){
+    //                 System.println("weights: [0.00, 0.00, 1.00] class: svart");
+    //                 treeGroup = skrivGruppe(black);
+    //             }else {
+    //                 System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
+    //                 treeGroup = skrivGruppe(lightgrey);
+    //             }
+    //         }else {
+    //             System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
+    //             treeGroup = skrivGruppe(darkgrey);
+    //         }
+    //     }else {
+    //         if (list[5] <= -0.5){
+    //             System.println("weights: [0.00, 0.00, 3.00] class: svart");
+    //             treeGroup = skrivGruppe(black);
+    //         }else {
+    //             if (list[6] <= -1.0){
+    //                 if (list[0] <= -1.5){
+    //                     System.println("weights: [0.00, 0.00, 1.00] class: svart");
+    //                     treeGroup = skrivGruppe(black);
+    //                 }else {
+    //                     System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
+    //                     treeGroup = skrivGruppe(darkgrey);
+    //                 }
+    //             }else {
+    //                 System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
+    //                 treeGroup = skrivGruppe(lightgrey);
+    //             }
+    //         }
+    //     }
+    // }
 
     function skrivGruppe(n) {
         if (n == 2) {
@@ -336,8 +358,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         } else {
             gruppeTekst = "N/A";
         }
-        
-        System.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tn:" + n + ", GruppeTekst: " + gruppeTekst);
         return gruppeTekst;
     }
 
