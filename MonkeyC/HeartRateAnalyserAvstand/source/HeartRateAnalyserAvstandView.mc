@@ -44,6 +44,9 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var analysertFerdig;
     hidden var startDistanse;
     hidden var distanseAnalysert;
+    hidden var gruppeTekst;
+    hidden var treeGroup;
+    hidden var linGroup;
 
     hidden var DEBUG = false;
 
@@ -73,6 +76,9 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         analysertFerdig = false;
         startDistanse = 0;
         distanseAnalysert = 0;
+        gruppeTekst = "N/A";
+        treeGroup = "N/A";
+        linGroup = "N/A";
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -278,8 +284,10 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         // System.println("middleppoints: " + middlepoints);
         // System.println("buffer: " + buffer);
 
+        linGroup = skrivGruppe(curGroup);
+
         System.println("Antall positive trender: " + posCount + ", antall negative trender: " + negCount);
-        System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + curGroup + "\n");
+        System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + linGroup + "\n");
     }
 
     // Skal hente decision tree fra resources
@@ -288,34 +296,49 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             if (list[3] <= -3.5){
                 if (list[8] <= -0.5){
                     System.println("weights: [0.00, 0.00, 1.00] class: svart");
-                    curTreeGroup = black;
+                    treeGroup = skrivGruppe(black);
                 }else {
                     System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
-                    curTreeGroup = lightgrey;
+                    treeGroup = skrivGruppe(lightgrey);
                 }
             }else {
                 System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
-                curTreeGroup = darkgrey;
+                treeGroup = skrivGruppe(darkgrey);
             }
         }else {
             if (list[5] <= -0.5){
                 System.println("weights: [0.00, 0.00, 3.00] class: svart");
-                curTreeGroup = black;
+                treeGroup = skrivGruppe(black);
             }else {
                 if (list[6] <= -1.0){
                     if (list[0] <= -1.5){
                         System.println("weights: [0.00, 0.00, 1.00] class: svart");
-                        curTreeGroup = black;
+                        treeGroup = skrivGruppe(black);
                     }else {
                         System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
-                        curTreeGroup = darkgrey;
+                        treeGroup = skrivGruppe(darkgrey);
                     }
                 }else {
                     System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
-                    curTreeGroup = lightgrey;
+                    treeGroup = skrivGruppe(lightgrey);
                 }
             }
         }
+    }
+
+    function skrivGruppe(n) {
+        if (n == 2) {
+            gruppeTekst = "Normal";
+        } else if (n == 3) {
+            gruppeTekst = "Safe";
+        } else if (n == 4) {
+            gruppeTekst = "Press";
+        } else {
+            gruppeTekst = "N/A";
+        }
+        
+        System.println("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tn:" + n + ", GruppeTekst: " + gruppeTekst);
+        return gruppeTekst;
     }
 
     // Display the value you computed here. This will be called
@@ -354,12 +377,15 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
 
         // Set the text, similar to returning in compute(?)
         curHR.setText(curHeartRate.format("%d"));
-        curGrp.setText(curGroup.format("%d"));
+        // curGrp.setText(curGroup.format("%d"));
+        curGrp.setText(linGroup);
         // Viser trend
         // curTrd.setText(curTrend.format("%d"));
         // Viser distanse
         curTrd.setText((distanseAnalysert).format("%d"));
-        curTrGr.setText(curTreeGroup.format("%d"));
+        // curTrGr.setText(curTreeGroup.format("%d"));
+        curTrGr.setText(treeGroup);
+        
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
