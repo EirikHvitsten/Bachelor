@@ -2,433 +2,430 @@
 <debugInfo>
 <manifest filename="C:\Users\Sigurd\LocalBachelor\BachelorGit\Bachelor\MonkeyC\HeartRateAnalyserAvstand\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="4" pc="268435456" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="5" pc="268435460" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="6" pc="268435477" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="7" pc="268435494" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="8" pc="268435511" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="9" pc="268435534" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="11" pc="268435564" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="12" pc="268435587" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="15" pc="268435617" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="16" pc="268435634" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="17" pc="268435651" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="18" pc="268435674" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="20" pc="268435704" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="21" pc="268435721" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="22" pc="268435744" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="24" pc="268435774" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="25" pc="268435791" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="26" pc="268435814" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="28" pc="268435844" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="29" pc="268435867" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="34" pc="268435897" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="35" pc="268435920" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="39" pc="268435950" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="40" pc="268435973" symbol="firstDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="44" pc="268436001" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="45" pc="268436005" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="46" pc="268436022" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="47" pc="268436039" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="48" pc="268436056" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="49" pc="268436073" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="50" pc="268436096" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="52" pc="268436126" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="53" pc="268436149" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="56" pc="268436179" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="57" pc="268436196" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="58" pc="268436213" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="59" pc="268436236" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="61" pc="268436266" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="62" pc="268436289" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="65" pc="268436319" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="66" pc="268436342" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="70" pc="268436372" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="71" pc="268436395" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="74" pc="268436425" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="75" pc="268436448" symbol="secondDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="79" pc="268436476" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="80" pc="268436480" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="81" pc="268436497" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="82" pc="268436514" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="83" pc="268436531" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="84" pc="268436554" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="86" pc="268436584" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="87" pc="268436607" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="90" pc="268436637" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="91" pc="268436654" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="92" pc="268436677" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="94" pc="268436707" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="95" pc="268436730" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="99" pc="268436760" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="100" pc="268436783" symbol="thirdDecTree"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="57" pc="268436814" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="58" pc="268436818" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="60" pc="268436836" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="61" pc="268436849" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="62" pc="268436862" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="63" pc="268436875" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="64" pc="268436888" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="65" pc="268436901" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="66" pc="268436914" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="67" pc="268436927" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="68" pc="268436941" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="69" pc="268436950" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="70" pc="268436963" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="71" pc="268436977" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="72" pc="268436990" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="73" pc="268437004" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="74" pc="268437026" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="75" pc="268437039" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="76" pc="268437052" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="77" pc="268437065" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="78" pc="268437079" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="79" pc="268437092" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="80" pc="268437102" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="81" pc="268437112" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="82" pc="268437125" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="83" pc="268437138" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="84" pc="268437151" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="85" pc="268437164" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="86" pc="268437177" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="87" pc="268437207" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="88" pc="268437220" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="89" pc="268437234" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="94" pc="268437248" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="95" pc="268437252" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="98" pc="268437271" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="99" pc="268437294" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="102" pc="268437340" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="103" pc="268437363" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="106" pc="268437409" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="107" pc="268437432" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="110" pc="268437478" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="111" pc="268437501" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="115" pc="268437547" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="117" pc="268437590" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="118" pc="268437614" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="119" pc="268437636" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="120" pc="268437658" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="121" pc="268437682" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="122" pc="268437704" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="125" pc="268437726" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="126" pc="268437750" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="127" pc="268437772" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="128" pc="268437794" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="129" pc="268437818" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="130" pc="268437840" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="133" pc="268437862" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="134" pc="268437886" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="135" pc="268437908" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="136" pc="268437930" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="137" pc="268437954" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="138" pc="268437976" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="141" pc="268437998" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="142" pc="268438022" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="143" pc="268438044" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="144" pc="268438066" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="145" pc="268438090" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="146" pc="268438112" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="150" pc="268438134" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="151" pc="268438171" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="155" pc="268438208" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="156" pc="268438245" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="157" pc="268438282" symbol="onLayout"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="164" pc="268438286" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="166" pc="268438290" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="167" pc="268438317" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="168" pc="268438333" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="169" pc="268438360" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="170" pc="268438377" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="172" pc="268438396" symbol="compute"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="178" pc="268438417" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="179" pc="268438421" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="180" pc="268438434" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="182" pc="268438459" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="183" pc="268438475" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="185" pc="268438501" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="186" pc="268438539" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="187" pc="268438561" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="188" pc="268438586" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="189" pc="268438618" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="190" pc="268438650" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="191" pc="268438682" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="192" pc="268438714" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="193" pc="268438734" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="194" pc="268438746" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="198" pc="268438763" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="199" pc="268438783" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="200" pc="268438799" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="201" pc="268438825" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="202" pc="268438851" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="203" pc="268438877" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="204" pc="268438912" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="205" pc="268438938" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="206" pc="268438964" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="207" pc="268438990" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="208" pc="268439025" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="210" pc="268439045" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="211" pc="268439071" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="212" pc="268439097" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="213" pc="268439129" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="217" pc="268439145" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="219" pc="268439156" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="220" pc="268439176" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="221" pc="268439199" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="223" pc="268439226" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="226" pc="268439244" symbol="findTrend"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="231" pc="268439261" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="232" pc="268439265" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="233" pc="268439288" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="234" pc="268439298" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="235" pc="268439311" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="236" pc="268439324" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="237" pc="268439338" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="238" pc="268439352" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="239" pc="268439365" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="240" pc="268439378" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="241" pc="268439392" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="242" pc="268439406" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="243" pc="268439419" symbol="nullstill"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="247" pc="268439433" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="249" pc="268439437" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="250" pc="268439444" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="251" pc="268439468" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="253" pc="268439491" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="255" pc="268439501" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="256" pc="268439527" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="257" pc="268439574" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="258" pc="268439596" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="259" pc="268439622" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="260" pc="268439654" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="261" pc="268439680" symbol="calculateTrendAvstand"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="264" pc="268439713" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="265" pc="268439717" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="266" pc="268439764" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="267" pc="268439798" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="268" pc="268439832" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="269" pc="268439839" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="270" pc="268439873" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="271" pc="268439884" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="272" pc="268439906" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="273" pc="268439917" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="275" pc="268439939" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="276" pc="268439969" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="277" pc="268440018" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="278" pc="268440047" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="279" pc="268440072" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="282" pc="268440107" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="283" pc="268440138" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="284" pc="268440169" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="285" pc="268440218" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="287" pc="268440267" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="288" pc="268440308" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="291" pc="268440349" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="292" pc="268440410" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="293" pc="268440433" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="294" pc="268440453" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="295" pc="268440476" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="296" pc="268440492" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="297" pc="268440512" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="298" pc="268440535" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="310" pc="268440554" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="312" pc="268440581" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="313" pc="268440628" symbol="linRegression"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="351" pc="268440691" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="352" pc="268440695" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="353" pc="268440706" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="354" pc="268440722" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="355" pc="268440733" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="356" pc="268440749" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="357" pc="268440760" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="359" pc="268440776" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="361" pc="268440789" symbol="skrivGruppe"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="366" pc="268440799" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="368" pc="268440803" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="371" pc="268440846" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="372" pc="268440876" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="373" pc="268440906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="374" pc="268440936" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="377" pc="268440966" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="378" pc="268440993" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="380" pc="268441023" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="383" pc="268441056" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="385" pc="268441086" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="389" pc="268441116" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="390" pc="268441127" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="391" pc="268441157" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="392" pc="268441187" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="394" pc="268441220" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="395" pc="268441250" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="399" pc="268441280" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="401" pc="268441320" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="405" pc="268441346" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="407" pc="268441386" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="411" pc="268441412" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="414" pc="268441433" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="415" pc="268441437" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="417" pc="268441460" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="418" pc="268441474" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="419" pc="268441484" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="420" pc="268441494" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="421" pc="268441526" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="423" pc="268441542" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="424" pc="268441552" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="4" pc="268444637" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="18" lineNum="5" pc="268441585" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="18" lineNum="6" pc="268441589" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="19" lineNum="10" pc="268441608" symbol="onStart"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="20" lineNum="14" pc="268441613" symbol="onStop"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="21" lineNum="18" pc="268441618" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="21" lineNum="19" pc="268441622" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="9" pc="268441660" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="10" pc="268441664" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="14" pc="268441685" symbol="initialize"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="24" lineNum="17" pc="268441706" symbol="setColor"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="24" lineNum="18" pc="268441710" symbol="setColor"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="21" pc="268441721" symbol="draw"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="22" pc="268441725" symbol="draw"/>
-<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="23" pc="268441757" symbol="draw"/>
-<entry filename="Rez" id="31" lineNum="16" pc="268441770" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="18" pc="268441782" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="19" pc="268441795" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="21" pc="268441808" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="22" pc="268441832" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="23" pc="268441995" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="24" pc="268442158" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="25" pc="268442321" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="26" pc="268442484" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="27" pc="268442647" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="28" pc="268442810" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="29" pc="268442973" symbol="MainLayout"/>
-<entry filename="Rez" id="31" lineNum="31" pc="268443136" symbol="MainLayout"/>
-<entry filename="Rez" id="32" lineNum="40" pc="268443234" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="32" lineNum="43" pc="268443246" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="32" lineNum="44" pc="268443270" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="32" lineNum="45" pc="268443403" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="32" lineNum="47" pc="268443536" symbol="TopLeftLayout"/>
-<entry filename="Rez" id="33" lineNum="56" pc="268443574" symbol="TopRightLayout"/>
-<entry filename="Rez" id="33" lineNum="59" pc="268443586" symbol="TopRightLayout"/>
-<entry filename="Rez" id="33" lineNum="60" pc="268443610" symbol="TopRightLayout"/>
-<entry filename="Rez" id="33" lineNum="61" pc="268443743" symbol="TopRightLayout"/>
-<entry filename="Rez" id="33" lineNum="63" pc="268443876" symbol="TopRightLayout"/>
-<entry filename="Rez" id="34" lineNum="72" pc="268443914" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="34" lineNum="75" pc="268443926" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="34" lineNum="76" pc="268443950" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="34" lineNum="77" pc="268444083" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="34" lineNum="79" pc="268444216" symbol="BottomLeftLayout"/>
-<entry filename="Rez" id="35" lineNum="88" pc="268444254" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="35" lineNum="91" pc="268444266" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="35" lineNum="92" pc="268444290" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="35" lineNum="93" pc="268444423" symbol="BottomRightLayout"/>
-<entry filename="Rez" id="35" lineNum="95" pc="268444556" symbol="BottomRightLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="6" pc="268435456" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="7" pc="268435460" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="8" pc="268435477" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="9" pc="268435494" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="10" pc="268435511" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="11" pc="268435534" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="13" pc="268435564" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="14" pc="268435587" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="17" pc="268435617" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="18" pc="268435634" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="19" pc="268435651" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="20" pc="268435674" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="22" pc="268435704" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="23" pc="268435721" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="24" pc="268435744" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="26" pc="268435774" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="27" pc="268435791" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="28" pc="268435814" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="30" pc="268435844" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="31" pc="268435867" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="36" pc="268435897" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="37" pc="268435920" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="41" pc="268435950" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="3" lineNum="42" pc="268435973" symbol="firstDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="46" pc="268436001" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="47" pc="268436005" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="48" pc="268436022" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="49" pc="268436039" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="50" pc="268436056" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="51" pc="268436073" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="52" pc="268436096" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="54" pc="268436126" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="55" pc="268436149" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="58" pc="268436179" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="59" pc="268436196" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="60" pc="268436213" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="61" pc="268436236" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="63" pc="268436266" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="64" pc="268436289" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="67" pc="268436319" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="68" pc="268436342" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="72" pc="268436372" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="73" pc="268436395" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="76" pc="268436425" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="4" lineNum="77" pc="268436448" symbol="secondDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="81" pc="268436476" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="82" pc="268436480" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="83" pc="268436497" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="84" pc="268436514" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="85" pc="268436531" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="86" pc="268436554" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="88" pc="268436584" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="89" pc="268436607" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="92" pc="268436637" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="93" pc="268436654" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="94" pc="268436677" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="96" pc="268436707" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="97" pc="268436730" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="101" pc="268436760" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\DecisionTree.mc" id="5" lineNum="102" pc="268436783" symbol="thirdDecTree"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="53" pc="268436814" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="54" pc="268436818" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="56" pc="268436836" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="57" pc="268436849" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="58" pc="268436862" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="59" pc="268436875" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="60" pc="268436888" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="61" pc="268436901" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="62" pc="268436914" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="63" pc="268436928" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="64" pc="268436937" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="65" pc="268436950" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="66" pc="268436964" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="67" pc="268436977" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="68" pc="268436991" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="69" pc="268437013" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="70" pc="268437026" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="71" pc="268437039" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="72" pc="268437052" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="73" pc="268437066" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="74" pc="268437079" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="75" pc="268437089" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="76" pc="268437099" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="77" pc="268437112" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="78" pc="268437125" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="79" pc="268437138" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="80" pc="268437151" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="81" pc="268437164" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="82" pc="268437194" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="83" pc="268437207" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="84" pc="268437221" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="7" lineNum="85" pc="268437234" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="90" pc="268437248" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="91" pc="268437252" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="94" pc="268437271" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="95" pc="268437294" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="98" pc="268437340" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="99" pc="268437363" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="102" pc="268437409" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="103" pc="268437432" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="106" pc="268437478" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="107" pc="268437501" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="111" pc="268437547" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="113" pc="268437590" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="114" pc="268437614" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="115" pc="268437636" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="116" pc="268437658" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="117" pc="268437682" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="118" pc="268437704" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="121" pc="268437726" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="122" pc="268437750" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="123" pc="268437772" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="124" pc="268437794" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="125" pc="268437818" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="126" pc="268437840" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="129" pc="268437862" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="130" pc="268437886" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="131" pc="268437908" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="132" pc="268437930" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="133" pc="268437954" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="134" pc="268437976" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="137" pc="268437998" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="138" pc="268438022" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="139" pc="268438044" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="140" pc="268438066" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="141" pc="268438090" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="142" pc="268438112" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="146" pc="268438134" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="147" pc="268438171" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="151" pc="268438208" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="152" pc="268438245" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="8" lineNum="153" pc="268438282" symbol="onLayout"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="160" pc="268438286" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="162" pc="268438290" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="163" pc="268438317" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="164" pc="268438333" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="166" pc="268438360" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="167" pc="268438377" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="169" pc="268438396" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="9" lineNum="170" pc="268438421" symbol="compute"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="177" pc="268438442" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="178" pc="268438446" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="179" pc="268438459" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="181" pc="268438484" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="182" pc="268438500" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="184" pc="268438526" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="185" pc="268438564" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="186" pc="268438586" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="187" pc="268438611" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="188" pc="268438643" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="189" pc="268438675" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="190" pc="268438707" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="191" pc="268438739" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="192" pc="268438759" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="193" pc="268438771" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="197" pc="268438788" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="198" pc="268438808" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="199" pc="268438824" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="200" pc="268438850" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="201" pc="268438876" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="202" pc="268438902" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="203" pc="268438937" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="204" pc="268438963" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="205" pc="268438989" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="206" pc="268439015" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="207" pc="268439050" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="209" pc="268439070" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="210" pc="268439096" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="211" pc="268439122" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="212" pc="268439154" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="216" pc="268439170" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="217" pc="268439181" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="218" pc="268439201" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="219" pc="268439224" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="221" pc="268439251" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="10" lineNum="224" pc="268439269" symbol="findTrend"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="229" pc="268439286" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="230" pc="268439290" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="231" pc="268439313" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="232" pc="268439323" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="233" pc="268439336" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="234" pc="268439349" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="235" pc="268439363" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="236" pc="268439377" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="237" pc="268439390" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="238" pc="268439403" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="239" pc="268439417" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="240" pc="268439431" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="11" lineNum="241" pc="268439444" symbol="nullstill"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="245" pc="268439458" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="247" pc="268439462" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="248" pc="268439469" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="249" pc="268439493" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="251" pc="268439516" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="253" pc="268439526" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="254" pc="268439552" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="255" pc="268439599" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="256" pc="268439621" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="257" pc="268439647" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="258" pc="268439679" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="12" lineNum="259" pc="268439705" symbol="calculateTrendAvstand"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="262" pc="268439738" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="263" pc="268439742" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="264" pc="268439789" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="265" pc="268439823" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="266" pc="268439857" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="267" pc="268439864" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="268" pc="268439898" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="269" pc="268439909" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="270" pc="268439931" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="271" pc="268439942" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="273" pc="268439964" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="274" pc="268439994" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="275" pc="268440043" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="276" pc="268440072" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="277" pc="268440097" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="280" pc="268440132" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="281" pc="268440163" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="282" pc="268440194" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="283" pc="268440243" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="285" pc="268440292" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="286" pc="268440333" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="289" pc="268440374" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="290" pc="268440435" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="291" pc="268440458" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="292" pc="268440478" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="293" pc="268440501" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="294" pc="268440517" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="295" pc="268440537" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="296" pc="268440560" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="308" pc="268440579" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="310" pc="268440606" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="13" lineNum="311" pc="268440653" symbol="linRegression"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="349" pc="268440716" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="350" pc="268440720" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="351" pc="268440731" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="352" pc="268440747" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="353" pc="268440758" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="354" pc="268440774" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="355" pc="268440785" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="357" pc="268440801" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="14" lineNum="359" pc="268440814" symbol="skrivGruppe"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="364" pc="268440824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="366" pc="268440828" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="369" pc="268440871" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="370" pc="268440901" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="371" pc="268440931" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="372" pc="268440961" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="375" pc="268440991" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="376" pc="268441018" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="378" pc="268441048" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="381" pc="268441081" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="383" pc="268441111" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="387" pc="268441141" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="388" pc="268441152" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="389" pc="268441182" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="390" pc="268441212" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="392" pc="268441245" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="393" pc="268441275" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="397" pc="268441305" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="399" pc="268441345" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="404" pc="268441371" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="406" pc="268441411" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="15" lineNum="410" pc="268441437" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="413" pc="268441458" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="414" pc="268441462" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="416" pc="268441485" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="417" pc="268441499" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="418" pc="268441509" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="419" pc="268441519" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="420" pc="268441551" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="422" pc="268441567" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="423" pc="268441577" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandView.mc" id="16" lineNum="4" pc="268444662" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="18" lineNum="5" pc="268441610" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="18" lineNum="6" pc="268441614" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="19" lineNum="10" pc="268441633" symbol="onStart"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="20" lineNum="14" pc="268441638" symbol="onStop"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="21" lineNum="18" pc="268441643" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandApp.mc" id="21" lineNum="19" pc="268441647" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="9" pc="268441685" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="10" pc="268441689" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="23" lineNum="14" pc="268441710" symbol="initialize"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="24" lineNum="17" pc="268441731" symbol="setColor"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="24" lineNum="18" pc="268441735" symbol="setColor"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="21" pc="268441746" symbol="draw"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="22" pc="268441750" symbol="draw"/>
+<entry filename="C:\\Users\\Sigurd\\LocalBachelor\\BachelorGit\\Bachelor\\MonkeyC\\HeartRateAnalyserAvstand\\source\\HeartRateAnalyserAvstandBackground.mc" id="25" lineNum="23" pc="268441782" symbol="draw"/>
+<entry filename="Rez" id="31" lineNum="16" pc="268441795" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="18" pc="268441807" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="19" pc="268441820" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="21" pc="268441833" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="22" pc="268441857" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="23" pc="268442020" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="24" pc="268442183" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="25" pc="268442346" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="26" pc="268442509" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="27" pc="268442672" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="28" pc="268442835" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="29" pc="268442998" symbol="MainLayout"/>
+<entry filename="Rez" id="31" lineNum="31" pc="268443161" symbol="MainLayout"/>
+<entry filename="Rez" id="32" lineNum="40" pc="268443259" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="43" pc="268443271" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="44" pc="268443295" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="45" pc="268443428" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="32" lineNum="47" pc="268443561" symbol="TopLeftLayout"/>
+<entry filename="Rez" id="33" lineNum="56" pc="268443599" symbol="TopRightLayout"/>
+<entry filename="Rez" id="33" lineNum="59" pc="268443611" symbol="TopRightLayout"/>
+<entry filename="Rez" id="33" lineNum="60" pc="268443635" symbol="TopRightLayout"/>
+<entry filename="Rez" id="33" lineNum="61" pc="268443768" symbol="TopRightLayout"/>
+<entry filename="Rez" id="33" lineNum="63" pc="268443901" symbol="TopRightLayout"/>
+<entry filename="Rez" id="34" lineNum="72" pc="268443939" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="34" lineNum="75" pc="268443951" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="34" lineNum="76" pc="268443975" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="34" lineNum="77" pc="268444108" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="34" lineNum="79" pc="268444241" symbol="BottomLeftLayout"/>
+<entry filename="Rez" id="35" lineNum="88" pc="268444279" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="35" lineNum="91" pc="268444291" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="35" lineNum="92" pc="268444315" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="35" lineNum="93" pc="268444448" symbol="BottomRightLayout"/>
+<entry filename="Rez" id="35" lineNum="95" pc="268444581" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="48" symbol="distanseAnalysert"/>
+<entry field="true" id="43" symbol="distanseAnalysert"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="13" symbol="curHR"/>
 <entry field="true" id="10" symbol="json_file"/>
-<entry field="true" id="27" symbol="totalTrend"/>
-<entry id="59" method="true" symbol="calculateTrendAvstand"/>
+<entry field="true" id="26" symbol="totalTrend"/>
+<entry id="55" method="true" symbol="calculateTrendAvstand"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry field="true" id="33" symbol="blackArr"/>
-<entry id="65" method="true" symbol="MainLayout"/>
-<entry field="true" id="45" symbol="analyser"/>
+<entry id="61" method="true" symbol="MainLayout"/>
+<entry field="true" id="40" symbol="analyser"/>
 <entry id="9" object="true" symbol="DecisionTree"/>
-<entry id="72" method="true" symbol="firstDecTree"/>
+<entry id="68" method="true" symbol="firstDecTree"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="31" symbol="darkgrey"/>
-<entry field="true" id="71" symbol="AppName"/>
-<entry id="74" method="true" symbol="thirdDecTree"/>
-<entry field="true" id="32" symbol="lightgrey"/>
+<entry field="true" id="30" symbol="darkgrey"/>
+<entry field="true" id="67" symbol="AppName"/>
+<entry id="70" method="true" symbol="thirdDecTree"/>
+<entry field="true" id="31" symbol="lightgrey"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="19" symbol="curGroup"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="53" symbol="dtLen"/>
+<entry field="true" id="48" symbol="dtLen"/>
 <entry field="true" id="8389138" symbol="label"/>
-<entry field="true" id="42" symbol="hrArr"/>
-<entry field="true" id="39" symbol="posCount"/>
+<entry field="true" id="37" symbol="hrArr"/>
+<entry field="true" id="34" symbol="posCount"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="38" symbol="totalTid"/>
-<entry field="true" id="52" symbol="decisionTree"/>
-<entry field="true" id="44" symbol="avstandPassert"/>
+<entry field="true" id="47" symbol="decisionTree"/>
+<entry field="true" id="39" symbol="avstandPassert"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="63" module="true" symbol="Menus"/>
+<entry id="59" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="51" symbol="kontAvstand"/>
 <entry id="11" object="true" symbol="HeartRateAnalyserAvstandView"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="36" symbol="group"/>
+<entry field="true" id="32" symbol="group"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="47" symbol="startDistanse"/>
+<entry field="true" id="42" symbol="startDistanse"/>
 <entry id="8389137" method="true" symbol="compute"/>
-<entry field="true" id="22" symbol="laps"/>
 <entry field="true" id="20" symbol="curTrend"/>
 <entry id="8389131" method="true" symbol="setColor"/>
-<entry field="true" id="34" symbol="darkgreyArr"/>
-<entry field="true" id="30" symbol="black"/>
+<entry field="true" id="29" symbol="black"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
 <entry field="true" id="8388911" symbol="distance"/>
-<entry id="73" method="true" symbol="secondDecTree"/>
-<entry field="true" id="43" symbol="AVSTANDDELTA"/>
+<entry id="69" method="true" symbol="secondDecTree"/>
+<entry field="true" id="38" symbol="AVSTANDDELTA"/>
 <entry field="true" id="15" symbol="curTrd"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="37" symbol="linRegFuncs"/>
-<entry field="true" id="28" symbol="totalTrendArr"/>
+<entry field="true" id="33" symbol="linRegFuncs"/>
+<entry field="true" id="27" symbol="totalTrendArr"/>
 <entry field="true" id="16" symbol="curTrGr"/>
 <entry field="true" id="14" symbol="curGrp"/>
-<entry field="true" id="24" symbol="lastHR"/>
+<entry field="true" id="23" symbol="lastHR"/>
 <entry field="true" id="18" symbol="curSpeed"/>
-<entry id="66" method="true" symbol="TopLeftLayout"/>
-<entry field="true" id="40" symbol="negCount"/>
-<entry field="true" id="29" symbol="skille"/>
+<entry id="62" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="35" symbol="negCount"/>
+<entry field="true" id="28" symbol="skille"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="68" method="true" symbol="BottomLeftLayout"/>
-<entry field="true" id="49" symbol="gruppeTekst"/>
-<entry id="69" method="true" symbol="BottomRightLayout"/>
-<entry id="60" method="true" symbol="linRegression"/>
-<entry field="true" id="56" symbol="DEBUG"/>
+<entry id="64" method="true" symbol="BottomLeftLayout"/>
+<entry field="true" id="44" symbol="gruppeTekst"/>
+<entry id="65" method="true" symbol="BottomRightLayout"/>
+<entry id="56" method="true" symbol="linRegression"/>
+<entry field="true" id="52" symbol="DEBUG"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="8389130" symbol="mColor"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="64" symbol="LauncherIcon"/>
+<entry field="true" id="60" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
-<entry field="true" id="25" symbol="diffHR"/>
+<entry field="true" id="24" symbol="diffHR"/>
 <entry id="12" object="true" symbol="HeartRateAnalyserAvstandApp"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
-<entry field="true" id="46" symbol="analysertFerdig"/>
+<entry field="true" id="41" symbol="analysertFerdig"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="70" symbol="jsonfile"/>
+<entry field="true" id="66" symbol="jsonfile"/>
 <entry field="true" id="8388747" symbol="currentHeartRate"/>
 <entry id="8389751" method="true" symbol="onTimerLap"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="41" symbol="BUFFERSIZE"/>
-<entry field="true" id="50" symbol="treeGroup"/>
+<entry field="true" id="36" symbol="BUFFERSIZE"/>
+<entry field="true" id="45" symbol="treeGroup"/>
 <entry id="8389347" symbol="color"/>
-<entry id="58" method="true" symbol="nullstill"/>
-<entry field="true" id="55" symbol="lastAvstandPassert"/>
-<entry id="61" method="true" symbol="skrivGruppe"/>
-<entry id="62" module="true" symbol="Layouts"/>
-<entry id="57" method="true" symbol="findTrend"/>
+<entry id="54" method="true" symbol="nullstill"/>
+<entry field="true" id="50" symbol="lastAvstandPassert"/>
+<entry id="57" method="true" symbol="skrivGruppe"/>
+<entry id="58" module="true" symbol="Layouts"/>
+<entry id="53" method="true" symbol="findTrend"/>
 <entry field="true" id="17" symbol="curHeartRate"/>
-<entry field="true" id="26" symbol="historyTrendArray"/>
-<entry field="true" id="23" symbol="hrTrend"/>
+<entry field="true" id="25" symbol="historyTrendArray"/>
+<entry field="true" id="22" symbol="hrTrend"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-<entry field="true" id="51" symbol="linGroup"/>
-<entry field="true" id="35" symbol="lightgreyArr"/>
-<entry field="true" id="54" symbol="dtArr"/>
+<entry field="true" id="46" symbol="linGroup"/>
+<entry field="true" id="49" symbol="dtArr"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry id="67" method="true" symbol="TopRightLayout"/>
+<entry id="63" method="true" symbol="TopRightLayout"/>
 <entry field="true" id="21" symbol="curTreeGroup"/>
 </symbolTable>
 <localVars>
@@ -445,67 +442,67 @@
 <entry endPc="268438134" name="curTreeGrouptextView" stackId="9" startPc="268437547"/>
 <entry endPc="268438285" name="obscurityFlags" stackId="2" startPc="268437252"/>
 <entry arg="true" endPc="268438286" name="dc" stackId="1" startPc="268437248"/>
-<entry arg="true" endPc="268438417" name="info" stackId="1" startPc="268438286"/>
-<entry arg="true" endPc="268439261" name="info" stackId="1" startPc="268438417"/>
-<entry endPc="268439491" name="i" stackId="3" startPc="268439468"/>
-<entry endPc="268439712" name="total" stackId="2" startPc="268439437"/>
-<entry arg="true" endPc="268439713" name="trendArray" stackId="1" startPc="268439433"/>
-<entry endPc="268440107" name="k" stackId="6" startPc="268439969"/>
-<entry endPc="268440690" name="buffer" stackId="3" startPc="268439717"/>
-<entry endPc="268440690" name="values" stackId="1" startPc="268439717"/>
-<entry endPc="268440690" name="middlepoints" stackId="2" startPc="268439717"/>
-<entry endPc="268440690" name="diff" stackId="4" startPc="268439717"/>
-<entry endPc="268440690" name="lastTrend" stackId="5" startPc="268439717"/>
-<entry arg="true" endPc="268440799" name="n" stackId="1" startPc="268440691"/>
-<entry arg="true" endPc="268441433" name="dc" stackId="1" startPc="268440799"/>
-<entry arg="true" endPc="268441613" name="state" stackId="1" startPc="268441608"/>
-<entry arg="true" endPc="268441618" name="state" stackId="1" startPc="268441613"/>
-<entry endPc="268441705" name="dictionary" stackId="1" startPc="268441664"/>
-<entry arg="true" endPc="268441721" name="color" stackId="1" startPc="268441706"/>
-<entry arg="true" endPc="268441770" name="dc" stackId="1" startPc="268441721"/>
-<entry endPc="268443233" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curHR" stackId="9" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_custom_drawable_21346975844305995101" stackId="4" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curGrp" stackId="10" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curGrouptext" stackId="6" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curTrendtext" stackId="7" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curTrGr" stackId="12" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curTreeGrouptext" stackId="8" startPc="268441782"/>
-<entry endPc="268443233" name="rez_cmp_local_text_curTrd" stackId="11" startPc="268441782"/>
-<entry arg="true" endPc="268443234" name="dc" stackId="1" startPc="268441770"/>
-<entry endPc="268443573" name="rez_cmp_local_text_value" stackId="4" startPc="268443246"/>
-<entry endPc="268443573" name="rez_cmp_local_custom_drawable_73827592793312988396" stackId="2" startPc="268443246"/>
-<entry endPc="268443573" name="rez_cmp_local_text_label" stackId="3" startPc="268443246"/>
-<entry arg="true" endPc="268443574" name="dc" stackId="1" startPc="268443234"/>
-<entry endPc="268443913" name="rez_cmp_local_text_value" stackId="4" startPc="268443586"/>
-<entry endPc="268443913" name="rez_cmp_local_custom_drawable_18951002437804772481" stackId="2" startPc="268443586"/>
-<entry endPc="268443913" name="rez_cmp_local_text_label" stackId="3" startPc="268443586"/>
-<entry arg="true" endPc="268443914" name="dc" stackId="1" startPc="268443574"/>
-<entry endPc="268444253" name="rez_cmp_local_text_value" stackId="4" startPc="268443926"/>
-<entry endPc="268444253" name="rez_cmp_local_text_label" stackId="3" startPc="268443926"/>
-<entry endPc="268444253" name="rez_cmp_local_custom_drawable_11867353694419665421" stackId="2" startPc="268443926"/>
-<entry arg="true" endPc="268444254" name="dc" stackId="1" startPc="268443914"/>
-<entry endPc="268444593" name="rez_cmp_local_text_value" stackId="4" startPc="268444266"/>
-<entry endPc="268444593" name="rez_cmp_local_custom_drawable_10926690215370933905" stackId="2" startPc="268444266"/>
-<entry endPc="268444593" name="rez_cmp_local_text_label" stackId="3" startPc="268444266"/>
-<entry arg="true" endPc="268444594" name="dc" stackId="1" startPc="268444254"/>
+<entry arg="true" endPc="268438442" name="info" stackId="1" startPc="268438286"/>
+<entry arg="true" endPc="268439286" name="info" stackId="1" startPc="268438442"/>
+<entry endPc="268439516" name="i" stackId="3" startPc="268439493"/>
+<entry endPc="268439737" name="total" stackId="2" startPc="268439462"/>
+<entry arg="true" endPc="268439738" name="trendArray" stackId="1" startPc="268439458"/>
+<entry endPc="268440132" name="k" stackId="6" startPc="268439994"/>
+<entry endPc="268440715" name="buffer" stackId="3" startPc="268439742"/>
+<entry endPc="268440715" name="values" stackId="1" startPc="268439742"/>
+<entry endPc="268440715" name="middlepoints" stackId="2" startPc="268439742"/>
+<entry endPc="268440715" name="diff" stackId="4" startPc="268439742"/>
+<entry endPc="268440715" name="lastTrend" stackId="5" startPc="268439742"/>
+<entry arg="true" endPc="268440824" name="n" stackId="1" startPc="268440716"/>
+<entry arg="true" endPc="268441458" name="dc" stackId="1" startPc="268440824"/>
+<entry arg="true" endPc="268441638" name="state" stackId="1" startPc="268441633"/>
+<entry arg="true" endPc="268441643" name="state" stackId="1" startPc="268441638"/>
+<entry endPc="268441730" name="dictionary" stackId="1" startPc="268441689"/>
+<entry arg="true" endPc="268441746" name="color" stackId="1" startPc="268441731"/>
+<entry arg="true" endPc="268441795" name="dc" stackId="1" startPc="268441746"/>
+<entry endPc="268443258" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curHR" stackId="9" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curHRtext" stackId="5" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curGrp" stackId="10" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curGrouptext" stackId="6" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curTrendtext" stackId="7" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curTrGr" stackId="12" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curTreeGrouptext" stackId="8" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_custom_drawable_62163703038597863610" stackId="4" startPc="268441807"/>
+<entry endPc="268443258" name="rez_cmp_local_text_curTrd" stackId="11" startPc="268441807"/>
+<entry arg="true" endPc="268443259" name="dc" stackId="1" startPc="268441795"/>
+<entry endPc="268443598" name="rez_cmp_local_text_value" stackId="4" startPc="268443271"/>
+<entry endPc="268443598" name="rez_cmp_local_custom_drawable_68988469218334144318" stackId="2" startPc="268443271"/>
+<entry endPc="268443598" name="rez_cmp_local_text_label" stackId="3" startPc="268443271"/>
+<entry arg="true" endPc="268443599" name="dc" stackId="1" startPc="268443259"/>
+<entry endPc="268443938" name="rez_cmp_local_text_value" stackId="4" startPc="268443611"/>
+<entry endPc="268443938" name="rez_cmp_local_custom_drawable_20926491031660359096" stackId="2" startPc="268443611"/>
+<entry endPc="268443938" name="rez_cmp_local_text_label" stackId="3" startPc="268443611"/>
+<entry arg="true" endPc="268443939" name="dc" stackId="1" startPc="268443599"/>
+<entry endPc="268444278" name="rez_cmp_local_text_value" stackId="4" startPc="268443951"/>
+<entry endPc="268444278" name="rez_cmp_local_custom_drawable_89647397044004832212" stackId="2" startPc="268443951"/>
+<entry endPc="268444278" name="rez_cmp_local_text_label" stackId="3" startPc="268443951"/>
+<entry arg="true" endPc="268444279" name="dc" stackId="1" startPc="268443939"/>
+<entry endPc="268444618" name="rez_cmp_local_text_value" stackId="4" startPc="268444291"/>
+<entry endPc="268444618" name="rez_cmp_local_text_label" stackId="3" startPc="268444291"/>
+<entry endPc="268444618" name="rez_cmp_local_custom_drawable_77104909205573284721" stackId="2" startPc="268444291"/>
+<entry arg="true" endPc="268444619" name="dc" stackId="1" startPc="268444279"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="174" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry offset="245" parentId="globals" symbolId="HeartRateAnalyserAvstandView" type="class"/>
-<dataEntry offset="724" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="803" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="842" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="873" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="904" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="975" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="1014" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1061" parentId="globals" symbolId="HeartRateAnalyserAvstandApp" type="class"/>
-<dataEntry offset="1132" parentId="globals" symbolId="DecisionTree" type="class"/>
+<dataEntry offset="692" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="771" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="810" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="841" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="872" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="943" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="982" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1029" parentId="globals" symbolId="HeartRateAnalyserAvstandApp" type="class"/>
+<dataEntry offset="1100" parentId="globals" symbolId="DecisionTree" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="firstDecTree" parent="DecisionTree">

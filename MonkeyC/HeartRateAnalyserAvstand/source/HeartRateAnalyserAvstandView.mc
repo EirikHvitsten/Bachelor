@@ -14,7 +14,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var curGroup;
     hidden var curTrend;
     hidden var curTreeGroup;
-    hidden var laps;
     hidden var hrTrend;
     hidden var lastHR;
     hidden var diffHR;
@@ -28,12 +27,8 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             darkgrey, // 3
             lightgrey // 4
         }
-    hidden var blackArr;
-    hidden var darkgreyArr;
-    hidden var lightgreyArr;
     hidden var group;
     hidden var linRegFuncs;
-    hidden var totalTid;
     hidden var posCount;
     hidden var negCount;
     hidden var BUFFERSIZE;
@@ -51,6 +46,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     hidden var dtLen;
     hidden var dtArr;
     hidden var lastAvstandPassert;
+    hidden var kontAvstand;
 
     hidden var DEBUG = false;
 
@@ -62,7 +58,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         curGroup = 0.0f;
         curTrend = 0.0f;
         curTreeGroup = 0.0f;
-        laps = 0;
         AVSTANDDELTA = 50;
         hrTrend = [];
         lastHR = null;
@@ -84,9 +79,10 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         treeGroup = "N/A";
         linGroup = "N/A";
         decisionTree = new DecisionTree();
-        dtLen = 800;
+        dtLen = 800; // Sende inn denne i JSON?
         dtArr = [];
         lastAvstandPassert = 0;
+        kontAvstand = 0;
     }
 
     // Set your layout here. Anytime the size of obscurity of
@@ -165,12 +161,15 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         // See Activity.Info in the documentation for available information.
         if(info has :currentHeartRate and info.currentHeartRate != null){
             curHeartRate = info.currentHeartRate;
-            if (analyser and info.elapsedDistance != null){                 
+            if (analyser and info.elapsedDistance != null){
+                
                 if (startDistanse == 0){
                     startDistanse = info.elapsedDistance;
                 }
+                kontAvstand = info.elapsedDistance - startDistanse;
                 findTrend(info);
             }
+            
         }
     }
 
@@ -215,7 +214,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             }
 
             if (analysertFerdig){
-                
                 if (avstandPassert < dtLen) {
                     System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
                     treeGroup = skrivGruppe(-1);
@@ -402,7 +400,8 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         // Viser trend
         // curTrd.setText(curTrend.format("%d"));
         // Viser distanse
-        curTrd.setText((distanseAnalysert).format("%d"));
+        // curTrd.setText((distanseAnalysert).format("%d"));
+        curTrd.setText((kontAvstand).format("%d"));
         // curTrGr.setText(curTreeGroup.format("%d"));
         curTrGr.setText(treeGroup);
         
