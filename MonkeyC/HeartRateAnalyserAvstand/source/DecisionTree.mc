@@ -1,6 +1,8 @@
 
 class DecisionTree {
 
+	// Lage en funksjon som itererer mellom funksjonene hvis lengden av "list" er korrekt?
+
 	function firstDecTree(list){
 		if (list[0] <= 2.0){
 			if (list[2] <= -1.5){

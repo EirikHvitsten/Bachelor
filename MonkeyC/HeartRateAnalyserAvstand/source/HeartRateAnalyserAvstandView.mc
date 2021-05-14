@@ -58,17 +58,18 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         curGroup = 0.0f;
         curTrend = 0.0f;
         curTreeGroup = 0.0f;
-        AVSTANDDELTA = 50;
+        AVSTANDDELTA = json_file[0];    // Lengde passert mellom hver gang analysen kjøres, må være 50 for at dt skal fungere
+        dtLen = json_file[1];           // Lengden på bestemmelsestreet, må være 800 for at nåværende tre skal fungere
+        linRegFuncs = json_file[2];     // Formlene brukt til lineær regresjon
+        BUFFERSIZE = json_file[3];      // Størrelsesvariabel på bufferen brukt i lineær regresjon
         hrTrend = [];
         lastHR = null;
         diffHR = 0;
         historyTrendArray = new [0];
         totalTrend = 0;
         totalTrendArr = [];
-        linRegFuncs = json_file[6];
         posCount = 0;
         negCount = 0;
-        BUFFERSIZE = 0.6;
         hrArr = [];
         avstandPassert = 0;
         analyser = false;
@@ -79,7 +80,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         treeGroup = "N/A";
         linGroup = "N/A";
         decisionTree = new DecisionTree();
-        dtLen = 800; // Sende inn denne i JSON?
         dtArr = [];
         lastAvstandPassert = 0;
         kontAvstand = 0;
@@ -162,7 +162,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         if(info has :currentHeartRate and info.currentHeartRate != null){
             curHeartRate = info.currentHeartRate;
             if (analyser and info.elapsedDistance != null){
-                
                 if (startDistanse == 0){
                     startDistanse = info.elapsedDistance;
                 }
@@ -177,7 +176,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
     function findTrend(info) {
         if (lastHR != null){
             diffHR = curHeartRate - lastHR;
-            // System.println("diff: " + diffHR);
             lastHR = curHeartRate;
             hrTrend.add(diffHR);
 
@@ -194,6 +192,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             }
 
             // Bruk denne hvis decision tree skal kjøres etter 800 meter
+            // Fungerer bare hvis AVSTANDDELTA er satt til å være 800!
             if (avstandPassert != lastAvstandPassert){
                 lastAvstandPassert = avstandPassert;
                 if (avstandPassert == 6 * AVSTANDDELTA){
@@ -214,7 +213,7 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             }
 
             if (analysertFerdig){
-                if (avstandPassert < dtLen) {
+                if (avstandPassert < 6 * AVSTANDDELTA) {
                     System.println("Fikk ikke analysert nok data til å kjøre decision tree!");
                     treeGroup = skrivGruppe(-1);
                 }
@@ -239,7 +238,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         hrArr = [];
         curTrend = 0;
         totalTrend = 0;
-        // distanseAnalysert = 0;
     }
 
     function calculateTrendAvstand(trendArray) {
@@ -249,7 +247,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
             total += trendArray[i];
         }
         curTrend = total;
-        // System.println("trend: " + curTrend);
         historyTrendArray.add(curTrend);
         System.println("Trend per " + AVSTANDDELTA + " meter: " + historyTrendArray);
         totalTrend += curTrend;
@@ -301,7 +298,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         // else if (middlepoints[0] + buffer[0] > totalTrend > middlepoints[0] - buffer[0]){
         //     System.println("Du er i buffersonen mellom mørkegrå og svart");
         // }
-        
         // System.println("middleppoints: " + middlepoints);
         // System.println("buffer: " + buffer);
 
@@ -310,41 +306,6 @@ class HeartRateAnalyserAvstandView extends WatchUi.DataField {
         System.println("Antall positive trender: " + posCount + ", antall negative trender: " + negCount);
         System.println("Linear regression, totalTrend: " + totalTrend + ", values: " + values + ", din gruppe : " + linGroup + "\n");
     }
-
-    // function decTree(list){
-    //     if (list[3] <= -1.5){
-    //         if (list[3] <= -3.5){
-    //             if (list[8] <= -0.5){
-    //                 System.println("weights: [0.00, 0.00, 1.00] class: svart");
-    //                 treeGroup = skrivGruppe(black);
-    //             }else {
-    //                 System.println("weights: [1.00, 0.00, 0.00] class: lysegraa");
-    //                 treeGroup = skrivGruppe(lightgrey);
-    //             }
-    //         }else {
-    //             System.println("weights: [0.00, 4.00, 0.00] class: moerkegraa");
-    //             treeGroup = skrivGruppe(darkgrey);
-    //         }
-    //     }else {
-    //         if (list[5] <= -0.5){
-    //             System.println("weights: [0.00, 0.00, 3.00] class: svart");
-    //             treeGroup = skrivGruppe(black);
-    //         }else {
-    //             if (list[6] <= -1.0){
-    //                 if (list[0] <= -1.5){
-    //                     System.println("weights: [0.00, 0.00, 1.00] class: svart");
-    //                     treeGroup = skrivGruppe(black);
-    //                 }else {
-    //                     System.println("weights: [0.00, 1.00, 0.00] class: moerkegraa");
-    //                     treeGroup = skrivGruppe(darkgrey);
-    //                 }
-    //             }else {
-    //                 System.println("weights: [4.00, 0.00, 0.00] class: lysegraa");
-    //                 treeGroup = skrivGruppe(lightgrey);
-    //             }
-    //         }
-    //     }
-    // }
 
     function skrivGruppe(n) {
         if (n == 2) {
