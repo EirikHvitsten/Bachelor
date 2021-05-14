@@ -1,8 +1,0 @@
-<strings>
-    <string id="AppName">MenuHeartRateTest</string>
-
-    <string id="prompt">Click the menu button</string>
-
-    <string id="menu_label_1">HRM 10s Window</string>
-    <string id="menu_label_2">HRM 30s Window</string>
-</strings>
