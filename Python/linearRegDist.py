@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model
+import os
 
 SIZE = 24
 
@@ -9,7 +10,7 @@ plt.rc('axes', titlesize=SIZE)     # fontsize of the axes title
 plt.rc('axes', labelsize=SIZE)    # fontsize of the x and y labels
 plt.rc('xtick', labelsize=SIZE)    # fontsize of the tick labels
 plt.rc('ytick', labelsize=SIZE)    # fontsize of the tick labels
-plt.rc('legend', fontsize=SIZE)    # legend fontsize
+plt.rc('legend', fontsize=SIZE-4)    # legend fontsize
 plt.rc('figure', titlesize=SIZE)  # fontsize of the figure title
 
 # Indexes are seconds, common for all, can also be different between the measurements
@@ -118,6 +119,7 @@ if __name__ == "__main__":
     print(lg_diff)
     print(lg_total_diff)
 
+    write_to_json = []
 
     # LINEAR REGRESSION ANALYSIS
     print("\nLinear Regression Analysis")
@@ -128,8 +130,9 @@ if __name__ == "__main__":
     regr_y = np.array(black_total_diff).reshape(-1, 1)
     black_regr.fit(regr_x, regr_y)
 
-    print(black_regr.intercept_)
-    print(black_regr.coef_)
+    print(black_regr.intercept_[0])
+    print(black_regr.coef_[0][0])
+    write_to_json.append([black_regr.intercept_[0], black_regr.coef_[0][0]])
 
     print("\nDark Gray regression:")
     dg_regr = linear_model.LinearRegression()
@@ -138,8 +141,9 @@ if __name__ == "__main__":
     regr_y = np.array(dg_total_diff).reshape(-1, 1)
     dg_regr.fit(regr_x, regr_y)
 
-    print(dg_regr.intercept_)
-    print(dg_regr.coef_)
+    print(dg_regr.intercept_[0])
+    print(dg_regr.coef_[0][0])
+    write_to_json.append([dg_regr.intercept_[0], dg_regr.coef_[0][0]])
 
     print("\nLight Gray regression:")
     lg_regr = linear_model.LinearRegression()
@@ -148,15 +152,33 @@ if __name__ == "__main__":
     regr_y = np.array(lg_total_diff).reshape(-1, 1)
     lg_regr.fit(regr_x, regr_y)
 
-    print(lg_regr.intercept_)
-    print(lg_regr.coef_)
+    print(lg_regr.intercept_[0])
+    print(lg_regr.coef_[0][0])
+    write_to_json.append([lg_regr.intercept_[0], lg_regr.coef_[0][0]])
 
     # WRITE THE ANALYSE.JSON FILE HERE AND UPDATE THE PROJECT
         # REBUILD
+    def bygg_fil(prosjekt_location, project_name, key, text_to_write):
+        # Change to directory
+        dir = project_location + project_name + "/resources/data"
+        os.chdir(dir)
+
+        # Write to file, overwrites the one that is there
+        file = open("analyse.json", "w")
+        file.write(text_to_write)
+        file.close()
+
+        os.system(
+            "monkeyc -y " + key + " -f " + project_location+project_name+"/monkey.jungle " + "-o " + project_location+project_name+"/bin/"+project_name+".prg"
+        )
+        
+    project_location = "C:/Users/magnu/eclipse-workspace/"
+    project_name = "SeveralDataFields"
+    key = "C:/Users/magnu/keys/developer_key"
+    #bygg_fil(project_location, project_name, key, string(write_to_json))
 
 
-
-    result = False
+    result = True
     if result:
         svart_resultat = [1, 2, 2, -1, -3, -6, -6, -4, -4, -1, -1, 0, 3, 1, 1, 1]
         dg_result = [0, -3, -5, -7, -9, -11, -10, -10, -10, -8, -10, -9, -11, -11, -7, -10]
@@ -166,8 +188,8 @@ if __name__ == "__main__":
         semi_dist = dist_period[0:len(semi_result)]
 
         plt.figure()
-        plt.xlabel("Distance [m]")
-        plt.ylabel("Total difference [bpm]")
+        plt.xlabel("Avstand [m]")
+        plt.ylabel("Total differanse [hjertefrekvens]")
 
         # Result of DG group
         '''
@@ -177,7 +199,6 @@ if __name__ == "__main__":
         result_regr.fit(regr_x, regr_y)
         y_pred = result_regr.predict(regr_x.reshape(-1, 1))
         plt.plot(dist_period, y_pred, color='red')
-        plt.legend(["Black Result"])
         '''
         # Result of DG group
         '''
@@ -187,7 +208,6 @@ if __name__ == "__main__":
         result_regr.fit(regr_x, regr_y)
         y_pred = result_regr.predict(regr_x.reshape(-1, 1))
         plt.plot(dist_period, y_pred, color='red')
-        plt.legend(["Dark Gray Result"])
         '''
         # Result of LG group
         '''
@@ -197,7 +217,7 @@ if __name__ == "__main__":
         result_regr.fit(regr_x, regr_y)
         y_pred = result_regr.predict(regr_x.reshape(-1, 1))
         plt.plot(dist_period, y_pred, color='red')
-        plt.legend(["Light Gray Result"])
+        
 
         y_pred = black_regr.predict(regr_x.reshape(-1, 1))
         plt.plot(dist_period, y_pred, color='black')
@@ -207,49 +227,51 @@ if __name__ == "__main__":
         plt.plot(dist_period, y_pred, color='lightgray')
         '''
 
-        plt.plot(semi_dist, semi_result, color='red', marker='o')
-        plt.plot(dist_period, black_total_diff, color='black', marker='o')
-        plt.plot(dist_period, dg_total_diff, color='dimgray', marker='o')
-        plt.plot(dist_period, lg_total_diff, color='lightgray', marker='o')
+        plt.plot(semi_dist, semi_result, color='red', marker='o', linestyle='dashed')
+        plt.plot(dist_period, black_total_diff, color='black', marker='o', linestyle='dashed')
+        plt.plot(dist_period, dg_total_diff, color='dimgray', marker='o', linestyle='dashed')
+        plt.plot(dist_period, lg_total_diff, color='lightgray', marker='o', linestyle='dashed')
+        plt.legend(["Press Trend", "Normal", "Safe", "Press"])
 
-        plt.legend(["LG trend", "Black", "Dark Gray", "Light Gray"])
-
+        #plt.plot(dist_period, lg_result, color='red', marker='o', linestyle='none')
         #plt.plot(dist_period, black_total_diff, color='black', marker='o', linestyle='none')
         #plt.plot(dist_period, dg_total_diff, color='dimgray', marker='o', linestyle='none')
         #plt.plot(dist_period, lg_total_diff, color='lightgray', marker='o', linestyle='none')
+        #plt.legend(["Press Resultat", "Normal", "Safe", "Press"])
     else:
         # PLOTTING
         # PLOT 1 -> GENERAL
         
-        plt.figure()
-        plt.xlabel("Distance[m]")
-        plt.ylabel("Heartrates[bpm]")
-        plt.plot(distance, black, 'black', distance, dark_gray, 'dimgray', distance, light_gray, 'lightgray')
+        #plt.figure()
+        #plt.xlabel("Avstand [m]")
+        #plt.ylabel("Hjertefrekvens [per min]")
+        #plt.plot(distance, black, 'black', distance, dark_gray, 'dimgray', distance, light_gray, 'lightgray')
+        #plt.legend(["Normal", "Safe", "Press"])
         
         
         # PLOT 2 -> BLACK, DG, LG DIFFERENCE OVER TIME PERIODS
         plt.figure()
-        plt.xlabel("Distance [m]")
-        plt.ylabel("Difference [bpm]")
-        plt.plot(dist_period, black_diff, color='black', marker='o')
-        plt.plot(dist_period, dg_diff, color='dimgray', marker='o')
-        plt.plot(dist_period, lg_diff, color='lightgray', marker='o')
-        plt.legend(["Black", "Dark Gray", "Light Gray"])
-        plt.axhline(y=0, color='g', linestyle='-')
+        plt.xlabel("Avstand [m]")
+        plt.ylabel("Differanse [hjertefrekvens]")
+        plt.plot(dist_period, black_diff, color='black', marker='o', linestyle='dashed')
+        plt.plot(dist_period, dg_diff, color='dimgray', marker='o', linestyle='dashed')
+        plt.plot(dist_period, lg_diff, color='lightgray', marker='o', linestyle='dashed')
+        plt.legend(["Normal", "Safe", "Press"])
+        plt.axhline(y=0, color='blue', linestyle='-')
 
         # PLOT 3 -> BLACK, DG, LG TOTAL DIFFERENCE OVER TIME PERIODS
         plt.figure()
-        plt.xlabel("Distance [m]")
-        plt.ylabel("Total difference [bpm]")
-        plt.plot(dist_period, black_total_diff, color='black', marker='o')
-        plt.plot(dist_period, dg_total_diff, color='dimgray', marker='o')
-        plt.plot(dist_period, lg_total_diff, color='lightgray', marker='o')
-        plt.legend(["Black", "Dark Gray", "Light Gray"])
+        plt.xlabel("Avstand [m]")
+        plt.ylabel("Total differanse [hjertefrekvens]")
+        plt.plot(dist_period, black_total_diff, color='black', marker='o', linestyle='dashed')
+        plt.plot(dist_period, dg_total_diff, color='dimgray', marker='o', linestyle='dashed')
+        plt.plot(dist_period, lg_total_diff, color='lightgray', marker='o', linestyle='dashed')
+        plt.legend(["Normal", "Safe", "Press"])
 
         # PLOT 4 -> BLACK, DG, LG TOTAL DIFFERENCE OVER TIME PERIODS WITH REGRESSION
         plt.figure()
-        plt.xlabel("Distance [m]")
-        plt.ylabel("Total difference [bpm]")
+        plt.xlabel("Avstand [m]")
+        plt.ylabel("Total differanse [hjertefrekvens]")
 
         y_pred = black_regr.predict(regr_x.reshape(-1, 1))
         plt.plot(dist_period, y_pred, color='black')
